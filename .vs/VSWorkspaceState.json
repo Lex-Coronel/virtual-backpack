@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Virtual-Backpack",
+    "\\Virtual-Backpack\\Virtual-Backpack"
   ],
-  "SelectedNode": "\\C:\\Users\\Sachiko Niki Bernal\\Source\\Repos\\Lex-Coronel\\virtual-backpack",
+  "SelectedNode": "\\Virtual-Backpack\\Virtual-Backpack\\Form1.vb",
   "PreviewInSolutionExplorer": false
 }

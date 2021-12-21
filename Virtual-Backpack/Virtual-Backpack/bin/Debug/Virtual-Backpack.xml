@@ -27,6 +27,26 @@ Virtual-Backpack
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.circle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.circle1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.line">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.line1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Virtual_Backpack.My.Resources.Resources.login_design">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
