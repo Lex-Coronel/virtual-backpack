@@ -37,6 +37,36 @@ Virtual-Backpack
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.gradient_background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.gradient_background1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.gradient_background2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.hompage_background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.hompage_background1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.hompage_background2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Virtual_Backpack.My.Resources.Resources.line">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -52,12 +82,37 @@ Virtual-Backpack
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.logout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.notepad">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Virtual_Backpack.My.Resources.Resources.padlock">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.planner">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Virtual_Backpack.My.Resources.Resources.user">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.user_home">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.user_home_1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

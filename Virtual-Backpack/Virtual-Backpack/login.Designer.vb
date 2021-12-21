@@ -29,16 +29,16 @@ Partial Class login
         Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2TextBox3 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2PictureBox5 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2PictureBox4 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.userTb = New Guna.UI2.WinForms.Guna2TextBox()
         Me.passwordTb = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2PictureBox5 = New Guna.UI2.WinForms.Guna2PictureBox()
+        CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
@@ -86,7 +86,7 @@ Partial Class login
         Me.Guna2TextBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2TextBox1.HoverState.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.Location = New System.Drawing.Point(520, 82)
+        Me.Guna2TextBox1.Location = New System.Drawing.Point(521, 82)
         Me.Guna2TextBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2TextBox1.Name = "Guna2TextBox1"
         Me.Guna2TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -146,6 +146,18 @@ Partial Class login
         Me.Guna2TextBox3.ShadowDecoration.Parent = Me.Guna2TextBox3
         Me.Guna2TextBox3.Size = New System.Drawing.Size(106, 32)
         Me.Guna2TextBox3.TabIndex = 7
+        '
+        'Guna2PictureBox5
+        '
+        Me.Guna2PictureBox5.Image = Global.Virtual_Backpack.My.Resources.Resources.line1
+        Me.Guna2PictureBox5.ImageRotate = 0!
+        Me.Guna2PictureBox5.Location = New System.Drawing.Point(357, 347)
+        Me.Guna2PictureBox5.Name = "Guna2PictureBox5"
+        Me.Guna2PictureBox5.ShadowDecoration.Parent = Me.Guna2PictureBox5
+        Me.Guna2PictureBox5.Size = New System.Drawing.Size(39, 34)
+        Me.Guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox5.TabIndex = 11
+        Me.Guna2PictureBox5.TabStop = False
         '
         'Guna2PictureBox4
         '
@@ -246,18 +258,6 @@ Partial Class login
         Me.passwordTb.Size = New System.Drawing.Size(270, 43)
         Me.passwordTb.TabIndex = 2
         '
-        'Guna2PictureBox5
-        '
-        Me.Guna2PictureBox5.Image = Global.Virtual_Backpack.My.Resources.Resources.line1
-        Me.Guna2PictureBox5.ImageRotate = 0!
-        Me.Guna2PictureBox5.Location = New System.Drawing.Point(357, 347)
-        Me.Guna2PictureBox5.Name = "Guna2PictureBox5"
-        Me.Guna2PictureBox5.ShadowDecoration.Parent = Me.Guna2PictureBox5
-        Me.Guna2PictureBox5.Size = New System.Drawing.Size(39, 34)
-        Me.Guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox5.TabIndex = 11
-        Me.Guna2PictureBox5.TabStop = False
-        '
         'login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -280,10 +280,10 @@ Partial Class login
         Me.Name = "login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "login"
+        CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

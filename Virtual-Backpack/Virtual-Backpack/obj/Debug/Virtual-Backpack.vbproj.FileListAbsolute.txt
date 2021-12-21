@@ -16,3 +16,4 @@ C:\Users\Sachiko Niki Bernal\Source\Repos\Lex-Coronel\virtual-backpack\Virtual-B
 C:\Users\Sachiko Niki Bernal\Source\Repos\Lex-Coronel\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\Guna.UI.dll
 C:\Users\Sachiko Niki Bernal\Source\Repos\Lex-Coronel\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.Form2.resources
 C:\Users\Sachiko Niki Bernal\Source\Repos\Lex-Coronel\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.registration.resources
+C:\Users\Sachiko Niki Bernal\Source\Repos\Lex-Coronel\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.homepage.resources

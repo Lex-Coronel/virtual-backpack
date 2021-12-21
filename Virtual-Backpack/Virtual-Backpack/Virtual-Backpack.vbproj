@@ -93,6 +93,12 @@
     <Compile Include="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="homepage.Designer.vb">
+      <DependentUpon>homepage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="homepage.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="login.Designer.vb">
       <DependentUpon>login.vb</DependentUpon>
     </Compile>
@@ -128,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homepage.resx">
+      <DependentUpon>homepage.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.vb</DependentUpon>
@@ -187,6 +196,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\circle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient background1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient background2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hompage background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hompage background1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hompage background2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user home 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notepad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\planner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
