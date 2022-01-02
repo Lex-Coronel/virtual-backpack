@@ -17,3 +17,35 @@ C:\Users\Sachiko Niki Bernal\Source\Repos\Lex-Coronel\virtual-backpack\Virtual-B
 C:\Users\Sachiko Niki Bernal\Source\Repos\Lex-Coronel\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.Form2.resources
 C:\Users\Sachiko Niki Bernal\Source\Repos\Lex-Coronel\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.registration.resources
 C:\Users\Sachiko Niki Bernal\Source\Repos\Lex-Coronel\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.homepage.resources
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\Virtual-Backpack.exe.config
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\Virtual-Backpack.exe
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\Virtual-Backpack.pdb
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\Virtual-Backpack.xml
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\Guna.UI2.dll
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\MySql.Data.dll
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\Google.Protobuf.dll
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\Zstandard.Net.dll
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\BouncyCastle.Crypto.dll
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\Ubiety.Dns.Core.dll
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\Renci.SshNet.dll
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\System.Buffers.dll
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\K4os.Compression.LZ4.dll
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\K4os.Hash.xxHash.dll
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\System.Memory.dll
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\MySql.Data.xml
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual-Backpack.vbprojAssemblyReference.cache
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual-Backpack.exe.config
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.Form1.resources
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.Form2.resources
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.homepage.resources
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.login.resources
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.Resources.resources
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.registration.resources
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual-Backpack.vbproj.GenerateResource.cache
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual-Backpack.vbproj.CoreCompileInputs.cache
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual-Backpack.vbproj.CopyComplete
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual-Backpack.exe
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual-Backpack.xml
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual-Backpack.pdb
