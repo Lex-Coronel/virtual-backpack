@@ -113,7 +113,7 @@ Partial Class login
         Me.registertb.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.registertb.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.registertb.HoverState.Parent = Me.registertb
-        Me.registertb.Location = New System.Drawing.Point(441, 325)
+        Me.registertb.Location = New System.Drawing.Point(458, 315)
         Me.registertb.Name = "registertb"
         Me.registertb.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.registertb.PlaceholderText = ""
@@ -239,15 +239,15 @@ Partial Class login
         Me.register.BackColor = System.Drawing.Color.Transparent
         Me.register.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.register.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.register.Location = New System.Drawing.Point(605, 325)
+        Me.register.Location = New System.Drawing.Point(606, 323)
         Me.register.Name = "register"
-        Me.register.Size = New System.Drawing.Size(96, 20)
+        Me.register.Size = New System.Drawing.Size(75, 15)
         Me.register.TabIndex = 13
         Me.register.Text = "Register here"
         '
         'login
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(799, 459)
