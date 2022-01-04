@@ -24,18 +24,12 @@ Partial Class notepad
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.Guna2GradientButton4 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton2 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton3 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.BottomToolStripPanel = New System.Windows.Forms.ToolStripPanel()
         Me.TopToolStripPanel = New System.Windows.Forms.ToolStripPanel()
         Me.RightToolStripPanel = New System.Windows.Forms.ToolStripPanel()
         Me.LeftToolStripPanel = New System.Windows.Forms.ToolStripPanel()
         Me.ContentPanel = New System.Windows.Forms.ToolStripContentPanel()
-        Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -46,131 +40,38 @@ Partial Class notepad
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripSeparator()
         Me.ExitToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.FormatToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.FontToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HighlightTextToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UndoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RedoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.CutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CopyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PasteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DeleteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
+        Me.FormatToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FontToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HighlightTextToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Guna2GradientButton4 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.Guna2GradientButton2 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.Guna2GradientButton5 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2CircleButton2 = New Guna.UI2.WinForms.Guna2CircleButton()
+        Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
+        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
+        Me.MenuStrip1.SuspendLayout()
+        CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
         '
         Me.Guna2Elipse1.TargetControl = Me
-        '
-        'Guna2GradientButton4
-        '
-        Me.Guna2GradientButton4.AutoRoundedCorners = True
-        Me.Guna2GradientButton4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton4.BorderRadius = 21
-        Me.Guna2GradientButton4.CheckedState.Parent = Me.Guna2GradientButton4
-        Me.Guna2GradientButton4.CustomImages.Image = Global.Virtual_Backpack.My.Resources.Resources.home1
-        Me.Guna2GradientButton4.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2GradientButton4.CustomImages.ImageOffset = New System.Drawing.Point(10, 0)
-        Me.Guna2GradientButton4.CustomImages.Parent = Me.Guna2GradientButton4
-        Me.Guna2GradientButton4.CustomizableEdges.BottomRight = False
-        Me.Guna2GradientButton4.CustomizableEdges.TopRight = False
-        Me.Guna2GradientButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton4.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton4.DisabledState.Parent = Me.Guna2GradientButton4
-        Me.Guna2GradientButton4.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton4.FillColor2 = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton4.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Guna2GradientButton4.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton4.HoverState.FillColor = System.Drawing.Color.Firebrick
-        Me.Guna2GradientButton4.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
-        Me.Guna2GradientButton4.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2GradientButton4.HoverState.Parent = Me.Guna2GradientButton4
-        Me.Guna2GradientButton4.Location = New System.Drawing.Point(64, 148)
-        Me.Guna2GradientButton4.Name = "Guna2GradientButton4"
-        Me.Guna2GradientButton4.ShadowDecoration.Parent = Me.Guna2GradientButton4
-        Me.Guna2GradientButton4.Size = New System.Drawing.Size(153, 45)
-        Me.Guna2GradientButton4.TabIndex = 11
-        Me.Guna2GradientButton4.Text = "Home"
-        Me.Guna2GradientButton4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        Me.Guna2GradientButton4.UseTransparentBackground = True
-        '
-        'Guna2GradientButton1
-        '
-        Me.Guna2GradientButton1.AutoRoundedCorners = True
-        Me.Guna2GradientButton1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton1.BorderRadius = 21
-        Me.Guna2GradientButton1.CheckedState.Parent = Me.Guna2GradientButton1
-        Me.Guna2GradientButton1.CustomImages.Image = Global.Virtual_Backpack.My.Resources.Resources.notepad
-        Me.Guna2GradientButton1.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2GradientButton1.CustomImages.ImageOffset = New System.Drawing.Point(10, 0)
-        Me.Guna2GradientButton1.CustomImages.Parent = Me.Guna2GradientButton1
-        Me.Guna2GradientButton1.CustomizableEdges.BottomRight = False
-        Me.Guna2GradientButton1.CustomizableEdges.TopRight = False
-        Me.Guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton1.DisabledState.Parent = Me.Guna2GradientButton1
-        Me.Guna2GradientButton1.FillColor = System.Drawing.Color.Firebrick
-        Me.Guna2GradientButton1.FillColor2 = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton1.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Guna2GradientButton1.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton1.HoverState.FillColor = System.Drawing.Color.Firebrick
-        Me.Guna2GradientButton1.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
-        Me.Guna2GradientButton1.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2GradientButton1.HoverState.Parent = Me.Guna2GradientButton1
-        Me.Guna2GradientButton1.Location = New System.Drawing.Point(64, 193)
-        Me.Guna2GradientButton1.Name = "Guna2GradientButton1"
-        Me.Guna2GradientButton1.ShadowDecoration.Parent = Me.Guna2GradientButton1
-        Me.Guna2GradientButton1.Size = New System.Drawing.Size(153, 45)
-        Me.Guna2GradientButton1.TabIndex = 12
-        Me.Guna2GradientButton1.Text = "Notepad"
-        Me.Guna2GradientButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        Me.Guna2GradientButton1.UseTransparentBackground = True
-        '
-        'Guna2GradientButton2
-        '
-        Me.Guna2GradientButton2.AutoRoundedCorners = True
-        Me.Guna2GradientButton2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton2.BorderRadius = 21
-        Me.Guna2GradientButton2.CheckedState.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.CustomImages.Image = Global.Virtual_Backpack.My.Resources.Resources.planner
-        Me.Guna2GradientButton2.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2GradientButton2.CustomImages.ImageOffset = New System.Drawing.Point(10, 0)
-        Me.Guna2GradientButton2.CustomImages.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.CustomizableEdges.BottomRight = False
-        Me.Guna2GradientButton2.CustomizableEdges.TopRight = False
-        Me.Guna2GradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton2.DisabledState.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton2.FillColor2 = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton2.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Guna2GradientButton2.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton2.HoverState.FillColor = System.Drawing.Color.Firebrick
-        Me.Guna2GradientButton2.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
-        Me.Guna2GradientButton2.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2GradientButton2.HoverState.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.Location = New System.Drawing.Point(64, 237)
-        Me.Guna2GradientButton2.Name = "Guna2GradientButton2"
-        Me.Guna2GradientButton2.ShadowDecoration.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.Size = New System.Drawing.Size(153, 45)
-        Me.Guna2GradientButton2.TabIndex = 13
-        Me.Guna2GradientButton2.Text = "Daily Planner"
-        Me.Guna2GradientButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        Me.Guna2GradientButton2.UseTransparentBackground = True
         '
         'Guna2GradientButton3
         '
@@ -198,46 +99,16 @@ Partial Class notepad
         Me.Guna2GradientButton3.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Guna2GradientButton3.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton3.HoverState.Parent = Me.Guna2GradientButton3
-        Me.Guna2GradientButton3.Location = New System.Drawing.Point(64, 495)
+        Me.Guna2GradientButton3.Location = New System.Drawing.Point(12, 498)
         Me.Guna2GradientButton3.Name = "Guna2GradientButton3"
         Me.Guna2GradientButton3.ShadowDecoration.Parent = Me.Guna2GradientButton3
-        Me.Guna2GradientButton3.Size = New System.Drawing.Size(153, 45)
+        Me.Guna2GradientButton3.Size = New System.Drawing.Size(205, 45)
         Me.Guna2GradientButton3.TabIndex = 14
+        Me.Guna2GradientButton3.TabStop = False
         Me.Guna2GradientButton3.Text = "Log out"
         Me.Guna2GradientButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Guna2GradientButton3.TextOffset = New System.Drawing.Point(-10, 0)
         Me.Guna2GradientButton3.UseTransparentBackground = True
-        '
-        'Guna2PictureBox2
-        '
-        Me.Guna2PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox2.Image = Global.Virtual_Backpack.My.Resources.Resources.notepad_bar
-        Me.Guna2PictureBox2.ImageRotate = 0!
-        Me.Guna2PictureBox2.Location = New System.Drawing.Point(273, 59)
-        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Me.Guna2PictureBox2.ShadowDecoration.BorderRadius = 3
-        Me.Guna2PictureBox2.ShadowDecoration.Color = System.Drawing.Color.DarkGray
-        Me.Guna2PictureBox2.ShadowDecoration.Depth = 100
-        Me.Guna2PictureBox2.ShadowDecoration.Enabled = True
-        Me.Guna2PictureBox2.ShadowDecoration.Parent = Me.Guna2PictureBox2
-        Me.Guna2PictureBox2.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 5, 5)
-        Me.Guna2PictureBox2.Size = New System.Drawing.Size(699, 55)
-        Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox2.TabIndex = 19
-        Me.Guna2PictureBox2.TabStop = False
-        Me.Guna2PictureBox2.UseTransparentBackground = True
-        '
-        'Guna2PictureBox1
-        '
-        Me.Guna2PictureBox1.Image = Global.Virtual_Backpack.My.Resources.Resources.gradient_background2
-        Me.Guna2PictureBox1.ImageRotate = 0!
-        Me.Guna2PictureBox1.Location = New System.Drawing.Point(-8, -1)
-        Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Me.Guna2PictureBox1.ShadowDecoration.Color = System.Drawing.Color.DarkGray
-        Me.Guna2PictureBox1.ShadowDecoration.Parent = Me.Guna2PictureBox1
-        Me.Guna2PictureBox1.Size = New System.Drawing.Size(225, 600)
-        Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox1.TabIndex = 3
-        Me.Guna2PictureBox1.TabStop = False
         '
         'BottomToolStripPanel
         '
@@ -275,45 +146,6 @@ Partial Class notepad
         '
         Me.ContentPanel.Size = New System.Drawing.Size(694, 26)
         '
-        'Guna2TextBox1
-        '
-        Me.Guna2TextBox1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2TextBox1.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.grid
-        Me.Guna2TextBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Guna2TextBox1.BorderColor = System.Drawing.Color.Gray
-        Me.Guna2TextBox1.BorderRadius = 1
-        Me.Guna2TextBox1.BorderThickness = 2
-        Me.Guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox1.CustomizableEdges.TopLeft = False
-        Me.Guna2TextBox1.CustomizableEdges.TopRight = False
-        Me.Guna2TextBox1.DefaultText = ""
-        Me.Guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.Gray
-        Me.Guna2TextBox1.FocusedState.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2TextBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.Gray
-        Me.Guna2TextBox1.HoverState.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.Location = New System.Drawing.Point(273, 113)
-        Me.Guna2TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.Guna2TextBox1.Name = "Guna2TextBox1"
-        Me.Guna2TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Guna2TextBox1.PlaceholderText = ""
-        Me.Guna2TextBox1.SelectedText = ""
-        Me.Guna2TextBox1.ShadowDecoration.BorderRadius = 3
-        Me.Guna2TextBox1.ShadowDecoration.Color = System.Drawing.Color.Silver
-        Me.Guna2TextBox1.ShadowDecoration.Depth = 100
-        Me.Guna2TextBox1.ShadowDecoration.Enabled = True
-        Me.Guna2TextBox1.ShadowDecoration.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 5, 5)
-        Me.Guna2TextBox1.Size = New System.Drawing.Size(700, 447)
-        Me.Guna2TextBox1.TabIndex = 18
-        Me.Guna2TextBox1.TextOffset = New System.Drawing.Point(5, -155)
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -343,42 +175,42 @@ Partial Class notepad
         '
         Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem, Me.SaveToolStripMenuItem, Me.SacToolStripMenuItem, Me.SaveAsToolStripMenuItem, Me.ExitToolStripMenuItem, Me.ExitToolStripMenuItem1})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(47, 20)
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(52, 22)
         Me.FileToolStripMenuItem.Text = "File"
         '
         'NewToolStripMenuItem
         '
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
         Me.NewToolStripMenuItem.Text = "New"
         '
         'SaveToolStripMenuItem
         '
         Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
-        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
         Me.SaveToolStripMenuItem.Text = "Open"
         '
         'SacToolStripMenuItem
         '
         Me.SacToolStripMenuItem.Name = "SacToolStripMenuItem"
-        Me.SacToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SacToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
         Me.SacToolStripMenuItem.Text = "Save"
         '
         'SaveAsToolStripMenuItem
         '
         Me.SaveAsToolStripMenuItem.Name = "SaveAsToolStripMenuItem"
-        Me.SaveAsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SaveAsToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
         Me.SaveAsToolStripMenuItem.Text = "Save As"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(177, 6)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(129, 6)
         '
         'ExitToolStripMenuItem1
         '
         Me.ExitToolStripMenuItem1.Name = "ExitToolStripMenuItem1"
-        Me.ExitToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.ExitToolStripMenuItem1.Size = New System.Drawing.Size(132, 22)
         Me.ExitToolStripMenuItem1.Text = "Exit"
         '
         'EditToolStripMenuItem
@@ -387,6 +219,47 @@ Partial Class notepad
         Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
         Me.EditToolStripMenuItem.Size = New System.Drawing.Size(52, 22)
         Me.EditToolStripMenuItem.Text = "Edit"
+        '
+        'UndoToolStripMenuItem
+        '
+        Me.UndoToolStripMenuItem.Name = "UndoToolStripMenuItem"
+        Me.UndoToolStripMenuItem.Size = New System.Drawing.Size(124, 22)
+        Me.UndoToolStripMenuItem.Text = "Undo"
+        '
+        'RedoToolStripMenuItem
+        '
+        Me.RedoToolStripMenuItem.Name = "RedoToolStripMenuItem"
+        Me.RedoToolStripMenuItem.Size = New System.Drawing.Size(124, 22)
+        Me.RedoToolStripMenuItem.Text = "Redo"
+        '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(121, 6)
+        '
+        'CutToolStripMenuItem
+        '
+        Me.CutToolStripMenuItem.Name = "CutToolStripMenuItem"
+        Me.CutToolStripMenuItem.Size = New System.Drawing.Size(124, 22)
+        Me.CutToolStripMenuItem.Text = "Cut"
+        '
+        'CopyToolStripMenuItem
+        '
+        Me.CopyToolStripMenuItem.Name = "CopyToolStripMenuItem"
+        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(124, 22)
+        Me.CopyToolStripMenuItem.Text = "Copy"
+        '
+        'PasteToolStripMenuItem
+        '
+        Me.PasteToolStripMenuItem.Name = "PasteToolStripMenuItem"
+        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(124, 22)
+        Me.PasteToolStripMenuItem.Text = "Paste"
+        '
+        'DeleteToolStripMenuItem
+        '
+        Me.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem"
+        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(124, 22)
+        Me.DeleteToolStripMenuItem.Text = "Delete"
         '
         'FormatToolStripMenuItem
         '
@@ -407,70 +280,181 @@ Partial Class notepad
         Me.HighlightTextToolStripMenuItem.Size = New System.Drawing.Size(188, 22)
         Me.HighlightTextToolStripMenuItem.Text = "Highlight text"
         '
-        'UndoToolStripMenuItem
+        'Guna2GradientButton4
         '
-        Me.UndoToolStripMenuItem.Name = "UndoToolStripMenuItem"
-        Me.UndoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.UndoToolStripMenuItem.Text = "Undo"
+        Me.Guna2GradientButton4.AutoRoundedCorners = True
+        Me.Guna2GradientButton4.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton4.BorderRadius = 21
+        Me.Guna2GradientButton4.CheckedState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2GradientButton4.CheckedState.Parent = Me.Guna2GradientButton4
+        Me.Guna2GradientButton4.CustomImages.Image = Global.Virtual_Backpack.My.Resources.Resources.home1
+        Me.Guna2GradientButton4.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.Guna2GradientButton4.CustomImages.ImageOffset = New System.Drawing.Point(10, 0)
+        Me.Guna2GradientButton4.CustomImages.Parent = Me.Guna2GradientButton4
+        Me.Guna2GradientButton4.CustomizableEdges.BottomRight = False
+        Me.Guna2GradientButton4.CustomizableEdges.TopRight = False
+        Me.Guna2GradientButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton4.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2GradientButton4.DisabledState.Parent = Me.Guna2GradientButton4
+        Me.Guna2GradientButton4.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton4.FillColor2 = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton4.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Guna2GradientButton4.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton4.HoverState.FillColor = System.Drawing.Color.Firebrick
+        Me.Guna2GradientButton4.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
+        Me.Guna2GradientButton4.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2GradientButton4.HoverState.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton4.HoverState.Parent = Me.Guna2GradientButton4
+        Me.Guna2GradientButton4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Guna2GradientButton4.ImageOffset = New System.Drawing.Point(-5, 0)
+        Me.Guna2GradientButton4.Location = New System.Drawing.Point(12, 148)
+        Me.Guna2GradientButton4.Name = "Guna2GradientButton4"
+        Me.Guna2GradientButton4.ShadowDecoration.Parent = Me.Guna2GradientButton4
+        Me.Guna2GradientButton4.Size = New System.Drawing.Size(205, 45)
+        Me.Guna2GradientButton4.TabIndex = 27
+        Me.Guna2GradientButton4.TabStop = False
+        Me.Guna2GradientButton4.Text = "Home"
+        Me.Guna2GradientButton4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Guna2GradientButton4.TextOffset = New System.Drawing.Point(-10, 0)
+        Me.Guna2GradientButton4.UseTransparentBackground = True
         '
-        'RedoToolStripMenuItem
+        'Guna2GradientButton2
         '
-        Me.RedoToolStripMenuItem.Name = "RedoToolStripMenuItem"
-        Me.RedoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.RedoToolStripMenuItem.Text = "Redo"
+        Me.Guna2GradientButton2.AutoRoundedCorners = True
+        Me.Guna2GradientButton2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton2.BorderRadius = 21
+        Me.Guna2GradientButton2.CheckedState.Parent = Me.Guna2GradientButton2
+        Me.Guna2GradientButton2.CustomImages.Image = Global.Virtual_Backpack.My.Resources.Resources.planner
+        Me.Guna2GradientButton2.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.Guna2GradientButton2.CustomImages.ImageOffset = New System.Drawing.Point(10, 0)
+        Me.Guna2GradientButton2.CustomImages.Parent = Me.Guna2GradientButton2
+        Me.Guna2GradientButton2.CustomizableEdges.BottomRight = False
+        Me.Guna2GradientButton2.CustomizableEdges.TopRight = False
+        Me.Guna2GradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2GradientButton2.DisabledState.Parent = Me.Guna2GradientButton2
+        Me.Guna2GradientButton2.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton2.FillColor2 = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton2.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Guna2GradientButton2.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton2.HoverState.FillColor = System.Drawing.Color.Firebrick
+        Me.Guna2GradientButton2.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
+        Me.Guna2GradientButton2.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2GradientButton2.HoverState.Parent = Me.Guna2GradientButton2
+        Me.Guna2GradientButton2.Location = New System.Drawing.Point(12, 238)
+        Me.Guna2GradientButton2.Name = "Guna2GradientButton2"
+        Me.Guna2GradientButton2.ShadowDecoration.Parent = Me.Guna2GradientButton2
+        Me.Guna2GradientButton2.Size = New System.Drawing.Size(205, 45)
+        Me.Guna2GradientButton2.TabIndex = 26
+        Me.Guna2GradientButton2.TabStop = False
+        Me.Guna2GradientButton2.Text = "Daily Planner"
+        Me.Guna2GradientButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Guna2GradientButton2.TextOffset = New System.Drawing.Point(-10, 0)
+        Me.Guna2GradientButton2.UseTransparentBackground = True
         '
-        'CutToolStripMenuItem
+        'Guna2GradientButton1
         '
-        Me.CutToolStripMenuItem.Name = "CutToolStripMenuItem"
-        Me.CutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.CutToolStripMenuItem.Text = "Cut"
+        Me.Guna2GradientButton1.AutoRoundedCorners = True
+        Me.Guna2GradientButton1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton1.BorderRadius = 21
+        Me.Guna2GradientButton1.CheckedState.Parent = Me.Guna2GradientButton1
+        Me.Guna2GradientButton1.CustomImages.Image = Global.Virtual_Backpack.My.Resources.Resources.notepad
+        Me.Guna2GradientButton1.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.Guna2GradientButton1.CustomImages.ImageOffset = New System.Drawing.Point(10, 0)
+        Me.Guna2GradientButton1.CustomImages.Parent = Me.Guna2GradientButton1
+        Me.Guna2GradientButton1.CustomizableEdges.BottomRight = False
+        Me.Guna2GradientButton1.CustomizableEdges.TopRight = False
+        Me.Guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2GradientButton1.DisabledState.Parent = Me.Guna2GradientButton1
+        Me.Guna2GradientButton1.FillColor = System.Drawing.Color.Firebrick
+        Me.Guna2GradientButton1.FillColor2 = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton1.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Guna2GradientButton1.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton1.HoverState.FillColor = System.Drawing.Color.Firebrick
+        Me.Guna2GradientButton1.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
+        Me.Guna2GradientButton1.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2GradientButton1.HoverState.Parent = Me.Guna2GradientButton1
+        Me.Guna2GradientButton1.Location = New System.Drawing.Point(12, 193)
+        Me.Guna2GradientButton1.Name = "Guna2GradientButton1"
+        Me.Guna2GradientButton1.ShadowDecoration.Parent = Me.Guna2GradientButton1
+        Me.Guna2GradientButton1.Size = New System.Drawing.Size(205, 45)
+        Me.Guna2GradientButton1.TabIndex = 25
+        Me.Guna2GradientButton1.TabStop = False
+        Me.Guna2GradientButton1.Text = "Notepad"
+        Me.Guna2GradientButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Guna2GradientButton1.TextOffset = New System.Drawing.Point(-10, 0)
+        Me.Guna2GradientButton1.UseTransparentBackground = True
         '
-        'CopyToolStripMenuItem
+        'Guna2GradientButton5
         '
-        Me.CopyToolStripMenuItem.Name = "CopyToolStripMenuItem"
-        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.CopyToolStripMenuItem.Text = "Copy"
+        Me.Guna2GradientButton5.AutoRoundedCorners = True
+        Me.Guna2GradientButton5.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton5.BorderRadius = 21
+        Me.Guna2GradientButton5.CheckedState.Parent = Me.Guna2GradientButton5
+        Me.Guna2GradientButton5.CustomImages.Image = Global.Virtual_Backpack.My.Resources.Resources.sketchpad
+        Me.Guna2GradientButton5.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.Guna2GradientButton5.CustomImages.ImageOffset = New System.Drawing.Point(10, 0)
+        Me.Guna2GradientButton5.CustomImages.Parent = Me.Guna2GradientButton5
+        Me.Guna2GradientButton5.CustomizableEdges.BottomRight = False
+        Me.Guna2GradientButton5.CustomizableEdges.TopRight = False
+        Me.Guna2GradientButton5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton5.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2GradientButton5.DisabledState.Parent = Me.Guna2GradientButton5
+        Me.Guna2GradientButton5.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton5.FillColor2 = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton5.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Guna2GradientButton5.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton5.HoverState.FillColor = System.Drawing.Color.Firebrick
+        Me.Guna2GradientButton5.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
+        Me.Guna2GradientButton5.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2GradientButton5.HoverState.Parent = Me.Guna2GradientButton5
+        Me.Guna2GradientButton5.Location = New System.Drawing.Point(12, 283)
+        Me.Guna2GradientButton5.Name = "Guna2GradientButton5"
+        Me.Guna2GradientButton5.ShadowDecoration.Parent = Me.Guna2GradientButton5
+        Me.Guna2GradientButton5.Size = New System.Drawing.Size(205, 45)
+        Me.Guna2GradientButton5.TabIndex = 28
+        Me.Guna2GradientButton5.TabStop = False
+        Me.Guna2GradientButton5.Text = "Sketchpad"
+        Me.Guna2GradientButton5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Guna2GradientButton5.TextOffset = New System.Drawing.Point(-10, 0)
+        Me.Guna2GradientButton5.UseTransparentBackground = True
         '
-        'PasteToolStripMenuItem
+        'RichTextBox1
         '
-        Me.PasteToolStripMenuItem.Name = "PasteToolStripMenuItem"
-        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.PasteToolStripMenuItem.Text = "Paste"
+        Me.RichTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.RichTextBox1.Font = New System.Drawing.Font("Consolas", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RichTextBox1.Location = New System.Drawing.Point(282, 146)
+        Me.RichTextBox1.Name = "RichTextBox1"
+        Me.RichTextBox1.Size = New System.Drawing.Size(683, 405)
+        Me.RichTextBox1.TabIndex = 29
+        Me.RichTextBox1.Text = ""
         '
-        'DeleteToolStripMenuItem
+        'Guna2PictureBox3
         '
-        Me.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem"
-        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.DeleteToolStripMenuItem.Text = "Delete"
-        '
-        'ToolStripSeparator1
-        '
-        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(177, 6)
-        '
-        'Guna2CircleButton1
-        '
-        Me.Guna2CircleButton1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CircleButton1.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.cancel
-        Me.Guna2CircleButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Guna2CircleButton1.CheckedState.Parent = Me.Guna2CircleButton1
-        Me.Guna2CircleButton1.CustomImages.Parent = Me.Guna2CircleButton1
-        Me.Guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2CircleButton1.DisabledState.Parent = Me.Guna2CircleButton1
-        Me.Guna2CircleButton1.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2CircleButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2CircleButton1.ForeColor = System.Drawing.Color.White
-        Me.Guna2CircleButton1.HoverState.Parent = Me.Guna2CircleButton1
-        Me.Guna2CircleButton1.Location = New System.Drawing.Point(982, 12)
-        Me.Guna2CircleButton1.Name = "Guna2CircleButton1"
-        Me.Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CircleButton1.ShadowDecoration.Parent = Me.Guna2CircleButton1
-        Me.Guna2CircleButton1.Size = New System.Drawing.Size(30, 30)
-        Me.Guna2CircleButton1.TabIndex = 22
-        Me.Guna2CircleButton1.UseTransparentBackground = True
+        Me.Guna2PictureBox3.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox3.Image = Global.Virtual_Backpack.My.Resources.Resources.logo_title
+        Me.Guna2PictureBox3.ImageRotate = 0!
+        Me.Guna2PictureBox3.Location = New System.Drawing.Point(7, 12)
+        Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
+        Me.Guna2PictureBox3.ShadowDecoration.Parent = Me.Guna2PictureBox3
+        Me.Guna2PictureBox3.Size = New System.Drawing.Size(205, 71)
+        Me.Guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox3.TabIndex = 24
+        Me.Guna2PictureBox3.TabStop = False
+        Me.Guna2PictureBox3.UseTransparentBackground = True
         '
         'Guna2CircleButton2
         '
@@ -494,7 +478,150 @@ Partial Class notepad
         Me.Guna2CircleButton2.ShadowDecoration.Parent = Me.Guna2CircleButton2
         Me.Guna2CircleButton2.Size = New System.Drawing.Size(30, 30)
         Me.Guna2CircleButton2.TabIndex = 23
+        Me.Guna2CircleButton2.TabStop = False
         Me.Guna2CircleButton2.UseTransparentBackground = True
+        '
+        'Guna2CircleButton1
+        '
+        Me.Guna2CircleButton1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleButton1.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.cancel
+        Me.Guna2CircleButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Guna2CircleButton1.CheckedState.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.CustomImages.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2CircleButton1.DisabledState.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2CircleButton1.ForeColor = System.Drawing.Color.White
+        Me.Guna2CircleButton1.HoverState.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.Location = New System.Drawing.Point(982, 12)
+        Me.Guna2CircleButton1.Name = "Guna2CircleButton1"
+        Me.Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleButton1.ShadowDecoration.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.Size = New System.Drawing.Size(30, 30)
+        Me.Guna2CircleButton1.TabIndex = 22
+        Me.Guna2CircleButton1.TabStop = False
+        Me.Guna2CircleButton1.UseTransparentBackground = True
+        '
+        'Guna2PictureBox2
+        '
+        Me.Guna2PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox2.Image = Global.Virtual_Backpack.My.Resources.Resources.notepad_bar
+        Me.Guna2PictureBox2.ImageRotate = 0!
+        Me.Guna2PictureBox2.Location = New System.Drawing.Point(273, 59)
+        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
+        Me.Guna2PictureBox2.ShadowDecoration.BorderRadius = 3
+        Me.Guna2PictureBox2.ShadowDecoration.Color = System.Drawing.Color.DarkGray
+        Me.Guna2PictureBox2.ShadowDecoration.Depth = 100
+        Me.Guna2PictureBox2.ShadowDecoration.Enabled = True
+        Me.Guna2PictureBox2.ShadowDecoration.Parent = Me.Guna2PictureBox2
+        Me.Guna2PictureBox2.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 5, 5)
+        Me.Guna2PictureBox2.Size = New System.Drawing.Size(699, 55)
+        Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox2.TabIndex = 19
+        Me.Guna2PictureBox2.TabStop = False
+        Me.Guna2PictureBox2.UseTransparentBackground = True
+        '
+        'Guna2PictureBox1
+        '
+        Me.Guna2PictureBox1.Image = Global.Virtual_Backpack.My.Resources.Resources.gradient_background2
+        Me.Guna2PictureBox1.ImageRotate = 0!
+        Me.Guna2PictureBox1.Location = New System.Drawing.Point(-8, -1)
+        Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
+        Me.Guna2PictureBox1.ShadowDecoration.Color = System.Drawing.Color.DarkGray
+        Me.Guna2PictureBox1.ShadowDecoration.Enabled = True
+        Me.Guna2PictureBox1.ShadowDecoration.Parent = Me.Guna2PictureBox1
+        Me.Guna2PictureBox1.Size = New System.Drawing.Size(225, 600)
+        Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox1.TabIndex = 3
+        Me.Guna2PictureBox1.TabStop = False
+        '
+        'Guna2TextBox1
+        '
+        Me.Guna2TextBox1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2TextBox1.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.grid
+        Me.Guna2TextBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Guna2TextBox1.BorderColor = System.Drawing.Color.Gray
+        Me.Guna2TextBox1.BorderRadius = 1
+        Me.Guna2TextBox1.BorderThickness = 2
+        Me.Guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Guna2TextBox1.CustomizableEdges.TopLeft = False
+        Me.Guna2TextBox1.CustomizableEdges.TopRight = False
+        Me.Guna2TextBox1.DefaultText = ""
+        Me.Guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox1.DisabledState.Parent = Me.Guna2TextBox1
+        Me.Guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.Gray
+        Me.Guna2TextBox1.FocusedState.Parent = Me.Guna2TextBox1
+        Me.Guna2TextBox1.Font = New System.Drawing.Font("Consolas", 11.25!)
+        Me.Guna2TextBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.Gray
+        Me.Guna2TextBox1.HoverState.Parent = Me.Guna2TextBox1
+        Me.Guna2TextBox1.Location = New System.Drawing.Point(273, 113)
+        Me.Guna2TextBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Guna2TextBox1.Name = "Guna2TextBox1"
+        Me.Guna2TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.Guna2TextBox1.PlaceholderText = ""
+        Me.Guna2TextBox1.SelectedText = ""
+        Me.Guna2TextBox1.ShadowDecoration.BorderRadius = 3
+        Me.Guna2TextBox1.ShadowDecoration.Color = System.Drawing.Color.Silver
+        Me.Guna2TextBox1.ShadowDecoration.Depth = 100
+        Me.Guna2TextBox1.ShadowDecoration.Enabled = True
+        Me.Guna2TextBox1.ShadowDecoration.Parent = Me.Guna2TextBox1
+        Me.Guna2TextBox1.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 5, 5)
+        Me.Guna2TextBox1.Size = New System.Drawing.Size(700, 447)
+        Me.Guna2TextBox1.TabIndex = 18
+        Me.Guna2TextBox1.TabStop = False
+        Me.Guna2TextBox1.TextOffset = New System.Drawing.Point(5, -155)
+        '
+        'Guna2Button1
+        '
+        Me.Guna2Button1.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.search
+        Me.Guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Guna2Button1.CheckedState.Parent = Me.Guna2Button1
+        Me.Guna2Button1.CustomImages.Parent = Me.Guna2Button1
+        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button1.DisabledState.Parent = Me.Guna2Button1
+        Me.Guna2Button1.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2Button1.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button1.HoverState.Parent = Me.Guna2Button1
+        Me.Guna2Button1.Location = New System.Drawing.Point(920, 460)
+        Me.Guna2Button1.Name = "Guna2Button1"
+        Me.Guna2Button1.ShadowDecoration.Parent = Me.Guna2Button1
+        Me.Guna2Button1.Size = New System.Drawing.Size(40, 40)
+        Me.Guna2Button1.TabIndex = 33
+        Me.Guna2Button1.TabStop = False
+        '
+        'Guna2Button2
+        '
+        Me.Guna2Button2.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.calculator
+        Me.Guna2Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Guna2Button2.CheckedState.Parent = Me.Guna2Button2
+        Me.Guna2Button2.CustomImages.Parent = Me.Guna2Button2
+        Me.Guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button2.DisabledState.Parent = Me.Guna2Button2
+        Me.Guna2Button2.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2Button2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2Button2.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button2.HoverState.Parent = Me.Guna2Button2
+        Me.Guna2Button2.Location = New System.Drawing.Point(920, 506)
+        Me.Guna2Button2.Name = "Guna2Button2"
+        Me.Guna2Button2.ShadowDecoration.Parent = Me.Guna2Button2
+        Me.Guna2Button2.Size = New System.Drawing.Size(40, 40)
+        Me.Guna2Button2.TabIndex = 34
+        Me.Guna2Button2.TabStop = False
         '
         'notepad
         '
@@ -502,14 +629,19 @@ Partial Class notepad
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1024, 600)
+        Me.Controls.Add(Me.Guna2Button2)
+        Me.Controls.Add(Me.Guna2Button1)
+        Me.Controls.Add(Me.RichTextBox1)
+        Me.Controls.Add(Me.Guna2GradientButton5)
+        Me.Controls.Add(Me.Guna2GradientButton4)
+        Me.Controls.Add(Me.Guna2GradientButton2)
+        Me.Controls.Add(Me.Guna2GradientButton1)
+        Me.Controls.Add(Me.Guna2PictureBox3)
         Me.Controls.Add(Me.Guna2CircleButton2)
         Me.Controls.Add(Me.Guna2CircleButton1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Guna2PictureBox2)
         Me.Controls.Add(Me.Guna2GradientButton3)
-        Me.Controls.Add(Me.Guna2GradientButton2)
-        Me.Controls.Add(Me.Guna2GradientButton1)
-        Me.Controls.Add(Me.Guna2GradientButton4)
         Me.Controls.Add(Me.Guna2PictureBox1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.Guna2TextBox1)
@@ -518,10 +650,11 @@ Partial Class notepad
         Me.Name = "notepad"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "notepad"
-        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -529,9 +662,6 @@ Partial Class notepad
 
     Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
     Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
-    Friend WithEvents Guna2GradientButton4 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton1 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton2 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton3 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Label1 As Label
@@ -562,4 +692,12 @@ Partial Class notepad
     Friend WithEvents HighlightTextToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Guna2CircleButton2 As Guna.UI2.WinForms.Guna2CircleButton
     Friend WithEvents Guna2CircleButton1 As Guna.UI2.WinForms.Guna2CircleButton
+    Friend WithEvents Guna2PictureBox3 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents Guna2GradientButton4 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton2 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton1 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton5 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
 End Class
