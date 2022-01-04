@@ -82,3 +82,4 @@ C:\Users\Sachiko Niki Bernal\Documents\DSA\Final Project\virtual-backpack\Virtua
 C:\Users\Sachiko Niki Bernal\Documents\DSA\Final Project\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual-Backpack.exe
 C:\Users\Sachiko Niki Bernal\Documents\DSA\Final Project\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual-Backpack.xml
 C:\Users\Sachiko Niki Bernal\Documents\DSA\Final Project\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual-Backpack.pdb
+C:\Users\Sachiko Niki Bernal\Documents\DSA\Final Project\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.calculator.resources

@@ -70,7 +70,7 @@ Partial Class homepage
         Me.Guna2GradientButton1.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Guna2GradientButton1.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton1.HoverState.Parent = Me.Guna2GradientButton1
-        Me.Guna2GradientButton1.Location = New System.Drawing.Point(12, 193)
+        Me.Guna2GradientButton1.Location = New System.Drawing.Point(12, 203)
         Me.Guna2GradientButton1.Name = "Guna2GradientButton1"
         Me.Guna2GradientButton1.ShadowDecoration.Parent = Me.Guna2GradientButton1
         Me.Guna2GradientButton1.Size = New System.Drawing.Size(205, 45)
@@ -106,7 +106,7 @@ Partial Class homepage
         Me.Guna2GradientButton2.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Guna2GradientButton2.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton2.HoverState.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.Location = New System.Drawing.Point(12, 238)
+        Me.Guna2GradientButton2.Location = New System.Drawing.Point(12, 248)
         Me.Guna2GradientButton2.Name = "Guna2GradientButton2"
         Me.Guna2GradientButton2.ShadowDecoration.Parent = Me.Guna2GradientButton2
         Me.Guna2GradientButton2.Size = New System.Drawing.Size(205, 45)
@@ -161,7 +161,7 @@ Partial Class homepage
         Me.Guna2GradientButton4.HoverState.Parent = Me.Guna2GradientButton4
         Me.Guna2GradientButton4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.Guna2GradientButton4.ImageOffset = New System.Drawing.Point(-5, 0)
-        Me.Guna2GradientButton4.Location = New System.Drawing.Point(12, 148)
+        Me.Guna2GradientButton4.Location = New System.Drawing.Point(12, 158)
         Me.Guna2GradientButton4.Name = "Guna2GradientButton4"
         Me.Guna2GradientButton4.ShadowDecoration.Parent = Me.Guna2GradientButton4
         Me.Guna2GradientButton4.Size = New System.Drawing.Size(205, 45)
@@ -197,7 +197,7 @@ Partial Class homepage
         Me.Guna2GradientButton5.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Guna2GradientButton5.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton5.HoverState.Parent = Me.Guna2GradientButton5
-        Me.Guna2GradientButton5.Location = New System.Drawing.Point(12, 283)
+        Me.Guna2GradientButton5.Location = New System.Drawing.Point(12, 293)
         Me.Guna2GradientButton5.Name = "Guna2GradientButton5"
         Me.Guna2GradientButton5.ShadowDecoration.Parent = Me.Guna2GradientButton5
         Me.Guna2GradientButton5.Size = New System.Drawing.Size(205, 45)
@@ -248,7 +248,7 @@ Partial Class homepage
         Me.Guna2PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox2.Image = Global.Virtual_Backpack.My.Resources.Resources.logo_title
         Me.Guna2PictureBox2.ImageRotate = 0!
-        Me.Guna2PictureBox2.Location = New System.Drawing.Point(7, 12)
+        Me.Guna2PictureBox2.Location = New System.Drawing.Point(7, 20)
         Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
         Me.Guna2PictureBox2.ShadowDecoration.Parent = Me.Guna2PictureBox2
         Me.Guna2PictureBox2.Size = New System.Drawing.Size(205, 71)

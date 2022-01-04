@@ -55,14 +55,14 @@ Partial Class notepad
         Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton5 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2CircleButton2 = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -310,7 +310,7 @@ Partial Class notepad
         Me.Guna2GradientButton4.HoverState.Parent = Me.Guna2GradientButton4
         Me.Guna2GradientButton4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.Guna2GradientButton4.ImageOffset = New System.Drawing.Point(-5, 0)
-        Me.Guna2GradientButton4.Location = New System.Drawing.Point(12, 148)
+        Me.Guna2GradientButton4.Location = New System.Drawing.Point(12, 158)
         Me.Guna2GradientButton4.Name = "Guna2GradientButton4"
         Me.Guna2GradientButton4.ShadowDecoration.Parent = Me.Guna2GradientButton4
         Me.Guna2GradientButton4.Size = New System.Drawing.Size(205, 45)
@@ -347,7 +347,7 @@ Partial Class notepad
         Me.Guna2GradientButton2.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Guna2GradientButton2.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton2.HoverState.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.Location = New System.Drawing.Point(12, 238)
+        Me.Guna2GradientButton2.Location = New System.Drawing.Point(12, 248)
         Me.Guna2GradientButton2.Name = "Guna2GradientButton2"
         Me.Guna2GradientButton2.ShadowDecoration.Parent = Me.Guna2GradientButton2
         Me.Guna2GradientButton2.Size = New System.Drawing.Size(205, 45)
@@ -384,7 +384,7 @@ Partial Class notepad
         Me.Guna2GradientButton1.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Guna2GradientButton1.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton1.HoverState.Parent = Me.Guna2GradientButton1
-        Me.Guna2GradientButton1.Location = New System.Drawing.Point(12, 193)
+        Me.Guna2GradientButton1.Location = New System.Drawing.Point(12, 203)
         Me.Guna2GradientButton1.Name = "Guna2GradientButton1"
         Me.Guna2GradientButton1.ShadowDecoration.Parent = Me.Guna2GradientButton1
         Me.Guna2GradientButton1.Size = New System.Drawing.Size(205, 45)
@@ -421,7 +421,7 @@ Partial Class notepad
         Me.Guna2GradientButton5.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Guna2GradientButton5.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton5.HoverState.Parent = Me.Guna2GradientButton5
-        Me.Guna2GradientButton5.Location = New System.Drawing.Point(12, 283)
+        Me.Guna2GradientButton5.Location = New System.Drawing.Point(12, 293)
         Me.Guna2GradientButton5.Name = "Guna2GradientButton5"
         Me.Guna2GradientButton5.ShadowDecoration.Parent = Me.Guna2GradientButton5
         Me.Guna2GradientButton5.Size = New System.Drawing.Size(205, 45)
@@ -442,12 +442,57 @@ Partial Class notepad
         Me.RichTextBox1.TabIndex = 29
         Me.RichTextBox1.Text = ""
         '
+        'Guna2Button2
+        '
+        Me.Guna2Button2.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.calculator
+        Me.Guna2Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Guna2Button2.CheckedState.Parent = Me.Guna2Button2
+        Me.Guna2Button2.CustomImages.Parent = Me.Guna2Button2
+        Me.Guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button2.DisabledState.Parent = Me.Guna2Button2
+        Me.Guna2Button2.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2Button2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2Button2.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button2.HoverState.Parent = Me.Guna2Button2
+        Me.Guna2Button2.Location = New System.Drawing.Point(920, 506)
+        Me.Guna2Button2.Name = "Guna2Button2"
+        Me.Guna2Button2.ShadowDecoration.Parent = Me.Guna2Button2
+        Me.Guna2Button2.Size = New System.Drawing.Size(40, 40)
+        Me.Guna2Button2.TabIndex = 34
+        Me.Guna2Button2.TabStop = False
+        Me.Guna2Button2.Tag = ""
+        '
+        'Guna2Button1
+        '
+        Me.Guna2Button1.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.search
+        Me.Guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Guna2Button1.CheckedState.Parent = Me.Guna2Button1
+        Me.Guna2Button1.CustomImages.Parent = Me.Guna2Button1
+        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button1.DisabledState.Parent = Me.Guna2Button1
+        Me.Guna2Button1.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2Button1.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button1.HoverState.Parent = Me.Guna2Button1
+        Me.Guna2Button1.Location = New System.Drawing.Point(920, 460)
+        Me.Guna2Button1.Name = "Guna2Button1"
+        Me.Guna2Button1.ShadowDecoration.Parent = Me.Guna2Button1
+        Me.Guna2Button1.Size = New System.Drawing.Size(40, 40)
+        Me.Guna2Button1.TabIndex = 33
+        Me.Guna2Button1.TabStop = False
+        '
         'Guna2PictureBox3
         '
         Me.Guna2PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox3.Image = Global.Virtual_Backpack.My.Resources.Resources.logo_title
         Me.Guna2PictureBox3.ImageRotate = 0!
-        Me.Guna2PictureBox3.Location = New System.Drawing.Point(7, 12)
+        Me.Guna2PictureBox3.Location = New System.Drawing.Point(7, 20)
         Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
         Me.Guna2PictureBox3.ShadowDecoration.Parent = Me.Guna2PictureBox3
         Me.Guna2PictureBox3.Size = New System.Drawing.Size(205, 71)
@@ -578,50 +623,6 @@ Partial Class notepad
         Me.Guna2TextBox1.TabIndex = 18
         Me.Guna2TextBox1.TabStop = False
         Me.Guna2TextBox1.TextOffset = New System.Drawing.Point(5, -155)
-        '
-        'Guna2Button1
-        '
-        Me.Guna2Button1.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.search
-        Me.Guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Guna2Button1.CheckedState.Parent = Me.Guna2Button1
-        Me.Guna2Button1.CustomImages.Parent = Me.Guna2Button1
-        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button1.DisabledState.Parent = Me.Guna2Button1
-        Me.Guna2Button1.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button1.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button1.HoverState.Parent = Me.Guna2Button1
-        Me.Guna2Button1.Location = New System.Drawing.Point(920, 460)
-        Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.ShadowDecoration.Parent = Me.Guna2Button1
-        Me.Guna2Button1.Size = New System.Drawing.Size(40, 40)
-        Me.Guna2Button1.TabIndex = 33
-        Me.Guna2Button1.TabStop = False
-        '
-        'Guna2Button2
-        '
-        Me.Guna2Button2.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.calculator
-        Me.Guna2Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Guna2Button2.CheckedState.Parent = Me.Guna2Button2
-        Me.Guna2Button2.CustomImages.Parent = Me.Guna2Button2
-        Me.Guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button2.DisabledState.Parent = Me.Guna2Button2
-        Me.Guna2Button2.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button2.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button2.HoverState.Parent = Me.Guna2Button2
-        Me.Guna2Button2.Location = New System.Drawing.Point(920, 506)
-        Me.Guna2Button2.Name = "Guna2Button2"
-        Me.Guna2Button2.ShadowDecoration.Parent = Me.Guna2Button2
-        Me.Guna2Button2.Size = New System.Drawing.Size(40, 40)
-        Me.Guna2Button2.TabIndex = 34
-        Me.Guna2Button2.TabStop = False
         '
         'notepad
         '
