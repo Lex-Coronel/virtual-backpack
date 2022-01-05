@@ -353,7 +353,7 @@ Partial Class notepad
         Me.Guna2GradientButton2.Size = New System.Drawing.Size(205, 45)
         Me.Guna2GradientButton2.TabIndex = 26
         Me.Guna2GradientButton2.TabStop = False
-        Me.Guna2GradientButton2.Text = "Daily Planner"
+        Me.Guna2GradientButton2.Text = "Monthly Planner"
         Me.Guna2GradientButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.Guna2GradientButton2.TextOffset = New System.Drawing.Point(-10, 0)
         Me.Guna2GradientButton2.UseTransparentBackground = True

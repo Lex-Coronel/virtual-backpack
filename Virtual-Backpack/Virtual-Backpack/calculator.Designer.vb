@@ -44,10 +44,10 @@ Partial Class calculator
         Me.Guna2GradientCircleButton18 = New Guna.UI2.WinForms.Guna2GradientCircleButton()
         Me.Guna2GradientCircleButton19 = New Guna.UI2.WinForms.Guna2GradientCircleButton()
         Me.Guna2GradientCircleButton20 = New Guna.UI2.WinForms.Guna2GradientCircleButton()
-        Me.Guna2CircleButton2 = New Guna.UI2.WinForms.Guna2CircleButton()
-        Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Guna2CircleButton2 = New Guna.UI2.WinForms.Guna2CircleButton()
+        Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
@@ -634,6 +634,30 @@ Partial Class calculator
         Me.Guna2GradientCircleButton20.Text = "/"
         Me.Guna2GradientCircleButton20.UseTransparentBackground = True
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Gray
+        Me.Label1.Location = New System.Drawing.Point(12, 47)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(98, 15)
+        Me.Label1.TabIndex = 26
+        Me.Label1.Text = "1 + 2 + 6 + 8"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(47, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(5, 75)
+        Me.Label2.Name = "Label2"
+        Me.Label2.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.Label2.Size = New System.Drawing.Size(53, 37)
+        Me.Label2.TabIndex = 27
+        Me.Label2.Text = "17"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
         'Guna2CircleButton2
         '
         Me.Guna2CircleButton2.BackColor = System.Drawing.Color.Transparent
@@ -684,36 +708,12 @@ Partial Class calculator
         Me.Guna2CircleButton1.TabStop = False
         Me.Guna2CircleButton1.UseTransparentBackground = True
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Gray
-        Me.Label1.Location = New System.Drawing.Point(12, 47)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(98, 15)
-        Me.Label1.TabIndex = 26
-        Me.Label1.Text = "1 + 2 + 6 + 8"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(47, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(5, 75)
-        Me.Label2.Name = "Label2"
-        Me.Label2.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label2.Size = New System.Drawing.Size(53, 37)
-        Me.Label2.TabIndex = 27
-        Me.Label2.Text = "17"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
         'calculator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.ClientSize = New System.Drawing.Size(260, 449)
+        Me.ClientSize = New System.Drawing.Size(260, 450)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Guna2CircleButton2)

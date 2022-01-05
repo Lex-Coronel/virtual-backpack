@@ -52,6 +52,11 @@ Virtual-Backpack
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.element">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Virtual_Backpack.My.Resources.Resources.gradient_background">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
