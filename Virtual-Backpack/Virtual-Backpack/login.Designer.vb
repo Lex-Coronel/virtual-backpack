@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class login
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class login
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(login))
@@ -28,14 +28,14 @@ Partial Class login
         Me.loginBtn = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.registertb = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(Me.components)
+        Me.register = New System.Windows.Forms.Label()
         Me.Guna2PictureBox5 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2PictureBox4 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.userTb = New Guna.UI2.WinForms.Guna2TextBox()
         Me.passwordTb = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(Me.components)
-        Me.register = New System.Windows.Forms.Label()
         CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -121,6 +121,18 @@ Partial Class login
         Me.registertb.ShadowDecoration.Parent = Me.registertb
         Me.registertb.Size = New System.Drawing.Size(178, 32)
         Me.registertb.TabIndex = 6
+        '
+        'register
+        '
+        Me.register.AutoSize = True
+        Me.register.BackColor = System.Drawing.Color.Transparent
+        Me.register.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.register.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.register.Location = New System.Drawing.Point(606, 323)
+        Me.register.Name = "register"
+        Me.register.Size = New System.Drawing.Size(75, 15)
+        Me.register.TabIndex = 13
+        Me.register.Text = "Register here"
         '
         'Guna2PictureBox5
         '
@@ -233,24 +245,12 @@ Partial Class login
         Me.passwordTb.Size = New System.Drawing.Size(270, 43)
         Me.passwordTb.TabIndex = 2
         '
-        'register
-        '
-        Me.register.AutoSize = True
-        Me.register.BackColor = System.Drawing.Color.Transparent
-        Me.register.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.register.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.register.Location = New System.Drawing.Point(606, 323)
-        Me.register.Name = "register"
-        Me.register.Size = New System.Drawing.Size(75, 15)
-        Me.register.TabIndex = 13
-        Me.register.Text = "Register here"
-        '
         'login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(799, 459)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.register)
         Me.Controls.Add(Me.Guna2PictureBox5)
         Me.Controls.Add(Me.Guna2PictureBox4)

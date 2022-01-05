@@ -81,6 +81,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="calculator.Designer.vb">
+      <DependentUpon>calculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="calculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +134,18 @@
     <Compile Include="notepad.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="planner manager.Designer.vb">
+      <DependentUpon>planner manager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="planner manager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="planner.Designer.vb">
+      <DependentUpon>planner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="planner.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="registration.Designer.vb">
       <DependentUpon>registration.vb</DependentUpon>
     </Compile>
@@ -136,6 +154,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="calculator.resx">
+      <DependentUpon>calculator.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -156,6 +177,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="notepad.resx">
       <DependentUpon>notepad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="planner manager.resx">
+      <DependentUpon>planner manager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="planner.resx">
+      <DependentUpon>planner.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="registration.resx">
       <DependentUpon>registration.vb</DependentUpon>
@@ -272,6 +299,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\element.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
