@@ -31,9 +31,10 @@ Partial Class planner_manager
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Guna2DateTimePicker2 = New Guna.UI2.WinForms.Guna2DateTimePicker()
-        Me.Guna2CircleButton2 = New Guna.UI2.WinForms.Guna2CircleButton()
-        Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.saveBtn = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.deleteBtn = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.minBtn = New Guna.UI2.WinForms.Guna2CircleButton()
+        Me.closeBtn = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
@@ -155,61 +156,11 @@ Partial Class planner_manager
         Me.Guna2DateTimePicker2.TabIndex = 35
         Me.Guna2DateTimePicker2.Value = New Date(2022, 1, 5, 17, 21, 57, 224)
         '
-        'Guna2CircleButton2
-        '
-        Me.Guna2CircleButton2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CircleButton2.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.close
-        Me.Guna2CircleButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Guna2CircleButton2.CheckedState.Parent = Me.Guna2CircleButton2
-        Me.Guna2CircleButton2.CustomImages.Parent = Me.Guna2CircleButton2
-        Me.Guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2CircleButton2.DisabledState.Parent = Me.Guna2CircleButton2
-        Me.Guna2CircleButton2.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2CircleButton2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2CircleButton2.ForeColor = System.Drawing.Color.White
-        Me.Guna2CircleButton2.HoverState.Parent = Me.Guna2CircleButton2
-        Me.Guna2CircleButton2.Location = New System.Drawing.Point(300, 12)
-        Me.Guna2CircleButton2.Name = "Guna2CircleButton2"
-        Me.Guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CircleButton2.ShadowDecoration.Parent = Me.Guna2CircleButton2
-        Me.Guna2CircleButton2.Size = New System.Drawing.Size(20, 20)
-        Me.Guna2CircleButton2.TabIndex = 27
-        Me.Guna2CircleButton2.TabStop = False
-        Me.Guna2CircleButton2.UseTransparentBackground = True
-        '
-        'Guna2CircleButton1
-        '
-        Me.Guna2CircleButton1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CircleButton1.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.cancel
-        Me.Guna2CircleButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Guna2CircleButton1.CheckedState.Parent = Me.Guna2CircleButton1
-        Me.Guna2CircleButton1.CustomImages.Parent = Me.Guna2CircleButton1
-        Me.Guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2CircleButton1.DisabledState.Parent = Me.Guna2CircleButton1
-        Me.Guna2CircleButton1.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2CircleButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2CircleButton1.ForeColor = System.Drawing.Color.White
-        Me.Guna2CircleButton1.HoverState.Parent = Me.Guna2CircleButton1
-        Me.Guna2CircleButton1.Location = New System.Drawing.Point(323, 12)
-        Me.Guna2CircleButton1.Name = "Guna2CircleButton1"
-        Me.Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CircleButton1.ShadowDecoration.Parent = Me.Guna2CircleButton1
-        Me.Guna2CircleButton1.Size = New System.Drawing.Size(20, 20)
-        Me.Guna2CircleButton1.TabIndex = 26
-        Me.Guna2CircleButton1.TabStop = False
-        Me.Guna2CircleButton1.UseTransparentBackground = True
-        '
         'saveBtn
         '
         Me.saveBtn.Animated = True
         Me.saveBtn.AutoRoundedCorners = True
-        Me.saveBtn.BorderRadius = 12
+        Me.saveBtn.BorderRadius = 10
         Me.saveBtn.CheckedState.Parent = Me.saveBtn
         Me.saveBtn.CustomImages.Parent = Me.saveBtn
         Me.saveBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
@@ -223,12 +174,87 @@ Partial Class planner_manager
         Me.saveBtn.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.saveBtn.ForeColor = System.Drawing.Color.White
         Me.saveBtn.HoverState.Parent = Me.saveBtn
-        Me.saveBtn.Location = New System.Drawing.Point(228, 210)
+        Me.saveBtn.Location = New System.Drawing.Point(247, 210)
         Me.saveBtn.Name = "saveBtn"
         Me.saveBtn.ShadowDecoration.Parent = Me.saveBtn
-        Me.saveBtn.Size = New System.Drawing.Size(103, 27)
+        Me.saveBtn.Size = New System.Drawing.Size(73, 23)
         Me.saveBtn.TabIndex = 36
-        Me.saveBtn.Text = "Save Task"
+        Me.saveBtn.Text = "Save"
+        '
+        'deleteBtn
+        '
+        Me.deleteBtn.Animated = True
+        Me.deleteBtn.AutoRoundedCorners = True
+        Me.deleteBtn.BorderRadius = 10
+        Me.deleteBtn.CheckedState.Parent = Me.deleteBtn
+        Me.deleteBtn.CustomImages.Parent = Me.deleteBtn
+        Me.deleteBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.deleteBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.deleteBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.deleteBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.deleteBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.deleteBtn.DisabledState.Parent = Me.deleteBtn
+        Me.deleteBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(33, Byte), Integer))
+        Me.deleteBtn.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(108, Byte), Integer))
+        Me.deleteBtn.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.deleteBtn.ForeColor = System.Drawing.Color.White
+        Me.deleteBtn.HoverState.Parent = Me.deleteBtn
+        Me.deleteBtn.Location = New System.Drawing.Point(168, 210)
+        Me.deleteBtn.Name = "deleteBtn"
+        Me.deleteBtn.ShadowDecoration.Parent = Me.deleteBtn
+        Me.deleteBtn.Size = New System.Drawing.Size(73, 23)
+        Me.deleteBtn.TabIndex = 37
+        Me.deleteBtn.Text = "Delete"
+        '
+        'minBtn
+        '
+        Me.minBtn.BackColor = System.Drawing.Color.Transparent
+        Me.minBtn.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.close
+        Me.minBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.minBtn.CheckedState.Parent = Me.minBtn
+        Me.minBtn.CustomImages.Parent = Me.minBtn
+        Me.minBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.minBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.minBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.minBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.minBtn.DisabledState.Parent = Me.minBtn
+        Me.minBtn.FillColor = System.Drawing.Color.Transparent
+        Me.minBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.minBtn.ForeColor = System.Drawing.Color.White
+        Me.minBtn.HoverState.Parent = Me.minBtn
+        Me.minBtn.Location = New System.Drawing.Point(300, 12)
+        Me.minBtn.Name = "minBtn"
+        Me.minBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.minBtn.ShadowDecoration.Parent = Me.minBtn
+        Me.minBtn.Size = New System.Drawing.Size(20, 20)
+        Me.minBtn.TabIndex = 27
+        Me.minBtn.TabStop = False
+        Me.minBtn.UseTransparentBackground = True
+        '
+        'closeBtn
+        '
+        Me.closeBtn.BackColor = System.Drawing.Color.Transparent
+        Me.closeBtn.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.cancel
+        Me.closeBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.closeBtn.CheckedState.Parent = Me.closeBtn
+        Me.closeBtn.CustomImages.Parent = Me.closeBtn
+        Me.closeBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.closeBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.closeBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.closeBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.closeBtn.DisabledState.Parent = Me.closeBtn
+        Me.closeBtn.FillColor = System.Drawing.Color.Transparent
+        Me.closeBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.closeBtn.ForeColor = System.Drawing.Color.White
+        Me.closeBtn.HoverState.Parent = Me.closeBtn
+        Me.closeBtn.Location = New System.Drawing.Point(323, 12)
+        Me.closeBtn.Name = "closeBtn"
+        Me.closeBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.closeBtn.ShadowDecoration.Parent = Me.closeBtn
+        Me.closeBtn.Size = New System.Drawing.Size(20, 20)
+        Me.closeBtn.TabIndex = 26
+        Me.closeBtn.TabStop = False
+        Me.closeBtn.UseTransparentBackground = True
         '
         'planner_manager
         '
@@ -236,6 +262,7 @@ Partial Class planner_manager
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.WhiteSmoke
         Me.ClientSize = New System.Drawing.Size(355, 260)
+        Me.Controls.Add(Me.deleteBtn)
         Me.Controls.Add(Me.saveBtn)
         Me.Controls.Add(Me.Guna2DateTimePicker2)
         Me.Controls.Add(Me.Label4)
@@ -244,8 +271,8 @@ Partial Class planner_manager
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Guna2DateTimePicker1)
-        Me.Controls.Add(Me.Guna2CircleButton2)
-        Me.Controls.Add(Me.Guna2CircleButton1)
+        Me.Controls.Add(Me.minBtn)
+        Me.Controls.Add(Me.closeBtn)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "planner_manager"
         Me.Text = "planner_manager"
@@ -255,8 +282,8 @@ Partial Class planner_manager
     End Sub
 
     Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
-    Friend WithEvents Guna2CircleButton2 As Guna.UI2.WinForms.Guna2CircleButton
-    Friend WithEvents Guna2CircleButton1 As Guna.UI2.WinForms.Guna2CircleButton
+    Friend WithEvents minBtn As Guna.UI2.WinForms.Guna2CircleButton
+    Friend WithEvents closeBtn As Guna.UI2.WinForms.Guna2CircleButton
     Friend WithEvents Guna2DateTimePicker1 As Guna.UI2.WinForms.Guna2DateTimePicker
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
@@ -265,4 +292,5 @@ Partial Class planner_manager
     Friend WithEvents taskTb As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2DateTimePicker2 As Guna.UI2.WinForms.Guna2DateTimePicker
     Friend WithEvents saveBtn As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents deleteBtn As Guna.UI2.WinForms.Guna2GradientButton
 End Class

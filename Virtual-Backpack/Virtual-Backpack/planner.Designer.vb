@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class planner
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class planner
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
@@ -30,43 +30,33 @@ Partial Class planner
         Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton3 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton6 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2CircleButton2 = New Guna.UI2.WinForms.Guna2CircleButton()
-        Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
+        Me.Guna2BorderlessForm1 = New Guna.UI2.WinForms.Guna2BorderlessForm(Me.components)
+        Me.Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
+        Me.flDays = New System.Windows.Forms.FlowLayoutPanel()
+        Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.minBtn = New Guna.UI2.WinForms.Guna2CircleButton()
+        Me.closeBtn = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
-        Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Guna2BorderlessForm1 = New Guna.UI2.WinForms.Guna2BorderlessForm(Me.components)
-        Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Panel6 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Panel7 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Panel8 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2CustomGradientPanel1.SuspendLayout()
+        Me.flDays.SuspendLayout()
+        Me.FlowLayoutPanel2.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Guna2CustomGradientPanel1.SuspendLayout()
-        Me.Guna2Panel2.SuspendLayout()
-        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Guna2Panel1.SuspendLayout()
-        Me.Guna2Panel3.SuspendLayout()
-        Me.Guna2Panel4.SuspendLayout()
-        Me.Guna2Panel5.SuspendLayout()
-        Me.Guna2Panel6.SuspendLayout()
-        Me.Guna2Panel7.SuspendLayout()
-        Me.Guna2Panel8.SuspendLayout()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
@@ -183,7 +173,7 @@ Partial Class planner
         Me.Guna2GradientButton2.Size = New System.Drawing.Size(205, 45)
         Me.Guna2GradientButton2.TabIndex = 31
         Me.Guna2GradientButton2.TabStop = False
-        Me.Guna2GradientButton2.Text = "Monthly Planner"
+        Me.Guna2GradientButton2.Text = "Planner"
         Me.Guna2GradientButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.Guna2GradientButton2.TextOffset = New System.Drawing.Point(-10, 0)
         Me.Guna2GradientButton2.UseTransparentBackground = True
@@ -299,55 +289,243 @@ Partial Class planner
         Me.Guna2GradientButton6.TextOffset = New System.Drawing.Point(-10, 0)
         Me.Guna2GradientButton6.UseTransparentBackground = True
         '
-        'Guna2CircleButton2
+        'Guna2BorderlessForm1
         '
-        Me.Guna2CircleButton2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CircleButton2.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.close
-        Me.Guna2CircleButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Guna2CircleButton2.CheckedState.Parent = Me.Guna2CircleButton2
-        Me.Guna2CircleButton2.CustomImages.Parent = Me.Guna2CircleButton2
-        Me.Guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2CircleButton2.DisabledState.Parent = Me.Guna2CircleButton2
-        Me.Guna2CircleButton2.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2CircleButton2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2CircleButton2.ForeColor = System.Drawing.Color.White
-        Me.Guna2CircleButton2.HoverState.Parent = Me.Guna2CircleButton2
-        Me.Guna2CircleButton2.Location = New System.Drawing.Point(946, 12)
-        Me.Guna2CircleButton2.Name = "Guna2CircleButton2"
-        Me.Guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CircleButton2.ShadowDecoration.Parent = Me.Guna2CircleButton2
-        Me.Guna2CircleButton2.Size = New System.Drawing.Size(30, 30)
-        Me.Guna2CircleButton2.TabIndex = 37
-        Me.Guna2CircleButton2.TabStop = False
-        Me.Guna2CircleButton2.UseTransparentBackground = True
+        Me.Guna2BorderlessForm1.ContainerControl = Me
+        Me.Guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6R
+        Me.Guna2BorderlessForm1.TransparentWhileDrag = True
         '
-        'Guna2CircleButton1
+        'Guna2CustomGradientPanel1
         '
-        Me.Guna2CircleButton1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CircleButton1.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.cancel
-        Me.Guna2CircleButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Guna2CircleButton1.CheckedState.Parent = Me.Guna2CircleButton1
-        Me.Guna2CircleButton1.CustomImages.Parent = Me.Guna2CircleButton1
-        Me.Guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2CircleButton1.DisabledState.Parent = Me.Guna2CircleButton1
-        Me.Guna2CircleButton1.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2CircleButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2CircleButton1.ForeColor = System.Drawing.Color.White
-        Me.Guna2CircleButton1.HoverState.Parent = Me.Guna2CircleButton1
-        Me.Guna2CircleButton1.Location = New System.Drawing.Point(982, 12)
-        Me.Guna2CircleButton1.Name = "Guna2CircleButton1"
-        Me.Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CircleButton1.ShadowDecoration.Parent = Me.Guna2CircleButton1
-        Me.Guna2CircleButton1.Size = New System.Drawing.Size(30, 30)
-        Me.Guna2CircleButton1.TabIndex = 36
-        Me.Guna2CircleButton1.TabStop = False
-        Me.Guna2CircleButton1.UseTransparentBackground = True
+        Me.Guna2CustomGradientPanel1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CustomGradientPanel1.BorderColor = System.Drawing.Color.Gray
+        Me.Guna2CustomGradientPanel1.BorderRadius = 8
+        Me.Guna2CustomGradientPanel1.BorderThickness = 2
+        Me.Guna2CustomGradientPanel1.Controls.Add(Me.flDays)
+        Me.Guna2CustomGradientPanel1.Controls.Add(Me.Panel1)
+        Me.Guna2CustomGradientPanel1.Location = New System.Drawing.Point(273, 104)
+        Me.Guna2CustomGradientPanel1.Name = "Guna2CustomGradientPanel1"
+        Me.Guna2CustomGradientPanel1.ShadowDecoration.BorderRadius = 3
+        Me.Guna2CustomGradientPanel1.ShadowDecoration.Color = System.Drawing.Color.DarkGray
+        Me.Guna2CustomGradientPanel1.ShadowDecoration.Depth = 100
+        Me.Guna2CustomGradientPanel1.ShadowDecoration.Enabled = True
+        Me.Guna2CustomGradientPanel1.ShadowDecoration.Parent = Me.Guna2CustomGradientPanel1
+        Me.Guna2CustomGradientPanel1.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 5, 5)
+        Me.Guna2CustomGradientPanel1.Size = New System.Drawing.Size(699, 453)
+        Me.Guna2CustomGradientPanel1.TabIndex = 38
+        '
+        'flDays
+        '
+        Me.flDays.Controls.Add(Me.FlowLayoutPanel2)
+        Me.flDays.Location = New System.Drawing.Point(3, 66)
+        Me.flDays.Name = "flDays"
+        Me.flDays.Size = New System.Drawing.Size(693, 382)
+        Me.flDays.TabIndex = 2
+        '
+        'FlowLayoutPanel2
+        '
+        Me.FlowLayoutPanel2.Controls.Add(Me.Label9)
+        Me.FlowLayoutPanel2.Controls.Add(Me.LinkLabel1)
+        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(3, 3)
+        Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
+        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(93, 90)
+        Me.FlowLayoutPanel2.TabIndex = 0
+        '
+        'Label9
+        '
+        Me.Label9.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(3, 0)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(90, 30)
+        Me.Label9.TabIndex = 1
+        Me.Label9.Text = "1"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.ActiveLinkColor = System.Drawing.Color.Firebrick
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel1.LinkColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(33, Byte), Integer))
+        Me.LinkLabel1.Location = New System.Drawing.Point(3, 30)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(68, 17)
+        Me.LinkLabel1.TabIndex = 2
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "LinkLabel1"
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.Gainsboro
+        Me.Panel1.Controls.Add(Me.Label8)
+        Me.Panel1.Controls.Add(Me.Label7)
+        Me.Panel1.Controls.Add(Me.Label6)
+        Me.Panel1.Controls.Add(Me.Label5)
+        Me.Panel1.Controls.Add(Me.Label4)
+        Me.Panel1.Controls.Add(Me.Label3)
+        Me.Panel1.Controls.Add(Me.Label2)
+        Me.Panel1.Location = New System.Drawing.Point(3, 10)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(694, 55)
+        Me.Panel1.TabIndex = 1
+        '
+        'Label8
+        '
+        Me.Label8.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Label8.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(600, 0)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(98, 55)
+        Me.Label8.TabIndex = 6
+        Me.Label8.Text = "SATURDAY"
+        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label7
+        '
+        Me.Label7.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Label7.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(496, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(104, 55)
+        Me.Label7.TabIndex = 5
+        Me.Label7.Text = "FRIDAY"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label6
+        '
+        Me.Label6.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Label6.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(395, 0)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(101, 55)
+        Me.Label6.TabIndex = 4
+        Me.Label6.Text = "THURSDAY"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label5
+        '
+        Me.Label5.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Label5.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(297, 0)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(98, 55)
+        Me.Label5.TabIndex = 3
+        Me.Label5.Text = "WEDNESDAY"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label4
+        '
+        Me.Label4.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Label4.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(199, 0)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(98, 55)
+        Me.Label4.TabIndex = 2
+        Me.Label4.Text = "TUESDAY"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label3
+        '
+        Me.Label3.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Label3.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(101, 0)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(98, 55)
+        Me.Label3.TabIndex = 1
+        Me.Label3.Text = "MONDAY"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label2
+        '
+        Me.Label2.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Label2.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(0, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(101, 55)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "SUNDAY"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(62, Byte), Integer))
+        Me.Label1.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(550, 77)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(154, 24)
+        Me.Label1.TabIndex = 40
+        Me.Label1.Text = "JANUARY 2022"
+        '
+        'Guna2PictureBox2
+        '
+        Me.Guna2PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox2.Image = Global.Virtual_Backpack.My.Resources.Resources.notepad_bar
+        Me.Guna2PictureBox2.ImageRotate = 0!
+        Me.Guna2PictureBox2.Location = New System.Drawing.Point(273, 60)
+        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
+        Me.Guna2PictureBox2.ShadowDecoration.BorderRadius = 3
+        Me.Guna2PictureBox2.ShadowDecoration.Color = System.Drawing.Color.DarkGray
+        Me.Guna2PictureBox2.ShadowDecoration.Depth = 100
+        Me.Guna2PictureBox2.ShadowDecoration.Enabled = True
+        Me.Guna2PictureBox2.ShadowDecoration.Parent = Me.Guna2PictureBox2
+        Me.Guna2PictureBox2.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 5, 5)
+        Me.Guna2PictureBox2.Size = New System.Drawing.Size(699, 55)
+        Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox2.TabIndex = 39
+        Me.Guna2PictureBox2.TabStop = False
+        Me.Guna2PictureBox2.UseTransparentBackground = True
+        '
+        'minBtn
+        '
+        Me.minBtn.BackColor = System.Drawing.Color.Transparent
+        Me.minBtn.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.close
+        Me.minBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.minBtn.CheckedState.Parent = Me.minBtn
+        Me.minBtn.CustomImages.Parent = Me.minBtn
+        Me.minBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.minBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.minBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.minBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.minBtn.DisabledState.Parent = Me.minBtn
+        Me.minBtn.FillColor = System.Drawing.Color.Transparent
+        Me.minBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.minBtn.ForeColor = System.Drawing.Color.White
+        Me.minBtn.HoverState.Parent = Me.minBtn
+        Me.minBtn.Location = New System.Drawing.Point(946, 12)
+        Me.minBtn.Name = "minBtn"
+        Me.minBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.minBtn.ShadowDecoration.Parent = Me.minBtn
+        Me.minBtn.Size = New System.Drawing.Size(30, 30)
+        Me.minBtn.TabIndex = 37
+        Me.minBtn.TabStop = False
+        Me.minBtn.UseTransparentBackground = True
+        '
+        'closeBtn
+        '
+        Me.closeBtn.BackColor = System.Drawing.Color.Transparent
+        Me.closeBtn.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.cancel
+        Me.closeBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.closeBtn.CheckedState.Parent = Me.closeBtn
+        Me.closeBtn.CustomImages.Parent = Me.closeBtn
+        Me.closeBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.closeBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.closeBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.closeBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.closeBtn.DisabledState.Parent = Me.closeBtn
+        Me.closeBtn.FillColor = System.Drawing.Color.Transparent
+        Me.closeBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.closeBtn.ForeColor = System.Drawing.Color.White
+        Me.closeBtn.HoverState.Parent = Me.closeBtn
+        Me.closeBtn.Location = New System.Drawing.Point(982, 12)
+        Me.closeBtn.Name = "closeBtn"
+        Me.closeBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.closeBtn.ShadowDecoration.Parent = Me.closeBtn
+        Me.closeBtn.Size = New System.Drawing.Size(30, 30)
+        Me.closeBtn.TabIndex = 36
+        Me.closeBtn.TabStop = False
+        Me.closeBtn.UseTransparentBackground = True
         '
         'Guna2PictureBox3
         '
@@ -377,287 +555,6 @@ Partial Class planner
         Me.Guna2PictureBox1.TabIndex = 4
         Me.Guna2PictureBox1.TabStop = False
         '
-        'Guna2CustomGradientPanel1
-        '
-        Me.Guna2CustomGradientPanel1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CustomGradientPanel1.BorderColor = System.Drawing.Color.Gray
-        Me.Guna2CustomGradientPanel1.BorderRadius = 8
-        Me.Guna2CustomGradientPanel1.BorderThickness = 2
-        Me.Guna2CustomGradientPanel1.Controls.Add(Me.Guna2Button2)
-        Me.Guna2CustomGradientPanel1.Controls.Add(Me.Guna2Panel2)
-        Me.Guna2CustomGradientPanel1.Controls.Add(Me.Guna2Button1)
-        Me.Guna2CustomGradientPanel1.Location = New System.Drawing.Point(273, 104)
-        Me.Guna2CustomGradientPanel1.Name = "Guna2CustomGradientPanel1"
-        Me.Guna2CustomGradientPanel1.ShadowDecoration.BorderRadius = 3
-        Me.Guna2CustomGradientPanel1.ShadowDecoration.Color = System.Drawing.Color.DarkGray
-        Me.Guna2CustomGradientPanel1.ShadowDecoration.Depth = 100
-        Me.Guna2CustomGradientPanel1.ShadowDecoration.Enabled = True
-        Me.Guna2CustomGradientPanel1.ShadowDecoration.Parent = Me.Guna2CustomGradientPanel1
-        Me.Guna2CustomGradientPanel1.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 5, 5)
-        Me.Guna2CustomGradientPanel1.Size = New System.Drawing.Size(699, 453)
-        Me.Guna2CustomGradientPanel1.TabIndex = 38
-        '
-        'Guna2Panel2
-        '
-        Me.Guna2Panel2.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel2.BorderThickness = 3
-        Me.Guna2Panel2.Controls.Add(Me.Guna2Panel8)
-        Me.Guna2Panel2.Controls.Add(Me.Guna2Panel7)
-        Me.Guna2Panel2.Controls.Add(Me.Guna2Panel6)
-        Me.Guna2Panel2.Controls.Add(Me.Guna2Panel5)
-        Me.Guna2Panel2.Controls.Add(Me.Guna2Panel4)
-        Me.Guna2Panel2.Controls.Add(Me.Guna2Panel3)
-        Me.Guna2Panel2.Controls.Add(Me.Guna2Panel1)
-        Me.Guna2Panel2.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel2.Location = New System.Drawing.Point(3, 2)
-        Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.ShadowDecoration.Parent = Me.Guna2Panel2
-        Me.Guna2Panel2.Size = New System.Drawing.Size(693, 65)
-        Me.Guna2Panel2.TabIndex = 2
-        '
-        'Guna2PictureBox2
-        '
-        Me.Guna2PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox2.Image = Global.Virtual_Backpack.My.Resources.Resources.notepad_bar
-        Me.Guna2PictureBox2.ImageRotate = 0!
-        Me.Guna2PictureBox2.Location = New System.Drawing.Point(273, 60)
-        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Me.Guna2PictureBox2.ShadowDecoration.BorderRadius = 3
-        Me.Guna2PictureBox2.ShadowDecoration.Color = System.Drawing.Color.DarkGray
-        Me.Guna2PictureBox2.ShadowDecoration.Depth = 100
-        Me.Guna2PictureBox2.ShadowDecoration.Enabled = True
-        Me.Guna2PictureBox2.ShadowDecoration.Parent = Me.Guna2PictureBox2
-        Me.Guna2PictureBox2.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 5, 5)
-        Me.Guna2PictureBox2.Size = New System.Drawing.Size(699, 55)
-        Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox2.TabIndex = 39
-        Me.Guna2PictureBox2.TabStop = False
-        Me.Guna2PictureBox2.UseTransparentBackground = True
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(62, Byte), Integer))
-        Me.Label1.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(550, 77)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(154, 24)
-        Me.Label1.TabIndex = 40
-        Me.Label1.Text = "JANUARY 2022"
-        '
-        'Guna2BorderlessForm1
-        '
-        Me.Guna2BorderlessForm1.ContainerControl = Me
-        Me.Guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6R
-        Me.Guna2BorderlessForm1.TransparentWhileDrag = True
-        '
-        'Guna2Panel1
-        '
-        Me.Guna2Panel1.Controls.Add(Me.Label2)
-        Me.Guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Guna2Panel1.FillColor = System.Drawing.Color.Gainsboro
-        Me.Guna2Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.ShadowDecoration.Parent = Me.Guna2Panel1
-        Me.Guna2Panel1.Size = New System.Drawing.Size(99, 65)
-        Me.Guna2Panel1.TabIndex = 42
-        '
-        'Guna2Panel3
-        '
-        Me.Guna2Panel3.Controls.Add(Me.Label3)
-        Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Guna2Panel3.FillColor = System.Drawing.Color.Gainsboro
-        Me.Guna2Panel3.Location = New System.Drawing.Point(99, 0)
-        Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.ShadowDecoration.Parent = Me.Guna2Panel3
-        Me.Guna2Panel3.Size = New System.Drawing.Size(99, 65)
-        Me.Guna2Panel3.TabIndex = 43
-        '
-        'Guna2Panel4
-        '
-        Me.Guna2Panel4.Controls.Add(Me.Label4)
-        Me.Guna2Panel4.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Guna2Panel4.FillColor = System.Drawing.Color.Gainsboro
-        Me.Guna2Panel4.Location = New System.Drawing.Point(198, 0)
-        Me.Guna2Panel4.Name = "Guna2Panel4"
-        Me.Guna2Panel4.ShadowDecoration.Parent = Me.Guna2Panel4
-        Me.Guna2Panel4.Size = New System.Drawing.Size(99, 65)
-        Me.Guna2Panel4.TabIndex = 44
-        '
-        'Guna2Panel5
-        '
-        Me.Guna2Panel5.Controls.Add(Me.Label5)
-        Me.Guna2Panel5.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Guna2Panel5.FillColor = System.Drawing.Color.Gainsboro
-        Me.Guna2Panel5.Location = New System.Drawing.Point(297, 0)
-        Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.ShadowDecoration.Parent = Me.Guna2Panel5
-        Me.Guna2Panel5.Size = New System.Drawing.Size(99, 65)
-        Me.Guna2Panel5.TabIndex = 45
-        '
-        'Guna2Panel6
-        '
-        Me.Guna2Panel6.Controls.Add(Me.Label6)
-        Me.Guna2Panel6.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Guna2Panel6.FillColor = System.Drawing.Color.Gainsboro
-        Me.Guna2Panel6.Location = New System.Drawing.Point(396, 0)
-        Me.Guna2Panel6.Name = "Guna2Panel6"
-        Me.Guna2Panel6.ShadowDecoration.Parent = Me.Guna2Panel6
-        Me.Guna2Panel6.Size = New System.Drawing.Size(99, 65)
-        Me.Guna2Panel6.TabIndex = 46
-        '
-        'Guna2Panel7
-        '
-        Me.Guna2Panel7.Controls.Add(Me.Label7)
-        Me.Guna2Panel7.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Guna2Panel7.FillColor = System.Drawing.Color.Gainsboro
-        Me.Guna2Panel7.Location = New System.Drawing.Point(495, 0)
-        Me.Guna2Panel7.Name = "Guna2Panel7"
-        Me.Guna2Panel7.ShadowDecoration.Parent = Me.Guna2Panel7
-        Me.Guna2Panel7.Size = New System.Drawing.Size(99, 65)
-        Me.Guna2Panel7.TabIndex = 47
-        '
-        'Guna2Panel8
-        '
-        Me.Guna2Panel8.Controls.Add(Me.Label8)
-        Me.Guna2Panel8.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Guna2Panel8.FillColor = System.Drawing.Color.Gainsboro
-        Me.Guna2Panel8.Location = New System.Drawing.Point(594, 0)
-        Me.Guna2Panel8.Name = "Guna2Panel8"
-        Me.Guna2Panel8.ShadowDecoration.Parent = Me.Guna2Panel8
-        Me.Guna2Panel8.Size = New System.Drawing.Size(99, 65)
-        Me.Guna2Panel8.TabIndex = 48
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(21, 27)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(56, 18)
-        Me.Label2.TabIndex = 42
-        Me.Label2.Text = "SUNDAY"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(21, 27)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(56, 18)
-        Me.Label3.TabIndex = 42
-        Me.Label3.Text = "MONDAY"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(19, 27)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(64, 18)
-        Me.Label4.TabIndex = 42
-        Me.Label4.Text = "TUESDAY"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(10, 27)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(80, 18)
-        Me.Label5.TabIndex = 42
-        Me.Label5.Text = "WEDNESDAY"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(14, 27)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(72, 18)
-        Me.Label6.TabIndex = 42
-        Me.Label6.Text = "THURSDAY"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(22, 27)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(56, 18)
-        Me.Label7.TabIndex = 42
-        Me.Label7.Text = "FRIDAY"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.BackColor = System.Drawing.Color.Transparent
-        Me.Label8.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label8.Location = New System.Drawing.Point(15, 27)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(72, 18)
-        Me.Label8.TabIndex = 42
-        Me.Label8.Text = "SATURDAY"
-        '
-        'Guna2Button2
-        '
-        Me.Guna2Button2.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.calculator
-        Me.Guna2Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Guna2Button2.CheckedState.Parent = Me.Guna2Button2
-        Me.Guna2Button2.CustomImages.Parent = Me.Guna2Button2
-        Me.Guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button2.DisabledState.Parent = Me.Guna2Button2
-        Me.Guna2Button2.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button2.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button2.HoverState.Parent = Me.Guna2Button2
-        Me.Guna2Button2.Location = New System.Drawing.Point(644, 399)
-        Me.Guna2Button2.Name = "Guna2Button2"
-        Me.Guna2Button2.ShadowDecoration.Parent = Me.Guna2Button2
-        Me.Guna2Button2.Size = New System.Drawing.Size(40, 40)
-        Me.Guna2Button2.TabIndex = 42
-        Me.Guna2Button2.TabStop = False
-        Me.Guna2Button2.Tag = ""
-        '
-        'Guna2Button1
-        '
-        Me.Guna2Button1.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.search
-        Me.Guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Guna2Button1.CheckedState.Parent = Me.Guna2Button1
-        Me.Guna2Button1.CustomImages.Parent = Me.Guna2Button1
-        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button1.DisabledState.Parent = Me.Guna2Button1
-        Me.Guna2Button1.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button1.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button1.HoverState.Parent = Me.Guna2Button1
-        Me.Guna2Button1.Location = New System.Drawing.Point(644, 353)
-        Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.ShadowDecoration.Parent = Me.Guna2Button1
-        Me.Guna2Button1.Size = New System.Drawing.Size(40, 40)
-        Me.Guna2Button1.TabIndex = 41
-        Me.Guna2Button1.TabStop = False
-        '
         'planner
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -667,8 +564,8 @@ Partial Class planner
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Guna2PictureBox2)
         Me.Controls.Add(Me.Guna2CustomGradientPanel1)
-        Me.Controls.Add(Me.Guna2CircleButton2)
-        Me.Controls.Add(Me.Guna2CircleButton1)
+        Me.Controls.Add(Me.minBtn)
+        Me.Controls.Add(Me.closeBtn)
         Me.Controls.Add(Me.Guna2GradientButton6)
         Me.Controls.Add(Me.Guna2GradientButton3)
         Me.Controls.Add(Me.Guna2GradientButton5)
@@ -680,25 +577,14 @@ Partial Class planner
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "planner"
         Me.Text = "planner"
+        Me.Guna2CustomGradientPanel1.ResumeLayout(False)
+        Me.flDays.ResumeLayout(False)
+        Me.FlowLayoutPanel2.ResumeLayout(False)
+        Me.FlowLayoutPanel2.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Guna2CustomGradientPanel1.ResumeLayout(False)
-        Me.Guna2Panel2.ResumeLayout(False)
-        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Guna2Panel1.ResumeLayout(False)
-        Me.Guna2Panel1.PerformLayout()
-        Me.Guna2Panel3.ResumeLayout(False)
-        Me.Guna2Panel3.PerformLayout()
-        Me.Guna2Panel4.ResumeLayout(False)
-        Me.Guna2Panel4.PerformLayout()
-        Me.Guna2Panel5.ResumeLayout(False)
-        Me.Guna2Panel5.PerformLayout()
-        Me.Guna2Panel6.ResumeLayout(False)
-        Me.Guna2Panel6.PerformLayout()
-        Me.Guna2Panel7.ResumeLayout(False)
-        Me.Guna2Panel7.PerformLayout()
-        Me.Guna2Panel8.ResumeLayout(False)
-        Me.Guna2Panel8.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -712,21 +598,16 @@ Partial Class planner
     Friend WithEvents Guna2GradientButton1 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2PictureBox3 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Guna2GradientButton3 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2CircleButton2 As Guna.UI2.WinForms.Guna2CircleButton
-    Friend WithEvents Guna2CircleButton1 As Guna.UI2.WinForms.Guna2CircleButton
+    Friend WithEvents minBtn As Guna.UI2.WinForms.Guna2CircleButton
+    Friend WithEvents closeBtn As Guna.UI2.WinForms.Guna2CircleButton
     Friend WithEvents Guna2GradientButton6 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2CustomGradientPanel1 As Guna.UI2.WinForms.Guna2CustomGradientPanel
-    Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2BorderlessForm1 As Guna.UI2.WinForms.Guna2BorderlessForm
-    Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel8 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel7 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel6 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel5 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents Guna2CustomGradientPanel1 As Guna.UI2.WinForms.Guna2CustomGradientPanel
+    Friend WithEvents flDays As FlowLayoutPanel
+    Friend WithEvents FlowLayoutPanel2 As FlowLayoutPanel
+    Friend WithEvents Panel1 As Panel
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label6 As Label
@@ -734,6 +615,6 @@ Partial Class planner
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Label9 As Label
+    Friend WithEvents LinkLabel1 As LinkLabel
 End Class

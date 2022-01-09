@@ -121,17 +121,26 @@
   <data name="gradient background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gradient background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="vbp text" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vbp text.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="red5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="home1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hompage background2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hompage background2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paintt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paintt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="line1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\line1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,11 +151,20 @@
   <data name="grid" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="padlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\padlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="red3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notepadd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notepadd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user home 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user home 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="element" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\element.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="education isometric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\education isometric.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="notepad bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\notepad bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,17 +172,41 @@
   <data name="gradient background2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gradient background2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="calculator" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\calculator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="vbp logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vbp logo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="art-and-design" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\art-and-design.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="violet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\violet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="vbp logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vbp logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="sketchpad" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sketchpad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="circle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\circle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,14 +220,44 @@
   <data name="cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="homepage 3d element" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\homepage 3d element.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logo title" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login design" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login design.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="logo 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="planner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\planner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="notepad bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\notepad bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtual bp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\virtual bp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtual bp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\virtual bp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,25 +265,46 @@
   <data name="hompage background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hompage background1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="red1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\redd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="line" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\line.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="3dicons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dicons.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="gradient background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gradient background1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="planner" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\planner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="padlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\padlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="login design" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\login design.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="paint-palette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paint-palette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plannerr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plannerr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="greenn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\greenn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="notepad" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\notepad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="element" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\element.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="brush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brush.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yelloww" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yelloww.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vbp text1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vbp text1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
