@@ -1,26 +1,26 @@
-﻿Imports MySql.Data.MySqlClient
+﻿Imports System.Data.SqlClient
 Public Class login
-    Dim MysqlConn As MySqlConnection
-    Dim COMMAND As MySqlCommand
+    Dim Conn As SqlConnection
+    Dim COMMAND As SqlCommand
     Private Sub login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Database
-        MysqlConn = New MySqlConnection()
+        Conn = New SqlConnection()
 
         'Change userid and password
         '///////////////////////////////////////////////////////////////////////////////////
-        MysqlConn.ConnectionString =
-            "server=localhost;userid=root;password=crimsonfangs13;database=virtualbackpack"
+        Conn.ConnectionString =
+            "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\PC\Documents\virtualbackpackdb.mdf;Integrated Security=True;Connect Timeout=30"
         '//////////////////////////////////////////////////////////////////////////////////
-        Dim READER As MySqlDataReader
+        Dim READER As SqlDataReader
         Dim Query As String
         Dim count As Integer
         Try
-            MysqlConn.Open()
+            Conn.Open()
             'Database name and Table name
             '//////////////////////////////////////////////////
-            Query = " SELECT * FROM virtualbackpack.accounts"
+            Query = " SELECT * FROM accounts"
             '//////////////////////////////////////////////////
-            COMMAND = New MySqlCommand(Query, MysqlConn)
+            COMMAND = New SqlCommand(Query, Conn)
             READER = COMMAND.ExecuteReader
             While READER.Read
                 count += 1
@@ -36,7 +36,7 @@ Public Class login
         Catch ex As Exception
             MessageBox.Show(ex.Message)
         Finally
-            MysqlConn.Dispose()
+            Conn.Dispose()
 
         End Try
     End Sub
@@ -60,19 +60,19 @@ Public Class login
 
     End Sub
     Private Sub loginBtn_Click_1(sender As Object, e As EventArgs) Handles loginBtn.Click
-        MysqlConn = New MySqlConnection()
+        Conn = New SqlConnection()
         'Change userid and password
         '///////////////////////////////////////////////////////////////////////////////////
-        MysqlConn.ConnectionString =
-            "server=localhost;userid=root;password=crimsonfangs13;database=virtualbackpack"
+        Conn.ConnectionString =
+            "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\PC\Documents\virtualbackpackdb.mdf;Integrated Security=True;Connect Timeout=30"
         '//////////////////////////////////////////////////////////////////////////////////
-        Dim READER As MySqlDataReader
+        Dim READER As SqlDataReader
         Dim Query As String
         Dim count As Integer
         Try
-            MysqlConn.Open()
-            Query = " SELECT * FROM virtualbackpack.accounts where username='" & userTb.Text & "'and password='" & passwordTb.Text & "'"
-            COMMAND = New MySqlCommand(Query, MysqlConn)
+            Conn.Open()
+            Query = " SELECT * FROM accounts where username='" & userTb.Text & "'and password='" & passwordTb.Text & "'"
+            COMMAND = New SqlCommand(Query, Conn)
             READER = COMMAND.ExecuteReader
             Dim user As String
             While READER.Read
@@ -93,7 +93,7 @@ Public Class login
         Catch ex As Exception
             MessageBox.Show(ex.Message)
         Finally
-            MysqlConn.Dispose()
+            Conn.Dispose()
 
         End Try
     End Sub
