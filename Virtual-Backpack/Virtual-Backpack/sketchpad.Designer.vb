@@ -30,6 +30,7 @@ Partial Class sketchpad
         Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton4 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
+        Me.sketchpadbox = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.purpleBtn = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.blueBtn = New Guna.UI2.WinForms.Guna2CircleButton()
@@ -43,15 +44,14 @@ Partial Class sketchpad
         Me.closeBtn = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.sketchpadbox = New System.Windows.Forms.PictureBox()
         Me.sizeCb = New Guna.UI2.WinForms.Guna2ComboBox()
         Me.saveBtn = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.clearBtn = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2CustomGradientPanel1.SuspendLayout()
+        CType(Me.sketchpadbox, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.sketchpadbox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
@@ -260,6 +260,14 @@ Partial Class sketchpad
         Me.Guna2CustomGradientPanel1.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 5, 5)
         Me.Guna2CustomGradientPanel1.Size = New System.Drawing.Size(699, 418)
         Me.Guna2CustomGradientPanel1.TabIndex = 42
+        '
+        'sketchpadbox
+        '
+        Me.sketchpadbox.Location = New System.Drawing.Point(3, 11)
+        Me.sketchpadbox.Name = "sketchpadbox"
+        Me.sketchpadbox.Size = New System.Drawing.Size(693, 404)
+        Me.sketchpadbox.TabIndex = 1
+        Me.sketchpadbox.TabStop = False
         '
         'Label1
         '
@@ -524,14 +532,6 @@ Partial Class sketchpad
         Me.Guna2PictureBox1.TabIndex = 31
         Me.Guna2PictureBox1.TabStop = False
         '
-        'sketchpadbox
-        '
-        Me.sketchpadbox.Location = New System.Drawing.Point(3, 11)
-        Me.sketchpadbox.Name = "sketchpadbox"
-        Me.sketchpadbox.Size = New System.Drawing.Size(693, 404)
-        Me.sketchpadbox.TabIndex = 1
-        Me.sketchpadbox.TabStop = False
-        '
         'sizeCb
         '
         Me.sizeCb.BackColor = System.Drawing.Color.Transparent
@@ -635,10 +635,10 @@ Partial Class sketchpad
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "sketchpad"
         Me.Guna2CustomGradientPanel1.ResumeLayout(False)
+        CType(Me.sketchpadbox, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.sketchpadbox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

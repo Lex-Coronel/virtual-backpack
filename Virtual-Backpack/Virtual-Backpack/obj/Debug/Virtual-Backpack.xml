@@ -162,6 +162,11 @@ Virtual-Backpack
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.logo_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Virtual_Backpack.My.Resources.Resources.logo_title">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -288,6 +293,21 @@ Virtual-Backpack
 </summary>
 </member>
 <member name="P:Virtual_Backpack.My.Resources.Resources.vbp_logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.vbp_logo1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.vbp_text">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Virtual_Backpack.My.Resources.Resources.vbp_text1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

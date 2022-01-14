@@ -15,4 +15,12 @@
         Me.Hide()
         sketchpad.Show()
     End Sub
+
+    Private Sub Guna2CirclePictureBox2_Click(sender As Object, e As EventArgs) Handles Guna2CirclePictureBox2.Click
+        Me.WindowState = FormWindowState.Minimized
+    End Sub
+
+    Private Sub Guna2CirclePictureBox1_Click(sender As Object, e As EventArgs) Handles Guna2CirclePictureBox1.Click
+        Me.Close()
+    End Sub
 End Class
