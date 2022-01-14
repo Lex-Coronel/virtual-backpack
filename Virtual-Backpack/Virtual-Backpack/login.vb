@@ -9,7 +9,7 @@ Public Class login
         'Change userid and password
         '///////////////////////////////////////////////////////////////////////////////////
         MysqlConn.ConnectionString =
-            "server=localhost;userid=root;password=crimsonfangs13;database=virtualbackpack"
+            "server=localhost;userid=root;password=Cpecoronel12;database=virtualbackpack"
         '//////////////////////////////////////////////////////////////////////////////////
         Dim READER As MySqlDataReader
         Dim Query As String
@@ -101,5 +101,13 @@ Public Class login
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles register.Click
         Me.Hide()
         registration.Show()
+    End Sub
+
+    Private Sub Guna2CirclePictureBox2_Click(sender As Object, e As EventArgs) Handles Guna2CirclePictureBox2.Click
+        Me.WindowState = FormWindowState.Minimized
+    End Sub
+
+    Private Sub closeBtn_Click(sender As Object, e As EventArgs) Handles closeBtn.Click
+        Me.Close()
     End Sub
 End Class

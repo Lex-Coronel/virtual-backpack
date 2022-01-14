@@ -36,10 +36,13 @@ Partial Class login
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.userTb = New Guna.UI2.WinForms.Guna2TextBox()
         Me.passwordTb = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.closeBtn = New Guna.UI2.WinForms.Guna2CircleButton()
+        Me.Guna2CirclePictureBox2 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Guna2CirclePictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
@@ -245,12 +248,52 @@ Partial Class login
         Me.passwordTb.Size = New System.Drawing.Size(270, 43)
         Me.passwordTb.TabIndex = 2
         '
+        'closeBtn
+        '
+        Me.closeBtn.BackColor = System.Drawing.Color.Transparent
+        Me.closeBtn.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.cancel
+        Me.closeBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.closeBtn.CheckedState.Parent = Me.closeBtn
+        Me.closeBtn.CustomImages.Parent = Me.closeBtn
+        Me.closeBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.closeBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.closeBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.closeBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.closeBtn.DisabledState.Parent = Me.closeBtn
+        Me.closeBtn.FillColor = System.Drawing.Color.Transparent
+        Me.closeBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.closeBtn.ForeColor = System.Drawing.Color.White
+        Me.closeBtn.HoverState.Parent = Me.closeBtn
+        Me.closeBtn.Location = New System.Drawing.Point(758, 12)
+        Me.closeBtn.Name = "closeBtn"
+        Me.closeBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.closeBtn.ShadowDecoration.Parent = Me.closeBtn
+        Me.closeBtn.Size = New System.Drawing.Size(30, 30)
+        Me.closeBtn.TabIndex = 23
+        Me.closeBtn.TabStop = False
+        Me.closeBtn.UseTransparentBackground = True
+        '
+        'Guna2CirclePictureBox2
+        '
+        Me.Guna2CirclePictureBox2.Image = Global.Virtual_Backpack.My.Resources.Resources.close
+        Me.Guna2CirclePictureBox2.ImageRotate = 0!
+        Me.Guna2CirclePictureBox2.Location = New System.Drawing.Point(722, 12)
+        Me.Guna2CirclePictureBox2.Name = "Guna2CirclePictureBox2"
+        Me.Guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CirclePictureBox2.ShadowDecoration.Parent = Me.Guna2CirclePictureBox2
+        Me.Guna2CirclePictureBox2.Size = New System.Drawing.Size(30, 30)
+        Me.Guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2CirclePictureBox2.TabIndex = 24
+        Me.Guna2CirclePictureBox2.TabStop = False
+        '
         'login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Guna2CirclePictureBox2)
+        Me.Controls.Add(Me.closeBtn)
         Me.Controls.Add(Me.register)
         Me.Controls.Add(Me.Guna2PictureBox5)
         Me.Controls.Add(Me.Guna2PictureBox4)
@@ -271,6 +314,7 @@ Partial Class login
         CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Guna2CirclePictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -288,4 +332,6 @@ Partial Class login
     Friend WithEvents Guna2PictureBox5 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
     Friend WithEvents register As Label
+    Friend WithEvents closeBtn As Guna.UI2.WinForms.Guna2CircleButton
+    Friend WithEvents Guna2CirclePictureBox2 As Guna.UI2.WinForms.Guna2CirclePictureBox
 End Class
