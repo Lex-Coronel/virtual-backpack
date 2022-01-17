@@ -33,9 +33,6 @@ Partial Class planner
         Me.Guna2BorderlessForm1 = New Guna.UI2.WinForms.Guna2BorderlessForm(Me.components)
         Me.Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
         Me.flDays = New System.Windows.Forms.FlowLayoutPanel()
-        Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -50,9 +47,10 @@ Partial Class planner
         Me.closeBtn = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Guna2GradientButton7 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.Guna2GradientButton8 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.Guna2GradientButton9 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2CustomGradientPanel1.SuspendLayout()
-        Me.flDays.SuspendLayout()
-        Me.FlowLayoutPanel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -311,48 +309,15 @@ Partial Class planner
         Me.Guna2CustomGradientPanel1.ShadowDecoration.Enabled = True
         Me.Guna2CustomGradientPanel1.ShadowDecoration.Parent = Me.Guna2CustomGradientPanel1
         Me.Guna2CustomGradientPanel1.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 5, 5)
-        Me.Guna2CustomGradientPanel1.Size = New System.Drawing.Size(699, 453)
+        Me.Guna2CustomGradientPanel1.Size = New System.Drawing.Size(699, 661)
         Me.Guna2CustomGradientPanel1.TabIndex = 38
         '
         'flDays
         '
-        Me.flDays.Controls.Add(Me.FlowLayoutPanel2)
         Me.flDays.Location = New System.Drawing.Point(3, 66)
         Me.flDays.Name = "flDays"
-        Me.flDays.Size = New System.Drawing.Size(693, 382)
+        Me.flDays.Size = New System.Drawing.Size(693, 599)
         Me.flDays.TabIndex = 2
-        '
-        'FlowLayoutPanel2
-        '
-        Me.FlowLayoutPanel2.Controls.Add(Me.Label9)
-        Me.FlowLayoutPanel2.Controls.Add(Me.LinkLabel1)
-        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(3, 3)
-        Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
-        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(93, 90)
-        Me.FlowLayoutPanel2.TabIndex = 0
-        '
-        'Label9
-        '
-        Me.Label9.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(3, 0)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(90, 30)
-        Me.Label9.TabIndex = 1
-        Me.Label9.Text = "1"
-        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'LinkLabel1
-        '
-        Me.LinkLabel1.ActiveLinkColor = System.Drawing.Color.Firebrick
-        Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel1.LinkColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(33, Byte), Integer))
-        Me.LinkLabel1.Location = New System.Drawing.Point(3, 30)
-        Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(68, 17)
-        Me.LinkLabel1.TabIndex = 2
-        Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "LinkLabel1"
         '
         'Panel1
         '
@@ -555,12 +520,75 @@ Partial Class planner
         Me.Guna2PictureBox1.TabIndex = 4
         Me.Guna2PictureBox1.TabStop = False
         '
+        'Guna2GradientButton7
+        '
+        Me.Guna2GradientButton7.CheckedState.Parent = Me.Guna2GradientButton7
+        Me.Guna2GradientButton7.CustomImages.Parent = Me.Guna2GradientButton7
+        Me.Guna2GradientButton7.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton7.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton7.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2GradientButton7.DisabledState.Parent = Me.Guna2GradientButton7
+        Me.Guna2GradientButton7.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2GradientButton7.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton7.HoverState.Parent = Me.Guna2GradientButton7
+        Me.Guna2GradientButton7.Location = New System.Drawing.Point(710, 63)
+        Me.Guna2GradientButton7.Name = "Guna2GradientButton7"
+        Me.Guna2GradientButton7.ShadowDecoration.Parent = Me.Guna2GradientButton7
+        Me.Guna2GradientButton7.Size = New System.Drawing.Size(73, 45)
+        Me.Guna2GradientButton7.TabIndex = 41
+        Me.Guna2GradientButton7.Text = "<"
+        '
+        'Guna2GradientButton8
+        '
+        Me.Guna2GradientButton8.CheckedState.Parent = Me.Guna2GradientButton8
+        Me.Guna2GradientButton8.CustomImages.Parent = Me.Guna2GradientButton8
+        Me.Guna2GradientButton8.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton8.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton8.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2GradientButton8.DisabledState.Parent = Me.Guna2GradientButton8
+        Me.Guna2GradientButton8.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2GradientButton8.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton8.HoverState.Parent = Me.Guna2GradientButton8
+        Me.Guna2GradientButton8.Location = New System.Drawing.Point(897, 63)
+        Me.Guna2GradientButton8.Name = "Guna2GradientButton8"
+        Me.Guna2GradientButton8.ShadowDecoration.Parent = Me.Guna2GradientButton8
+        Me.Guna2GradientButton8.Size = New System.Drawing.Size(73, 45)
+        Me.Guna2GradientButton8.TabIndex = 42
+        Me.Guna2GradientButton8.Text = ">"
+        '
+        'Guna2GradientButton9
+        '
+        Me.Guna2GradientButton9.CheckedState.Parent = Me.Guna2GradientButton9
+        Me.Guna2GradientButton9.CustomImages.Parent = Me.Guna2GradientButton9
+        Me.Guna2GradientButton9.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton9.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton9.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2GradientButton9.DisabledState.Parent = Me.Guna2GradientButton9
+        Me.Guna2GradientButton9.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2GradientButton9.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton9.HoverState.Parent = Me.Guna2GradientButton9
+        Me.Guna2GradientButton9.Location = New System.Drawing.Point(803, 63)
+        Me.Guna2GradientButton9.Name = "Guna2GradientButton9"
+        Me.Guna2GradientButton9.ShadowDecoration.Parent = Me.Guna2GradientButton9
+        Me.Guna2GradientButton9.Size = New System.Drawing.Size(73, 45)
+        Me.Guna2GradientButton9.TabIndex = 43
+        Me.Guna2GradientButton9.Text = "Today"
+        '
         'planner
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1024, 600)
+        Me.ClientSize = New System.Drawing.Size(1024, 788)
+        Me.Controls.Add(Me.Guna2GradientButton9)
+        Me.Controls.Add(Me.Guna2GradientButton8)
+        Me.Controls.Add(Me.Guna2GradientButton7)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Guna2PictureBox2)
         Me.Controls.Add(Me.Guna2CustomGradientPanel1)
@@ -578,9 +606,6 @@ Partial Class planner
         Me.Name = "planner"
         Me.Text = "planner"
         Me.Guna2CustomGradientPanel1.ResumeLayout(False)
-        Me.flDays.ResumeLayout(False)
-        Me.FlowLayoutPanel2.ResumeLayout(False)
-        Me.FlowLayoutPanel2.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -606,7 +631,6 @@ Partial Class planner
     Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Guna2CustomGradientPanel1 As Guna.UI2.WinForms.Guna2CustomGradientPanel
     Friend WithEvents flDays As FlowLayoutPanel
-    Friend WithEvents FlowLayoutPanel2 As FlowLayoutPanel
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
@@ -615,6 +639,7 @@ Partial Class planner
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label9 As Label
-    Friend WithEvents LinkLabel1 As LinkLabel
+    Friend WithEvents Guna2GradientButton8 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton7 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton9 As Guna.UI2.WinForms.Guna2GradientButton
 End Class
