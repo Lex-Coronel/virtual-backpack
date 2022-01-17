@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class calculator
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class calculator
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
@@ -35,16 +35,16 @@ Partial Class calculator
         Me.Guna2GradientCircleButton9 = New Guna.UI2.WinForms.Guna2GradientCircleButton()
         Me.Guna2GradientCircleButton10 = New Guna.UI2.WinForms.Guna2GradientCircleButton()
         Me.Guna2GradientCircleButton11 = New Guna.UI2.WinForms.Guna2GradientCircleButton()
-        Me.Guna2GradientCircleButton12 = New Guna.UI2.WinForms.Guna2GradientCircleButton()
-        Me.Guna2GradientCircleButton13 = New Guna.UI2.WinForms.Guna2GradientCircleButton()
-        Me.Guna2GradientCircleButton14 = New Guna.UI2.WinForms.Guna2GradientCircleButton()
-        Me.Guna2GradientCircleButton15 = New Guna.UI2.WinForms.Guna2GradientCircleButton()
+        Me.Equal = New Guna.UI2.WinForms.Guna2GradientCircleButton()
+        Me.Plus = New Guna.UI2.WinForms.Guna2GradientCircleButton()
+        Me.Minus = New Guna.UI2.WinForms.Guna2GradientCircleButton()
+        Me.Multi = New Guna.UI2.WinForms.Guna2GradientCircleButton()
         Me.Guna2GradientCircleButton16 = New Guna.UI2.WinForms.Guna2GradientCircleButton()
         Me.Guna2GradientCircleButton17 = New Guna.UI2.WinForms.Guna2GradientCircleButton()
         Me.Guna2GradientCircleButton18 = New Guna.UI2.WinForms.Guna2GradientCircleButton()
         Me.Guna2GradientCircleButton19 = New Guna.UI2.WinForms.Guna2GradientCircleButton()
-        Me.Guna2GradientCircleButton20 = New Guna.UI2.WinForms.Guna2GradientCircleButton()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Div = New Guna.UI2.WinForms.Guna2GradientCircleButton()
+        Me.Equation = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Guna2CircleButton2 = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
@@ -373,121 +373,121 @@ Partial Class calculator
         Me.Guna2GradientCircleButton11.Text = "9"
         Me.Guna2GradientCircleButton11.UseTransparentBackground = True
         '
-        'Guna2GradientCircleButton12
+        'Equal
         '
-        Me.Guna2GradientCircleButton12.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientCircleButton12.CheckedState.Parent = Me.Guna2GradientCircleButton12
-        Me.Guna2GradientCircleButton12.CustomImages.Parent = Me.Guna2GradientCircleButton12
-        Me.Guna2GradientCircleButton12.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientCircleButton12.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientCircleButton12.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientCircleButton12.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientCircleButton12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientCircleButton12.DisabledState.Parent = Me.Guna2GradientCircleButton12
-        Me.Guna2GradientCircleButton12.FillColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(47, Byte), Integer))
-        Me.Guna2GradientCircleButton12.FillColor2 = System.Drawing.Color.Firebrick
-        Me.Guna2GradientCircleButton12.Font = New System.Drawing.Font("Consolas", 20.25!)
-        Me.Guna2GradientCircleButton12.ForeColor = System.Drawing.Color.Gainsboro
-        Me.Guna2GradientCircleButton12.HoverState.Parent = Me.Guna2GradientCircleButton12
-        Me.Guna2GradientCircleButton12.Location = New System.Drawing.Point(195, 382)
-        Me.Guna2GradientCircleButton12.Name = "Guna2GradientCircleButton12"
-        Me.Guna2GradientCircleButton12.ShadowDecoration.Color = System.Drawing.Color.DarkGray
-        Me.Guna2GradientCircleButton12.ShadowDecoration.Depth = 25
-        Me.Guna2GradientCircleButton12.ShadowDecoration.Enabled = True
-        Me.Guna2GradientCircleButton12.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2GradientCircleButton12.ShadowDecoration.Parent = Me.Guna2GradientCircleButton12
-        Me.Guna2GradientCircleButton12.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(4)
-        Me.Guna2GradientCircleButton12.Size = New System.Drawing.Size(55, 55)
-        Me.Guna2GradientCircleButton12.TabIndex = 12
-        Me.Guna2GradientCircleButton12.Text = "="
-        Me.Guna2GradientCircleButton12.UseTransparentBackground = True
+        Me.Equal.BackColor = System.Drawing.Color.Transparent
+        Me.Equal.CheckedState.Parent = Me.Equal
+        Me.Equal.CustomImages.Parent = Me.Equal
+        Me.Equal.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Equal.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Equal.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Equal.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Equal.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Equal.DisabledState.Parent = Me.Equal
+        Me.Equal.FillColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(47, Byte), Integer))
+        Me.Equal.FillColor2 = System.Drawing.Color.Firebrick
+        Me.Equal.Font = New System.Drawing.Font("Consolas", 20.25!)
+        Me.Equal.ForeColor = System.Drawing.Color.Gainsboro
+        Me.Equal.HoverState.Parent = Me.Equal
+        Me.Equal.Location = New System.Drawing.Point(195, 382)
+        Me.Equal.Name = "Equal"
+        Me.Equal.ShadowDecoration.Color = System.Drawing.Color.DarkGray
+        Me.Equal.ShadowDecoration.Depth = 25
+        Me.Equal.ShadowDecoration.Enabled = True
+        Me.Equal.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Equal.ShadowDecoration.Parent = Me.Equal
+        Me.Equal.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(4)
+        Me.Equal.Size = New System.Drawing.Size(55, 55)
+        Me.Equal.TabIndex = 12
+        Me.Equal.Text = "="
+        Me.Equal.UseTransparentBackground = True
         '
-        'Guna2GradientCircleButton13
+        'Plus
         '
-        Me.Guna2GradientCircleButton13.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientCircleButton13.CheckedState.Parent = Me.Guna2GradientCircleButton13
-        Me.Guna2GradientCircleButton13.CustomImages.Parent = Me.Guna2GradientCircleButton13
-        Me.Guna2GradientCircleButton13.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientCircleButton13.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientCircleButton13.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientCircleButton13.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientCircleButton13.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientCircleButton13.DisabledState.Parent = Me.Guna2GradientCircleButton13
-        Me.Guna2GradientCircleButton13.FillColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(47, Byte), Integer))
-        Me.Guna2GradientCircleButton13.FillColor2 = System.Drawing.Color.Firebrick
-        Me.Guna2GradientCircleButton13.Font = New System.Drawing.Font("Consolas", 20.25!)
-        Me.Guna2GradientCircleButton13.ForeColor = System.Drawing.Color.Gainsboro
-        Me.Guna2GradientCircleButton13.HoverState.Parent = Me.Guna2GradientCircleButton13
-        Me.Guna2GradientCircleButton13.Location = New System.Drawing.Point(195, 321)
-        Me.Guna2GradientCircleButton13.Name = "Guna2GradientCircleButton13"
-        Me.Guna2GradientCircleButton13.ShadowDecoration.Color = System.Drawing.Color.DarkGray
-        Me.Guna2GradientCircleButton13.ShadowDecoration.Depth = 25
-        Me.Guna2GradientCircleButton13.ShadowDecoration.Enabled = True
-        Me.Guna2GradientCircleButton13.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2GradientCircleButton13.ShadowDecoration.Parent = Me.Guna2GradientCircleButton13
-        Me.Guna2GradientCircleButton13.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(4)
-        Me.Guna2GradientCircleButton13.Size = New System.Drawing.Size(55, 55)
-        Me.Guna2GradientCircleButton13.TabIndex = 13
-        Me.Guna2GradientCircleButton13.Text = "+"
-        Me.Guna2GradientCircleButton13.UseTransparentBackground = True
+        Me.Plus.BackColor = System.Drawing.Color.Transparent
+        Me.Plus.CheckedState.Parent = Me.Plus
+        Me.Plus.CustomImages.Parent = Me.Plus
+        Me.Plus.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Plus.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Plus.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Plus.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Plus.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Plus.DisabledState.Parent = Me.Plus
+        Me.Plus.FillColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(47, Byte), Integer))
+        Me.Plus.FillColor2 = System.Drawing.Color.Firebrick
+        Me.Plus.Font = New System.Drawing.Font("Consolas", 20.25!)
+        Me.Plus.ForeColor = System.Drawing.Color.Gainsboro
+        Me.Plus.HoverState.Parent = Me.Plus
+        Me.Plus.Location = New System.Drawing.Point(195, 321)
+        Me.Plus.Name = "Plus"
+        Me.Plus.ShadowDecoration.Color = System.Drawing.Color.DarkGray
+        Me.Plus.ShadowDecoration.Depth = 25
+        Me.Plus.ShadowDecoration.Enabled = True
+        Me.Plus.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Plus.ShadowDecoration.Parent = Me.Plus
+        Me.Plus.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(4)
+        Me.Plus.Size = New System.Drawing.Size(55, 55)
+        Me.Plus.TabIndex = 13
+        Me.Plus.Text = "+"
+        Me.Plus.UseTransparentBackground = True
         '
-        'Guna2GradientCircleButton14
+        'Minus
         '
-        Me.Guna2GradientCircleButton14.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientCircleButton14.CheckedState.Parent = Me.Guna2GradientCircleButton14
-        Me.Guna2GradientCircleButton14.CustomImages.Parent = Me.Guna2GradientCircleButton14
-        Me.Guna2GradientCircleButton14.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientCircleButton14.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientCircleButton14.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientCircleButton14.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientCircleButton14.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientCircleButton14.DisabledState.Parent = Me.Guna2GradientCircleButton14
-        Me.Guna2GradientCircleButton14.FillColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(47, Byte), Integer))
-        Me.Guna2GradientCircleButton14.FillColor2 = System.Drawing.Color.Firebrick
-        Me.Guna2GradientCircleButton14.Font = New System.Drawing.Font("Consolas", 20.25!)
-        Me.Guna2GradientCircleButton14.ForeColor = System.Drawing.Color.Gainsboro
-        Me.Guna2GradientCircleButton14.HoverState.Parent = Me.Guna2GradientCircleButton14
-        Me.Guna2GradientCircleButton14.Location = New System.Drawing.Point(195, 260)
-        Me.Guna2GradientCircleButton14.Name = "Guna2GradientCircleButton14"
-        Me.Guna2GradientCircleButton14.ShadowDecoration.Color = System.Drawing.Color.DarkGray
-        Me.Guna2GradientCircleButton14.ShadowDecoration.Depth = 25
-        Me.Guna2GradientCircleButton14.ShadowDecoration.Enabled = True
-        Me.Guna2GradientCircleButton14.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2GradientCircleButton14.ShadowDecoration.Parent = Me.Guna2GradientCircleButton14
-        Me.Guna2GradientCircleButton14.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(4)
-        Me.Guna2GradientCircleButton14.Size = New System.Drawing.Size(55, 55)
-        Me.Guna2GradientCircleButton14.TabIndex = 14
-        Me.Guna2GradientCircleButton14.Text = "-"
-        Me.Guna2GradientCircleButton14.UseTransparentBackground = True
+        Me.Minus.BackColor = System.Drawing.Color.Transparent
+        Me.Minus.CheckedState.Parent = Me.Minus
+        Me.Minus.CustomImages.Parent = Me.Minus
+        Me.Minus.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Minus.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Minus.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Minus.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Minus.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Minus.DisabledState.Parent = Me.Minus
+        Me.Minus.FillColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(47, Byte), Integer))
+        Me.Minus.FillColor2 = System.Drawing.Color.Firebrick
+        Me.Minus.Font = New System.Drawing.Font("Consolas", 20.25!)
+        Me.Minus.ForeColor = System.Drawing.Color.Gainsboro
+        Me.Minus.HoverState.Parent = Me.Minus
+        Me.Minus.Location = New System.Drawing.Point(195, 260)
+        Me.Minus.Name = "Minus"
+        Me.Minus.ShadowDecoration.Color = System.Drawing.Color.DarkGray
+        Me.Minus.ShadowDecoration.Depth = 25
+        Me.Minus.ShadowDecoration.Enabled = True
+        Me.Minus.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Minus.ShadowDecoration.Parent = Me.Minus
+        Me.Minus.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(4)
+        Me.Minus.Size = New System.Drawing.Size(55, 55)
+        Me.Minus.TabIndex = 14
+        Me.Minus.Text = "-"
+        Me.Minus.UseTransparentBackground = True
         '
-        'Guna2GradientCircleButton15
+        'Multi
         '
-        Me.Guna2GradientCircleButton15.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientCircleButton15.CheckedState.Parent = Me.Guna2GradientCircleButton15
-        Me.Guna2GradientCircleButton15.CustomImages.Parent = Me.Guna2GradientCircleButton15
-        Me.Guna2GradientCircleButton15.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientCircleButton15.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientCircleButton15.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientCircleButton15.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientCircleButton15.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientCircleButton15.DisabledState.Parent = Me.Guna2GradientCircleButton15
-        Me.Guna2GradientCircleButton15.FillColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(47, Byte), Integer))
-        Me.Guna2GradientCircleButton15.FillColor2 = System.Drawing.Color.Firebrick
-        Me.Guna2GradientCircleButton15.Font = New System.Drawing.Font("Consolas", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2GradientCircleButton15.ForeColor = System.Drawing.Color.Gainsboro
-        Me.Guna2GradientCircleButton15.HoverState.Parent = Me.Guna2GradientCircleButton15
-        Me.Guna2GradientCircleButton15.Location = New System.Drawing.Point(195, 199)
-        Me.Guna2GradientCircleButton15.Name = "Guna2GradientCircleButton15"
-        Me.Guna2GradientCircleButton15.ShadowDecoration.Color = System.Drawing.Color.DarkGray
-        Me.Guna2GradientCircleButton15.ShadowDecoration.Depth = 25
-        Me.Guna2GradientCircleButton15.ShadowDecoration.Enabled = True
-        Me.Guna2GradientCircleButton15.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2GradientCircleButton15.ShadowDecoration.Parent = Me.Guna2GradientCircleButton15
-        Me.Guna2GradientCircleButton15.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(4)
-        Me.Guna2GradientCircleButton15.Size = New System.Drawing.Size(55, 55)
-        Me.Guna2GradientCircleButton15.TabIndex = 15
-        Me.Guna2GradientCircleButton15.Text = "x"
-        Me.Guna2GradientCircleButton15.UseTransparentBackground = True
+        Me.Multi.BackColor = System.Drawing.Color.Transparent
+        Me.Multi.CheckedState.Parent = Me.Multi
+        Me.Multi.CustomImages.Parent = Me.Multi
+        Me.Multi.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Multi.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Multi.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Multi.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Multi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Multi.DisabledState.Parent = Me.Multi
+        Me.Multi.FillColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(47, Byte), Integer))
+        Me.Multi.FillColor2 = System.Drawing.Color.Firebrick
+        Me.Multi.Font = New System.Drawing.Font("Consolas", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Multi.ForeColor = System.Drawing.Color.Gainsboro
+        Me.Multi.HoverState.Parent = Me.Multi
+        Me.Multi.Location = New System.Drawing.Point(195, 199)
+        Me.Multi.Name = "Multi"
+        Me.Multi.ShadowDecoration.Color = System.Drawing.Color.DarkGray
+        Me.Multi.ShadowDecoration.Depth = 25
+        Me.Multi.ShadowDecoration.Enabled = True
+        Me.Multi.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Multi.ShadowDecoration.Parent = Me.Multi
+        Me.Multi.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(4)
+        Me.Multi.Size = New System.Drawing.Size(55, 55)
+        Me.Multi.TabIndex = 15
+        Me.Multi.Text = "x"
+        Me.Multi.UseTransparentBackground = True
         '
         'Guna2GradientCircleButton16
         '
@@ -605,45 +605,45 @@ Partial Class calculator
         Me.Guna2GradientCircleButton19.Text = "."
         Me.Guna2GradientCircleButton19.UseTransparentBackground = True
         '
-        'Guna2GradientCircleButton20
+        'Div
         '
-        Me.Guna2GradientCircleButton20.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientCircleButton20.CheckedState.Parent = Me.Guna2GradientCircleButton20
-        Me.Guna2GradientCircleButton20.CustomImages.Parent = Me.Guna2GradientCircleButton20
-        Me.Guna2GradientCircleButton20.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientCircleButton20.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientCircleButton20.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientCircleButton20.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientCircleButton20.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientCircleButton20.DisabledState.Parent = Me.Guna2GradientCircleButton20
-        Me.Guna2GradientCircleButton20.FillColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(47, Byte), Integer))
-        Me.Guna2GradientCircleButton20.FillColor2 = System.Drawing.Color.Firebrick
-        Me.Guna2GradientCircleButton20.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2GradientCircleButton20.ForeColor = System.Drawing.Color.Gainsboro
-        Me.Guna2GradientCircleButton20.HoverState.Parent = Me.Guna2GradientCircleButton20
-        Me.Guna2GradientCircleButton20.Location = New System.Drawing.Point(195, 138)
-        Me.Guna2GradientCircleButton20.Name = "Guna2GradientCircleButton20"
-        Me.Guna2GradientCircleButton20.ShadowDecoration.Color = System.Drawing.Color.DarkGray
-        Me.Guna2GradientCircleButton20.ShadowDecoration.Depth = 25
-        Me.Guna2GradientCircleButton20.ShadowDecoration.Enabled = True
-        Me.Guna2GradientCircleButton20.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2GradientCircleButton20.ShadowDecoration.Parent = Me.Guna2GradientCircleButton20
-        Me.Guna2GradientCircleButton20.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(4)
-        Me.Guna2GradientCircleButton20.Size = New System.Drawing.Size(55, 55)
-        Me.Guna2GradientCircleButton20.TabIndex = 20
-        Me.Guna2GradientCircleButton20.Text = "/"
-        Me.Guna2GradientCircleButton20.UseTransparentBackground = True
+        Me.Div.BackColor = System.Drawing.Color.Transparent
+        Me.Div.CheckedState.Parent = Me.Div
+        Me.Div.CustomImages.Parent = Me.Div
+        Me.Div.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Div.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Div.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Div.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Div.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Div.DisabledState.Parent = Me.Div
+        Me.Div.FillColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(47, Byte), Integer))
+        Me.Div.FillColor2 = System.Drawing.Color.Firebrick
+        Me.Div.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Div.ForeColor = System.Drawing.Color.Gainsboro
+        Me.Div.HoverState.Parent = Me.Div
+        Me.Div.Location = New System.Drawing.Point(195, 138)
+        Me.Div.Name = "Div"
+        Me.Div.ShadowDecoration.Color = System.Drawing.Color.DarkGray
+        Me.Div.ShadowDecoration.Depth = 25
+        Me.Div.ShadowDecoration.Enabled = True
+        Me.Div.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Div.ShadowDecoration.Parent = Me.Div
+        Me.Div.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(4)
+        Me.Div.Size = New System.Drawing.Size(55, 55)
+        Me.Div.TabIndex = 20
+        Me.Div.Text = "/"
+        Me.Div.UseTransparentBackground = True
         '
-        'Label1
+        'Equation
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Gray
-        Me.Label1.Location = New System.Drawing.Point(12, 47)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(98, 15)
-        Me.Label1.TabIndex = 26
-        Me.Label1.Text = "1 + 2 + 6 + 8"
+        Me.Equation.AutoSize = True
+        Me.Equation.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Equation.ForeColor = System.Drawing.Color.Gray
+        Me.Equation.Location = New System.Drawing.Point(12, 47)
+        Me.Equation.Name = "Equation"
+        Me.Equation.Size = New System.Drawing.Size(14, 15)
+        Me.Equation.TabIndex = 26
+        Me.Equation.Text = "0"
         '
         'Label2
         '
@@ -653,9 +653,9 @@ Partial Class calculator
         Me.Label2.Location = New System.Drawing.Point(5, 75)
         Me.Label2.Name = "Label2"
         Me.Label2.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label2.Size = New System.Drawing.Size(53, 37)
+        Me.Label2.Size = New System.Drawing.Size(35, 37)
         Me.Label2.TabIndex = 27
-        Me.Label2.Text = "17"
+        Me.Label2.Text = "0"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Guna2CircleButton2
@@ -715,18 +715,18 @@ Partial Class calculator
         Me.BackColor = System.Drawing.Color.WhiteSmoke
         Me.ClientSize = New System.Drawing.Size(260, 450)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Equation)
         Me.Controls.Add(Me.Guna2CircleButton2)
         Me.Controls.Add(Me.Guna2CircleButton1)
-        Me.Controls.Add(Me.Guna2GradientCircleButton20)
+        Me.Controls.Add(Me.Div)
         Me.Controls.Add(Me.Guna2GradientCircleButton19)
         Me.Controls.Add(Me.Guna2GradientCircleButton16)
         Me.Controls.Add(Me.Guna2GradientCircleButton17)
         Me.Controls.Add(Me.Guna2GradientCircleButton18)
-        Me.Controls.Add(Me.Guna2GradientCircleButton15)
-        Me.Controls.Add(Me.Guna2GradientCircleButton14)
-        Me.Controls.Add(Me.Guna2GradientCircleButton13)
-        Me.Controls.Add(Me.Guna2GradientCircleButton12)
+        Me.Controls.Add(Me.Multi)
+        Me.Controls.Add(Me.Minus)
+        Me.Controls.Add(Me.Plus)
+        Me.Controls.Add(Me.Equal)
         Me.Controls.Add(Me.Guna2GradientCircleButton11)
         Me.Controls.Add(Me.Guna2GradientCircleButton10)
         Me.Controls.Add(Me.Guna2GradientCircleButton9)
@@ -753,10 +753,10 @@ Partial Class calculator
     Friend WithEvents Guna2GradientCircleButton16 As Guna.UI2.WinForms.Guna2GradientCircleButton
     Friend WithEvents Guna2GradientCircleButton17 As Guna.UI2.WinForms.Guna2GradientCircleButton
     Friend WithEvents Guna2GradientCircleButton18 As Guna.UI2.WinForms.Guna2GradientCircleButton
-    Friend WithEvents Guna2GradientCircleButton15 As Guna.UI2.WinForms.Guna2GradientCircleButton
-    Friend WithEvents Guna2GradientCircleButton14 As Guna.UI2.WinForms.Guna2GradientCircleButton
-    Friend WithEvents Guna2GradientCircleButton13 As Guna.UI2.WinForms.Guna2GradientCircleButton
-    Friend WithEvents Guna2GradientCircleButton12 As Guna.UI2.WinForms.Guna2GradientCircleButton
+    Friend WithEvents Multi As Guna.UI2.WinForms.Guna2GradientCircleButton
+    Friend WithEvents Minus As Guna.UI2.WinForms.Guna2GradientCircleButton
+    Friend WithEvents Plus As Guna.UI2.WinForms.Guna2GradientCircleButton
+    Friend WithEvents Equal As Guna.UI2.WinForms.Guna2GradientCircleButton
     Friend WithEvents Guna2GradientCircleButton11 As Guna.UI2.WinForms.Guna2GradientCircleButton
     Friend WithEvents Guna2GradientCircleButton10 As Guna.UI2.WinForms.Guna2GradientCircleButton
     Friend WithEvents Guna2GradientCircleButton9 As Guna.UI2.WinForms.Guna2GradientCircleButton
@@ -768,10 +768,10 @@ Partial Class calculator
     Friend WithEvents Guna2GradientCircleButton4 As Guna.UI2.WinForms.Guna2GradientCircleButton
     Friend WithEvents Guna2GradientCircleButton3 As Guna.UI2.WinForms.Guna2GradientCircleButton
     Friend WithEvents Guna2GradientCircleButton1 As Guna.UI2.WinForms.Guna2GradientCircleButton
-    Friend WithEvents Guna2GradientCircleButton20 As Guna.UI2.WinForms.Guna2GradientCircleButton
+    Friend WithEvents Div As Guna.UI2.WinForms.Guna2GradientCircleButton
     Friend WithEvents Guna2GradientCircleButton19 As Guna.UI2.WinForms.Guna2GradientCircleButton
     Friend WithEvents Guna2CircleButton2 As Guna.UI2.WinForms.Guna2CircleButton
     Friend WithEvents Guna2CircleButton1 As Guna.UI2.WinForms.Guna2CircleButton
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
+    Friend WithEvents Equation As Label
 End Class

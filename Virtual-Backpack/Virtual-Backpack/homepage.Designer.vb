@@ -38,6 +38,7 @@ Partial Class homepage
         Me.Guna2CirclePictureBox2 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Guna2GradientButton6 = New Guna.UI2.WinForms.Guna2GradientButton()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -113,7 +114,7 @@ Partial Class homepage
         Me.Guna2GradientButton5.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Guna2GradientButton5.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton5.HoverState.Parent = Me.Guna2GradientButton5
-        Me.Guna2GradientButton5.Location = New System.Drawing.Point(12, 293)
+        Me.Guna2GradientButton5.Location = New System.Drawing.Point(12, 299)
         Me.Guna2GradientButton5.Name = "Guna2GradientButton5"
         Me.Guna2GradientButton5.ShadowDecoration.Parent = Me.Guna2GradientButton5
         Me.Guna2GradientButton5.Size = New System.Drawing.Size(205, 45)
@@ -343,6 +344,42 @@ Partial Class homepage
         Me.Guna2PictureBox1.TabIndex = 2
         Me.Guna2PictureBox1.TabStop = False
         '
+        'Guna2GradientButton6
+        '
+        Me.Guna2GradientButton6.AutoRoundedCorners = True
+        Me.Guna2GradientButton6.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton6.BorderRadius = 21
+        Me.Guna2GradientButton6.CheckedState.Parent = Me.Guna2GradientButton6
+        Me.Guna2GradientButton6.CustomImages.Image = Global.Virtual_Backpack.My.Resources.Resources.sketchpad
+        Me.Guna2GradientButton6.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.Guna2GradientButton6.CustomImages.ImageOffset = New System.Drawing.Point(10, 0)
+        Me.Guna2GradientButton6.CustomImages.Parent = Me.Guna2GradientButton6
+        Me.Guna2GradientButton6.CustomizableEdges.BottomRight = False
+        Me.Guna2GradientButton6.CustomizableEdges.TopRight = False
+        Me.Guna2GradientButton6.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton6.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton6.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2GradientButton6.DisabledState.Parent = Me.Guna2GradientButton6
+        Me.Guna2GradientButton6.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton6.FillColor2 = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton6.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Guna2GradientButton6.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton6.HoverState.FillColor = System.Drawing.Color.Firebrick
+        Me.Guna2GradientButton6.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
+        Me.Guna2GradientButton6.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2GradientButton6.HoverState.Parent = Me.Guna2GradientButton6
+        Me.Guna2GradientButton6.Location = New System.Drawing.Point(12, 350)
+        Me.Guna2GradientButton6.Name = "Guna2GradientButton6"
+        Me.Guna2GradientButton6.ShadowDecoration.Parent = Me.Guna2GradientButton6
+        Me.Guna2GradientButton6.Size = New System.Drawing.Size(205, 45)
+        Me.Guna2GradientButton6.TabIndex = 45
+        Me.Guna2GradientButton6.Text = "Calculator"
+        Me.Guna2GradientButton6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Guna2GradientButton6.TextOffset = New System.Drawing.Point(-10, 0)
+        Me.Guna2GradientButton6.UseTransparentBackground = True
+        '
         'homepage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -350,6 +387,7 @@ Partial Class homepage
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1024, 600)
+        Me.Controls.Add(Me.Guna2GradientButton6)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox4)
@@ -397,4 +435,5 @@ Partial Class homepage
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Guna2GradientButton6 As Guna.UI2.WinForms.Guna2GradientButton
 End Class
