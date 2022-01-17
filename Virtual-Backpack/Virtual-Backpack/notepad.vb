@@ -50,7 +50,7 @@ Public Class notepad
             End If
         Else
             Me.Hide()
-            daily_planner.Show()
+            planner.Show()
         End If
     End Sub
 

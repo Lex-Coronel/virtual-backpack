@@ -24,13 +24,13 @@ Partial Class planner_manager
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.Guna2DateTimePicker1 = New Guna.UI2.WinForms.Guna2DateTimePicker()
+        Me.plannerdate = New Guna.UI2.WinForms.Guna2DateTimePicker()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.taskTb = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Guna2DateTimePicker2 = New Guna.UI2.WinForms.Guna2DateTimePicker()
+        Me.plannertime = New Guna.UI2.WinForms.Guna2DateTimePicker()
         Me.saveBtn = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.deleteBtn = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.minBtn = New Guna.UI2.WinForms.Guna2CircleButton()
@@ -41,26 +41,26 @@ Partial Class planner_manager
         '
         Me.Guna2Elipse1.TargetControl = Me
         '
-        'Guna2DateTimePicker1
+        'plannerdate
         '
-        Me.Guna2DateTimePicker1.AutoRoundedCorners = True
-        Me.Guna2DateTimePicker1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2DateTimePicker1.BorderRadius = 9
-        Me.Guna2DateTimePicker1.Checked = True
-        Me.Guna2DateTimePicker1.CheckedState.Parent = Me.Guna2DateTimePicker1
-        Me.Guna2DateTimePicker1.FillColor = System.Drawing.Color.White
-        Me.Guna2DateTimePicker1.Font = New System.Drawing.Font("Segoe UI", 9.75!)
-        Me.Guna2DateTimePicker1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Long]
-        Me.Guna2DateTimePicker1.HoverState.Parent = Me.Guna2DateTimePicker1
-        Me.Guna2DateTimePicker1.Location = New System.Drawing.Point(96, 78)
-        Me.Guna2DateTimePicker1.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
-        Me.Guna2DateTimePicker1.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
-        Me.Guna2DateTimePicker1.Name = "Guna2DateTimePicker1"
-        Me.Guna2DateTimePicker1.ShadowDecoration.Parent = Me.Guna2DateTimePicker1
-        Me.Guna2DateTimePicker1.Size = New System.Drawing.Size(220, 20)
-        Me.Guna2DateTimePicker1.TabIndex = 29
-        Me.Guna2DateTimePicker1.Value = New Date(2022, 1, 5, 17, 21, 57, 224)
+        Me.plannerdate.AutoRoundedCorners = True
+        Me.plannerdate.BackColor = System.Drawing.Color.Transparent
+        Me.plannerdate.BorderRadius = 9
+        Me.plannerdate.Checked = True
+        Me.plannerdate.CheckedState.Parent = Me.plannerdate
+        Me.plannerdate.FillColor = System.Drawing.Color.White
+        Me.plannerdate.Font = New System.Drawing.Font("Segoe UI", 9.75!)
+        Me.plannerdate.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.plannerdate.Format = System.Windows.Forms.DateTimePickerFormat.[Long]
+        Me.plannerdate.HoverState.Parent = Me.plannerdate
+        Me.plannerdate.Location = New System.Drawing.Point(96, 78)
+        Me.plannerdate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        Me.plannerdate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        Me.plannerdate.Name = "plannerdate"
+        Me.plannerdate.ShadowDecoration.Parent = Me.plannerdate
+        Me.plannerdate.Size = New System.Drawing.Size(220, 20)
+        Me.plannerdate.TabIndex = 29
+        Me.plannerdate.Value = New Date(2022, 1, 5, 17, 21, 57, 224)
         '
         'Label1
         '
@@ -136,25 +136,25 @@ Partial Class planner_manager
         Me.Label4.TabIndex = 34
         Me.Label4.Text = "New Task:"
         '
-        'Guna2DateTimePicker2
+        'plannertime
         '
-        Me.Guna2DateTimePicker2.AutoRoundedCorners = True
-        Me.Guna2DateTimePicker2.BorderRadius = 9
-        Me.Guna2DateTimePicker2.Checked = True
-        Me.Guna2DateTimePicker2.CheckedState.Parent = Me.Guna2DateTimePicker2
-        Me.Guna2DateTimePicker2.FillColor = System.Drawing.Color.White
-        Me.Guna2DateTimePicker2.Font = New System.Drawing.Font("Segoe UI", 9.75!)
-        Me.Guna2DateTimePicker2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Guna2DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time
-        Me.Guna2DateTimePicker2.HoverState.Parent = Me.Guna2DateTimePicker2
-        Me.Guna2DateTimePicker2.Location = New System.Drawing.Point(96, 171)
-        Me.Guna2DateTimePicker2.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
-        Me.Guna2DateTimePicker2.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
-        Me.Guna2DateTimePicker2.Name = "Guna2DateTimePicker2"
-        Me.Guna2DateTimePicker2.ShadowDecoration.Parent = Me.Guna2DateTimePicker2
-        Me.Guna2DateTimePicker2.Size = New System.Drawing.Size(220, 20)
-        Me.Guna2DateTimePicker2.TabIndex = 35
-        Me.Guna2DateTimePicker2.Value = New Date(2022, 1, 5, 17, 21, 57, 224)
+        Me.plannertime.AutoRoundedCorners = True
+        Me.plannertime.BorderRadius = 9
+        Me.plannertime.Checked = True
+        Me.plannertime.CheckedState.Parent = Me.plannertime
+        Me.plannertime.FillColor = System.Drawing.Color.White
+        Me.plannertime.Font = New System.Drawing.Font("Segoe UI", 9.75!)
+        Me.plannertime.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.plannertime.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.plannertime.HoverState.Parent = Me.plannertime
+        Me.plannertime.Location = New System.Drawing.Point(96, 171)
+        Me.plannertime.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        Me.plannertime.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        Me.plannertime.Name = "plannertime"
+        Me.plannertime.ShadowDecoration.Parent = Me.plannertime
+        Me.plannertime.Size = New System.Drawing.Size(220, 20)
+        Me.plannertime.TabIndex = 35
+        Me.plannertime.Value = New Date(2022, 1, 5, 17, 21, 57, 224)
         '
         'saveBtn
         '
@@ -264,13 +264,13 @@ Partial Class planner_manager
         Me.ClientSize = New System.Drawing.Size(355, 260)
         Me.Controls.Add(Me.deleteBtn)
         Me.Controls.Add(Me.saveBtn)
-        Me.Controls.Add(Me.Guna2DateTimePicker2)
+        Me.Controls.Add(Me.plannertime)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.taskTb)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Guna2DateTimePicker1)
+        Me.Controls.Add(Me.plannerdate)
         Me.Controls.Add(Me.minBtn)
         Me.Controls.Add(Me.closeBtn)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -284,13 +284,13 @@ Partial Class planner_manager
     Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
     Friend WithEvents minBtn As Guna.UI2.WinForms.Guna2CircleButton
     Friend WithEvents closeBtn As Guna.UI2.WinForms.Guna2CircleButton
-    Friend WithEvents Guna2DateTimePicker1 As Guna.UI2.WinForms.Guna2DateTimePicker
+    Friend WithEvents plannerdate As Guna.UI2.WinForms.Guna2DateTimePicker
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents taskTb As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2DateTimePicker2 As Guna.UI2.WinForms.Guna2DateTimePicker
+    Friend WithEvents plannertime As Guna.UI2.WinForms.Guna2DateTimePicker
     Friend WithEvents saveBtn As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents deleteBtn As Guna.UI2.WinForms.Guna2GradientButton
 End Class
