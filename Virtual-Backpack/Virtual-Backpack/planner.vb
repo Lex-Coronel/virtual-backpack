@@ -133,6 +133,7 @@ Public Class planner
         For Each fl As FlowLayoutPanel In listFlDay
             fl.Controls.Clear()
             fl.Tag = 0
+            fl.BackColor = Color.White
         Next
 
         For i As Integer = 1 To totalDaysInMonth
@@ -146,7 +147,7 @@ Public Class planner
             listFlDay((i - 1) + (startDayAtFlNumber - 1)).Tag = i
             listFlDay((i - 1) + (startDayAtFlNumber - 1)).Controls.Add(lbl)
 
-            If i = Date.Today.Day Then
+            If New Date(currentDate.Year, currentDate.Month, i) = Date.Today Then
                 listFlDay((i - 1) + (startDayAtFlNumber - 1)).BackColor = Color.Orange
             End If
         Next
