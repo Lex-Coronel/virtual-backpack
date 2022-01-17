@@ -171,4 +171,23 @@ Public Class planner
     Private Sub Guna2GradientButton9_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton9.Click
         Today()
     End Sub
+
+    Private Sub Guna2GradientButton4_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton4.Click
+        Me.Hide()
+        homepage.Show()
+    End Sub
+
+    Private Sub Guna2GradientButton1_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
+        Me.Hide()
+        notepad.Show()
+    End Sub
+
+    Private Sub Guna2GradientButton2_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton2.Click
+
+    End Sub
+
+    Private Sub Guna2GradientButton5_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton5.Click
+        Me.Hide()
+        sketchpad.Show()
+    End Sub
 End Class
