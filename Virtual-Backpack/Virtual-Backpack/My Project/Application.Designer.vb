@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Virtual_Backpack.planner
+            Me.MainForm = Global.Virtual_Backpack.login
         End Sub
     End Class
 End Namespace
