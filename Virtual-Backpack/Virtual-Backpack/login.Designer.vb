@@ -38,6 +38,7 @@ Partial Class login
         Me.passwordTb = New Guna.UI2.WinForms.Guna2TextBox()
         Me.closeBtn = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.Guna2CirclePictureBox2 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
+        Me.Guna2BorderlessForm1 = New Guna.UI2.WinForms.Guna2BorderlessForm(Me.components)
         CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -286,6 +287,12 @@ Partial Class login
         Me.Guna2CirclePictureBox2.TabIndex = 24
         Me.Guna2CirclePictureBox2.TabStop = False
         '
+        'Guna2BorderlessForm1
+        '
+        Me.Guna2BorderlessForm1.ContainerControl = Me
+        Me.Guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6R
+        Me.Guna2BorderlessForm1.TransparentWhileDrag = True
+        '
         'login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -334,4 +341,5 @@ Partial Class login
     Friend WithEvents register As Label
     Friend WithEvents closeBtn As Guna.UI2.WinForms.Guna2CircleButton
     Friend WithEvents Guna2CirclePictureBox2 As Guna.UI2.WinForms.Guna2CirclePictureBox
+    Friend WithEvents Guna2BorderlessForm1 As Guna.UI2.WinForms.Guna2BorderlessForm
 End Class

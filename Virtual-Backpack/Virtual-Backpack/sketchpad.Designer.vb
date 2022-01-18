@@ -47,6 +47,7 @@ Partial Class sketchpad
         Me.sizeCb = New Guna.UI2.WinForms.Guna2ComboBox()
         Me.saveBtn = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.clearBtn = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
         Me.Guna2CustomGradientPanel1.SuspendLayout()
         CType(Me.sketchpadbox, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -263,6 +264,7 @@ Partial Class sketchpad
         '
         'sketchpadbox
         '
+        Me.sketchpadbox.BackColor = System.Drawing.Color.White
         Me.sketchpadbox.Location = New System.Drawing.Point(3, 11)
         Me.sketchpadbox.Name = "sketchpadbox"
         Me.sketchpadbox.Size = New System.Drawing.Size(693, 404)
@@ -602,6 +604,12 @@ Partial Class sketchpad
         Me.clearBtn.TabIndex = 65
         Me.clearBtn.Text = "Clear"
         '
+        'SaveFileDialog1
+        '
+        Me.SaveFileDialog1.CheckPathExists = False
+        Me.SaveFileDialog1.DefaultExt = "png"
+        Me.SaveFileDialog1.Filter = "PNG (*.png)|*.png|All files|*.*"
+        '
         'sketchpad
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -668,4 +676,5 @@ Partial Class sketchpad
     Friend WithEvents sizeCb As Guna.UI2.WinForms.Guna2ComboBox
     Friend WithEvents clearBtn As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents saveBtn As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents SaveFileDialog1 As SaveFileDialog
 End Class
