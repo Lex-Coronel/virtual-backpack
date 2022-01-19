@@ -27,9 +27,10 @@ Public Class login
             End While
 
             If count = 1 Then
-                register.Visible = False
+                register.Visible = True
 
-                registertb.Visible = False
+                registertb.Visible = True
+
             Else
 
             End If
@@ -64,7 +65,7 @@ Public Class login
         'Change userid and password
         '///////////////////////////////////////////////////////////////////////////////////
         MysqlConn.ConnectionString =
-            "server=localhost;userid=root;password=crimsonfangs13;database=virtualbackpack"
+            "server=localhost;userid=root;password=Cpecoronel12;database=virtualbackpack"
         '//////////////////////////////////////////////////////////////////////////////////
         Dim READER As MySqlDataReader
         Dim Query As String
@@ -74,7 +75,6 @@ Public Class login
             Query = " SELECT * FROM virtualbackpack.accounts where username='" & userTb.Text & "'and password='" & passwordTb.Text & "'"
             COMMAND = New MySqlCommand(Query, MysqlConn)
             READER = COMMAND.ExecuteReader
-            Dim user As String
             While READER.Read
                 count += 1
 

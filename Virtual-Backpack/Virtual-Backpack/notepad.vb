@@ -313,4 +313,8 @@ Public Class notepad
         ColorDialog1.ShowDialog()
         RichTextBox1.ForeColor = ColorDialog1.Color
     End Sub
+
+    Private Sub notepad_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

@@ -50,7 +50,9 @@ Partial Class notepad
         Me.DeleteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FormatToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FontToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FontColorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HighlightTextToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UnhighlightTextToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Guna2GradientButton2 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton5 = New Guna.UI2.WinForms.Guna2GradientButton()
@@ -66,10 +68,8 @@ Partial Class notepad
         Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
-        Me.UnhighlightTextToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FontDialog1 = New System.Windows.Forms.FontDialog()
         Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
-        Me.FontColorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -174,7 +174,7 @@ Partial Class notepad
         Me.MenuStrip1.Location = New System.Drawing.Point(276, 116)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(6, 2, 514, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(814, 26)
+        Me.MenuStrip1.Size = New System.Drawing.Size(694, 26)
         Me.MenuStrip1.TabIndex = 21
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -243,47 +243,47 @@ Partial Class notepad
         '
         Me.UndoToolStripMenuItem.Name = "UndoToolStripMenuItem"
         Me.UndoToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Z), System.Windows.Forms.Keys)
-        Me.UndoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.UndoToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.UndoToolStripMenuItem.Text = "Undo"
         '
         'RedoToolStripMenuItem
         '
         Me.RedoToolStripMenuItem.Name = "RedoToolStripMenuItem"
         Me.RedoToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Y), System.Windows.Forms.Keys)
-        Me.RedoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.RedoToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.RedoToolStripMenuItem.Text = "Redo"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(177, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(169, 6)
         '
         'CutToolStripMenuItem
         '
         Me.CutToolStripMenuItem.Name = "CutToolStripMenuItem"
         Me.CutToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.X), System.Windows.Forms.Keys)
-        Me.CutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CutToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.CutToolStripMenuItem.Text = "Cut"
         '
         'CopyToolStripMenuItem
         '
         Me.CopyToolStripMenuItem.Name = "CopyToolStripMenuItem"
         Me.CopyToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
-        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.CopyToolStripMenuItem.Text = "Copy"
         '
         'PasteToolStripMenuItem
         '
         Me.PasteToolStripMenuItem.Name = "PasteToolStripMenuItem"
         Me.PasteToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
-        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.PasteToolStripMenuItem.Text = "Paste"
         '
         'DeleteToolStripMenuItem
         '
         Me.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem"
         Me.DeleteToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.Delete
-        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.DeleteToolStripMenuItem.Text = "Delete"
         '
         'FormatToolStripMenuItem
@@ -299,12 +299,25 @@ Partial Class notepad
         Me.FontToolStripMenuItem.Size = New System.Drawing.Size(260, 22)
         Me.FontToolStripMenuItem.Text = "Font"
         '
+        'FontColorToolStripMenuItem
+        '
+        Me.FontColorToolStripMenuItem.Name = "FontColorToolStripMenuItem"
+        Me.FontColorToolStripMenuItem.Size = New System.Drawing.Size(260, 22)
+        Me.FontColorToolStripMenuItem.Text = "Font Color"
+        '
         'HighlightTextToolStripMenuItem
         '
         Me.HighlightTextToolStripMenuItem.Name = "HighlightTextToolStripMenuItem"
         Me.HighlightTextToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.H), System.Windows.Forms.Keys)
         Me.HighlightTextToolStripMenuItem.Size = New System.Drawing.Size(260, 22)
         Me.HighlightTextToolStripMenuItem.Text = "Highlight text"
+        '
+        'UnhighlightTextToolStripMenuItem
+        '
+        Me.UnhighlightTextToolStripMenuItem.Name = "UnhighlightTextToolStripMenuItem"
+        Me.UnhighlightTextToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.G), System.Windows.Forms.Keys)
+        Me.UnhighlightTextToolStripMenuItem.Size = New System.Drawing.Size(260, 22)
+        Me.UnhighlightTextToolStripMenuItem.Text = "Unhighlight text"
         '
         'Guna2GradientButton2
         '
@@ -660,19 +673,6 @@ Partial Class notepad
         Me.SaveFileDialog1.CheckPathExists = False
         Me.SaveFileDialog1.DefaultExt = "txt"
         Me.SaveFileDialog1.Filter = "Text files (*.txt)|*.txt|Word Document ( *.docx )|*.docx|All files (*.*)|*.*"
-        '
-        'UnhighlightTextToolStripMenuItem
-        '
-        Me.UnhighlightTextToolStripMenuItem.Name = "UnhighlightTextToolStripMenuItem"
-        Me.UnhighlightTextToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.G), System.Windows.Forms.Keys)
-        Me.UnhighlightTextToolStripMenuItem.Size = New System.Drawing.Size(260, 22)
-        Me.UnhighlightTextToolStripMenuItem.Text = "Unhighlight text"
-        '
-        'FontColorToolStripMenuItem
-        '
-        Me.FontColorToolStripMenuItem.Name = "FontColorToolStripMenuItem"
-        Me.FontColorToolStripMenuItem.Size = New System.Drawing.Size(260, 22)
-        Me.FontColorToolStripMenuItem.Text = "Font Color"
         '
         'notepad
         '
