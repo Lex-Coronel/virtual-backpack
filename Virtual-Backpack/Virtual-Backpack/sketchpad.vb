@@ -106,4 +106,9 @@
             MessageBox.Show(ex.Message)
         End Try
     End Sub
+
+    Private Sub Guna2GradientButton6_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton6.Click
+        Me.Hide()
+        login.Show()
+    End Sub
 End Class

@@ -317,4 +317,9 @@ Public Class notepad
     Private Sub notepad_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub Guna2GradientButton3_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton3.Click
+        Me.Hide()
+        login.Show()
+    End Sub
 End Class

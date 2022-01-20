@@ -27,9 +27,9 @@ Public Class login
             End While
 
             If count = 1 Then
-                register.Visible = True
+                register.Visible = False
 
-                registertb.Visible = True
+                registertb.Visible = False
 
             Else
 
