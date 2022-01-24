@@ -19,6 +19,7 @@ Public Class notepad
                 SaveFileDialog1.ShowDialog()
                 Try
                     My.Computer.FileSystem.WriteAllText(SaveFileDialog1.FileName, RichTextBox1.Text, False)
+                    MessageBox.Show("Task Successfully Saved!")
                     RichTextBox1.Clear()
                 Catch ex As Exception
 
@@ -43,6 +44,7 @@ Public Class notepad
                 SaveFileDialog1.ShowDialog()
                 Try
                     My.Computer.FileSystem.WriteAllText(SaveFileDialog1.FileName, RichTextBox1.Text, False)
+                    MessageBox.Show("Task Successfully Saved!")
                     RichTextBox1.Clear()
                 Catch ex As Exception
 
@@ -67,6 +69,7 @@ Public Class notepad
                 SaveFileDialog1.ShowDialog()
                 Try
                     My.Computer.FileSystem.WriteAllText(SaveFileDialog1.FileName, RichTextBox1.Text, False)
+                    MessageBox.Show("Task Successfully Saved!")
                     RichTextBox1.Clear()
                 Catch ex As Exception
 
@@ -90,6 +93,7 @@ Public Class notepad
                 SaveFileDialog1.ShowDialog()
                 Try
                     My.Computer.FileSystem.WriteAllText(SaveFileDialog1.FileName, RichTextBox1.Text, False)
+                    MessageBox.Show("Task Successfully Saved!")
                     RichTextBox1.Clear()
                 Catch ex As Exception
 
@@ -117,6 +121,7 @@ Public Class notepad
                 SaveFileDialog1.ShowDialog()
                 Try
                     My.Computer.FileSystem.WriteAllText(SaveFileDialog1.FileName, RichTextBox1.Text, False)
+                    MessageBox.Show("Task Successfully Saved!")
                     RichTextBox1.Clear()
                 Catch ex As Exception
 
@@ -136,6 +141,7 @@ Public Class notepad
         SaveFileDialog1.ShowDialog()
         Try
             My.Computer.FileSystem.WriteAllText(SaveFileDialog1.FileName, RichTextBox1.Text, False)
+            MessageBox.Show("Task Successfully Saved!")
         Catch ex As Exception
 
         End Try
@@ -145,6 +151,7 @@ Public Class notepad
         SaveFileDialog1.ShowDialog()
         Try
             My.Computer.FileSystem.WriteAllText(SaveFileDialog1.FileName, RichTextBox1.Text, False)
+            MessageBox.Show("Task Successfully Saved!")
         Catch ex As Exception
 
         End Try
@@ -181,6 +188,7 @@ Public Class notepad
                 SaveFileDialog1.ShowDialog()
                 Try
                     My.Computer.FileSystem.WriteAllText(SaveFileDialog1.FileName, RichTextBox1.Text, False)
+                    MessageBox.Show("Task Successfully Saved!")
                     RichTextBox1.Clear()
                 Catch ex As Exception
 
@@ -293,6 +301,7 @@ Public Class notepad
                 SaveFileDialog1.ShowDialog()
                 Try
                     My.Computer.FileSystem.WriteAllText(SaveFileDialog1.FileName, RichTextBox1.Text, False)
+                    MessageBox.Show("Task Successfully Saved!")
                     RichTextBox1.Clear()
                 Catch ex As Exception
 
