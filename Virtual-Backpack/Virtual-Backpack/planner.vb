@@ -9,6 +9,7 @@ Public Class planner
     Private Sub planner_Load_1(sender As Object, e As EventArgs) Handles MyBase.Load
         GenerateDayPanel(42)
         DisplayCurrentDate()
+
     End Sub
 
     Private Sub AddNewTaskToFlDay(ByVal sender As Object, e As EventArgs)
@@ -27,7 +28,7 @@ Public Class planner
         MysqlConn = New MySqlConnection()
 
         MysqlConn.ConnectionString =
-            "server=localhost;userid=root;password=Cpecoronel12;database=virtualbackpack"
+            "server=localhost;userid=root;password=sachiiuu;database=virtualbackpack"
 
         Dim plannerID As Integer = CType(sender, LinkLabel).Tag
         Dim sql As String = $"select * from planner where plannerID = {plannerID}"
@@ -58,7 +59,7 @@ Public Class planner
         MysqlConn = New MySqlConnection()
 
         MysqlConn.ConnectionString =
-            "server=localhost;userid=root;password=Cpecoronel12;database=virtualbackpack"
+            "server=localhost;userid=root;password=sachiiuu;database=virtualbackpack"
 
         Dim sql As String = $"select * from planner where plannerdate between '{startDate.ToShortDateString()}' and '{endDate.ToShortDateString()}'"
 
@@ -74,6 +75,7 @@ Public Class planner
             link.Tag = row("plannerID")
             link.Name = $"link{row("plannerID")}"
             link.Text = row("plannertask")
+            link.Size = New Size(85, 15)
             AddHandler link.Click, AddressOf TaskDetails
             listFlDay((taskDay.Day - 1) + (startDayAtFlNumber - 1)).Controls.Add(link)
         Next
@@ -119,7 +121,7 @@ Public Class planner
         For i As Integer = 1 To totalDays
             Dim fl As New FlowLayoutPanel
             fl.Name = $"flDay{i}"
-            fl.Size = New Size(93, 90)
+            fl.Size = New Size(93, 80)
             fl.BackColor = Color.White
             fl.BorderStyle = BorderStyle.FixedSingle
             fl.AutoScroll = True
@@ -141,7 +143,7 @@ Public Class planner
             lbl.Name = $"lblDay{i}"
             lbl.AutoSize = False
             lbl.TextAlign = ContentAlignment.MiddleRight
-            lbl.Size = New Size(90, 30)
+            lbl.Size = New Size(85, 25)
             lbl.Text = i
             lbl.Font = New Font("Segoe UI Black", 9.75)
             listFlDay((i - 1) + (startDayAtFlNumber - 1)).Tag = i
@@ -161,16 +163,16 @@ Public Class planner
         Me.Close()
     End Sub
 
-    Private Sub Guna2GradientButton7_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton7.Click
-        PrevMonth()
+    Private Sub Guna2TileButton1_Click(sender As Object, e As EventArgs) Handles Guna2TileButton1.Click
+        Today()
     End Sub
 
-    Private Sub Guna2GradientButton8_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton8.Click
+    Private Sub Guna2TileButton3_Click(sender As Object, e As EventArgs) Handles Guna2TileButton3.Click
         NextMonth()
     End Sub
 
-    Private Sub Guna2GradientButton9_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton9.Click
-        Today()
+    Private Sub Guna2TileButton2_Click(sender As Object, e As EventArgs) Handles Guna2TileButton2.Click
+        PrevMonth()
     End Sub
 
     Private Sub Guna2GradientButton4_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton4.Click
@@ -196,4 +198,5 @@ Public Class planner
         Me.Hide()
         login.Show()
     End Sub
+
 End Class

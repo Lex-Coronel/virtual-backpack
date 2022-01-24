@@ -14,11 +14,15 @@
         sketchpad.Show()
     End Sub
 
-    Private Sub minBtn_Click(sender As Object, e As EventArgs) Handles minBtn.Click
+    Private Sub minBtn_Click(sender As Object, e As EventArgs)
         Me.WindowState = FormWindowState.Minimized
     End Sub
 
     Private Sub closeBtn_Click(sender As Object, e As EventArgs) Handles closeBtn.Click
         Me.Close()
+    End Sub
+
+    Private Sub daily_planner_Resize(sender As Object, e As EventArgs) Handles Me.Resize
+
     End Sub
 End Class

@@ -46,6 +46,7 @@ Partial Class calculator
         Me.Div = New Guna.UI2.WinForms.Guna2GradientCircleButton()
         Me.Equation = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Guna2BorderlessForm2 = New Guna.UI2.WinForms.Guna2BorderlessForm(Me.components)
         Me.Guna2CircleButton2 = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.SuspendLayout()
@@ -658,6 +659,15 @@ Partial Class calculator
         Me.Label2.Text = "0"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
+        'Guna2BorderlessForm2
+        '
+        Me.Guna2BorderlessForm2.BorderRadius = 6
+        Me.Guna2BorderlessForm2.ContainerControl = Me
+        Me.Guna2BorderlessForm2.DockForm = False
+        Me.Guna2BorderlessForm2.DockIndicatorTransparencyValue = 0.6R
+        Me.Guna2BorderlessForm2.DragStartTransparencyValue = 1.0R
+        Me.Guna2BorderlessForm2.ResizeForm = False
+        '
         'Guna2CircleButton2
         '
         Me.Guna2CircleButton2.BackColor = System.Drawing.Color.Transparent
@@ -774,4 +784,5 @@ Partial Class calculator
     Friend WithEvents Guna2CircleButton1 As Guna.UI2.WinForms.Guna2CircleButton
     Friend WithEvents Label2 As Label
     Friend WithEvents Equation As Label
+    Friend WithEvents Guna2BorderlessForm2 As Guna.UI2.WinForms.Guna2BorderlessForm
 End Class

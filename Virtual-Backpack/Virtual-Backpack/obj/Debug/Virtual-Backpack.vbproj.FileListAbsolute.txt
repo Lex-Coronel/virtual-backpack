@@ -125,3 +125,4 @@ D:\projects\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\AxInter
 D:\projects\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Interop.AcroPDFLib.dll
 D:\projects\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\AxInterop.AcroPDFLib.dll
 D:\projects\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual-Backpack.vbproj.ResolveComReference.cache
+C:\Users\Sachiko Niki Bernal\Documents\DSA\Final Project\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual-Backpack.vbproj.ResolveComReference.cache

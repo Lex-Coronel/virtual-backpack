@@ -33,6 +33,7 @@ Partial Class planner_manager
         Me.plannertime = New Guna.UI2.WinForms.Guna2DateTimePicker()
         Me.saveBtn = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.deleteBtn = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.Guna2BorderlessForm2 = New Guna.UI2.WinForms.Guna2BorderlessForm(Me.components)
         Me.minBtn = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.closeBtn = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.SuspendLayout()
@@ -206,6 +207,15 @@ Partial Class planner_manager
         Me.deleteBtn.TabIndex = 37
         Me.deleteBtn.Text = "Delete"
         '
+        'Guna2BorderlessForm2
+        '
+        Me.Guna2BorderlessForm2.BorderRadius = 6
+        Me.Guna2BorderlessForm2.ContainerControl = Me
+        Me.Guna2BorderlessForm2.DockForm = False
+        Me.Guna2BorderlessForm2.DockIndicatorTransparencyValue = 0.6R
+        Me.Guna2BorderlessForm2.DragStartTransparencyValue = 1.0R
+        Me.Guna2BorderlessForm2.ResizeForm = False
+        '
         'minBtn
         '
         Me.minBtn.BackColor = System.Drawing.Color.Transparent
@@ -293,4 +303,5 @@ Partial Class planner_manager
     Friend WithEvents plannertime As Guna.UI2.WinForms.Guna2DateTimePicker
     Friend WithEvents saveBtn As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents deleteBtn As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2BorderlessForm2 As Guna.UI2.WinForms.Guna2BorderlessForm
 End Class

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class daily_planner
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,19 +20,21 @@ Partial Class daily_planner
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2GradientButton6 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton5 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton4 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton2 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2DataGridView1 = New Guna.UI2.WinForms.Guna2DataGridView()
+        Me.closeBtn = New Guna.UI2.WinForms.Guna2CirclePictureBox()
+        Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.deleteBtn = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2DateTimePicker3 = New Guna.UI2.WinForms.Guna2DateTimePicker()
@@ -46,20 +48,15 @@ Partial Class daily_planner
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Guna2DateTimePicker1 = New Guna.UI2.WinForms.Guna2DateTimePicker()
         Me.minBtn = New Guna.UI2.WinForms.Guna2CirclePictureBox()
-        Me.closeBtn = New Guna.UI2.WinForms.Guna2CirclePictureBox()
-        Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.Guna2BorderlessForm1 = New Guna.UI2.WinForms.Guna2BorderlessForm(Me.components)
         CType(Me.Guna2DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox1.SuspendLayout()
-        CType(Me.minBtn, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.closeBtn, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox1.SuspendLayout()
+        CType(Me.minBtn, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Guna2Elipse1
-        '
-        Me.Guna2Elipse1.TargetControl = Me
         '
         'Guna2GradientButton6
         '
@@ -252,30 +249,30 @@ Partial Class daily_planner
         '
         'Guna2DataGridView1
         '
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
+        Me.Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         Me.Guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.Guna2DataGridView1.BackgroundColor = System.Drawing.Color.White
         Me.Guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.Guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
         Me.Guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI", 10.5!)
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Guna2DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.Guna2DataGridView1.ColumnHeadersHeight = 4
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Segoe UI", 10.5!)
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle3
         Me.Guna2DataGridView1.EnableHeadersVisualStyles = False
         Me.Guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2DataGridView1.Location = New System.Drawing.Point(280, 293)
@@ -307,6 +304,47 @@ Partial Class daily_planner
         Me.Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
         '
+        'closeBtn
+        '
+        Me.closeBtn.Image = Global.Virtual_Backpack.My.Resources.Resources.cancel
+        Me.closeBtn.ImageRotate = 0!
+        Me.closeBtn.Location = New System.Drawing.Point(982, 12)
+        Me.closeBtn.Name = "closeBtn"
+        Me.closeBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.closeBtn.ShadowDecoration.Parent = Me.closeBtn
+        Me.closeBtn.Size = New System.Drawing.Size(30, 30)
+        Me.closeBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.closeBtn.TabIndex = 43
+        Me.closeBtn.TabStop = False
+        '
+        'Guna2PictureBox3
+        '
+        Me.Guna2PictureBox3.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox3.Image = Global.Virtual_Backpack.My.Resources.Resources.logo_title
+        Me.Guna2PictureBox3.ImageRotate = 0!
+        Me.Guna2PictureBox3.Location = New System.Drawing.Point(7, 20)
+        Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
+        Me.Guna2PictureBox3.ShadowDecoration.Parent = Me.Guna2PictureBox3
+        Me.Guna2PictureBox3.Size = New System.Drawing.Size(205, 71)
+        Me.Guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox3.TabIndex = 37
+        Me.Guna2PictureBox3.TabStop = False
+        Me.Guna2PictureBox3.UseTransparentBackground = True
+        '
+        'Guna2PictureBox1
+        '
+        Me.Guna2PictureBox1.Image = Global.Virtual_Backpack.My.Resources.Resources.gradient_background2
+        Me.Guna2PictureBox1.ImageRotate = 0!
+        Me.Guna2PictureBox1.Location = New System.Drawing.Point(-8, 0)
+        Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
+        Me.Guna2PictureBox1.ShadowDecoration.Color = System.Drawing.Color.DarkGray
+        Me.Guna2PictureBox1.ShadowDecoration.Enabled = True
+        Me.Guna2PictureBox1.ShadowDecoration.Parent = Me.Guna2PictureBox1
+        Me.Guna2PictureBox1.Size = New System.Drawing.Size(225, 600)
+        Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox1.TabIndex = 36
+        Me.Guna2PictureBox1.TabStop = False
+        '
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.deleteBtn)
@@ -325,7 +363,7 @@ Partial Class daily_planner
         Me.GroupBox1.Location = New System.Drawing.Point(280, 58)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(674, 200)
-        Me.GroupBox1.TabIndex = 58
+        Me.GroupBox1.TabIndex = 60
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "New Task"
         '
@@ -549,49 +587,20 @@ Partial Class daily_planner
         Me.minBtn.ShadowDecoration.Parent = Me.minBtn
         Me.minBtn.Size = New System.Drawing.Size(30, 30)
         Me.minBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.minBtn.TabIndex = 44
+        Me.minBtn.TabIndex = 59
         Me.minBtn.TabStop = False
         '
-        'closeBtn
+        'Guna2Elipse1
         '
-        Me.closeBtn.Image = Global.Virtual_Backpack.My.Resources.Resources.cancel
-        Me.closeBtn.ImageRotate = 0!
-        Me.closeBtn.Location = New System.Drawing.Point(982, 12)
-        Me.closeBtn.Name = "closeBtn"
-        Me.closeBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.closeBtn.ShadowDecoration.Parent = Me.closeBtn
-        Me.closeBtn.Size = New System.Drawing.Size(30, 30)
-        Me.closeBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.closeBtn.TabIndex = 43
-        Me.closeBtn.TabStop = False
+        Me.Guna2Elipse1.TargetControl = Me
         '
-        'Guna2PictureBox3
+        'Guna2BorderlessForm1
         '
-        Me.Guna2PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox3.Image = Global.Virtual_Backpack.My.Resources.Resources.logo_title
-        Me.Guna2PictureBox3.ImageRotate = 0!
-        Me.Guna2PictureBox3.Location = New System.Drawing.Point(7, 20)
-        Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
-        Me.Guna2PictureBox3.ShadowDecoration.Parent = Me.Guna2PictureBox3
-        Me.Guna2PictureBox3.Size = New System.Drawing.Size(205, 71)
-        Me.Guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox3.TabIndex = 37
-        Me.Guna2PictureBox3.TabStop = False
-        Me.Guna2PictureBox3.UseTransparentBackground = True
-        '
-        'Guna2PictureBox1
-        '
-        Me.Guna2PictureBox1.Image = Global.Virtual_Backpack.My.Resources.Resources.gradient_background2
-        Me.Guna2PictureBox1.ImageRotate = 0!
-        Me.Guna2PictureBox1.Location = New System.Drawing.Point(-8, 0)
-        Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Me.Guna2PictureBox1.ShadowDecoration.Color = System.Drawing.Color.DarkGray
-        Me.Guna2PictureBox1.ShadowDecoration.Enabled = True
-        Me.Guna2PictureBox1.ShadowDecoration.Parent = Me.Guna2PictureBox1
-        Me.Guna2PictureBox1.Size = New System.Drawing.Size(225, 600)
-        Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox1.TabIndex = 36
-        Me.Guna2PictureBox1.TabStop = False
+        Me.Guna2BorderlessForm1.ContainerControl = Me
+        Me.Guna2BorderlessForm1.DockForm = False
+        Me.Guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6R
+        Me.Guna2BorderlessForm1.DragStartTransparencyValue = 1.0R
+        Me.Guna2BorderlessForm1.TransparentWhileDrag = True
         '
         'daily_planner
         '
@@ -600,8 +609,8 @@ Partial Class daily_planner
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1024, 600)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.Guna2DataGridView1)
         Me.Controls.Add(Me.minBtn)
+        Me.Controls.Add(Me.Guna2DataGridView1)
         Me.Controls.Add(Me.closeBtn)
         Me.Controls.Add(Me.Guna2GradientButton6)
         Me.Controls.Add(Me.Guna2GradientButton5)
@@ -616,17 +625,15 @@ Partial Class daily_planner
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "daily_planner"
         CType(Me.Guna2DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
-        CType(Me.minBtn, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.closeBtn, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        CType(Me.minBtn, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
-
-    Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
     Friend WithEvents Guna2GradientButton6 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton5 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton4 As Guna.UI2.WinForms.Guna2GradientButton
@@ -634,19 +641,21 @@ Partial Class daily_planner
     Friend WithEvents Guna2GradientButton1 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2PictureBox3 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
-    Friend WithEvents minBtn As Guna.UI2.WinForms.Guna2CirclePictureBox
     Friend WithEvents closeBtn As Guna.UI2.WinForms.Guna2CirclePictureBox
     Friend WithEvents Guna2DataGridView1 As Guna.UI2.WinForms.Guna2DataGridView
     Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents deleteBtn As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2DateTimePicker3 As Guna.UI2.WinForms.Guna2DateTimePicker
     Friend WithEvents Label5 As Label
+    Friend WithEvents UpdateBtn As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents saveBtn As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2DateTimePicker2 As Guna.UI2.WinForms.Guna2DateTimePicker
     Friend WithEvents Label3 As Label
     Friend WithEvents taskTb As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Guna2DateTimePicker1 As Guna.UI2.WinForms.Guna2DateTimePicker
-    Friend WithEvents deleteBtn As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents UpdateBtn As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents saveBtn As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents minBtn As Guna.UI2.WinForms.Guna2CirclePictureBox
+    Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents Guna2BorderlessForm1 As Guna.UI2.WinForms.Guna2BorderlessForm
 End Class

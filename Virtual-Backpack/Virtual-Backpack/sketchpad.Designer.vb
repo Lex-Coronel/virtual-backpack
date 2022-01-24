@@ -30,8 +30,13 @@ Partial Class sketchpad
         Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton4 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
-        Me.sketchpadbox = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.sizeCb = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.saveBtn = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.clearBtn = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
+        Me.Guna2BorderlessForm2 = New Guna.UI2.WinForms.Guna2BorderlessForm(Me.components)
+        Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.purpleBtn = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.blueBtn = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.greenBtn = New Guna.UI2.WinForms.Guna2CircleButton()
@@ -44,15 +49,12 @@ Partial Class sketchpad
         Me.closeBtn = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.sizeCb = New Guna.UI2.WinForms.Guna2ComboBox()
-        Me.saveBtn = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.clearBtn = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
+        Me.sketchpadbox = New System.Windows.Forms.PictureBox()
         Me.Guna2CustomGradientPanel1.SuspendLayout()
-        CType(Me.sketchpadbox, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.sketchpadbox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
@@ -85,7 +87,7 @@ Partial Class sketchpad
         Me.Guna2GradientButton6.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Guna2GradientButton6.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton6.HoverState.Parent = Me.Guna2GradientButton6
-        Me.Guna2GradientButton6.Location = New System.Drawing.Point(12, 498)
+        Me.Guna2GradientButton6.Location = New System.Drawing.Point(12, 623)
         Me.Guna2GradientButton6.Name = "Guna2GradientButton6"
         Me.Guna2GradientButton6.ShadowDecoration.Parent = Me.Guna2GradientButton6
         Me.Guna2GradientButton6.Size = New System.Drawing.Size(205, 45)
@@ -122,7 +124,7 @@ Partial Class sketchpad
         Me.Guna2GradientButton5.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Guna2GradientButton5.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton5.HoverState.Parent = Me.Guna2GradientButton5
-        Me.Guna2GradientButton5.Location = New System.Drawing.Point(12, 293)
+        Me.Guna2GradientButton5.Location = New System.Drawing.Point(12, 336)
         Me.Guna2GradientButton5.Name = "Guna2GradientButton5"
         Me.Guna2GradientButton5.ShadowDecoration.Parent = Me.Guna2GradientButton5
         Me.Guna2GradientButton5.Size = New System.Drawing.Size(205, 45)
@@ -158,7 +160,7 @@ Partial Class sketchpad
         Me.Guna2GradientButton2.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Guna2GradientButton2.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton2.HoverState.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.Location = New System.Drawing.Point(12, 248)
+        Me.Guna2GradientButton2.Location = New System.Drawing.Point(12, 291)
         Me.Guna2GradientButton2.Name = "Guna2GradientButton2"
         Me.Guna2GradientButton2.ShadowDecoration.Parent = Me.Guna2GradientButton2
         Me.Guna2GradientButton2.Size = New System.Drawing.Size(205, 45)
@@ -194,7 +196,7 @@ Partial Class sketchpad
         Me.Guna2GradientButton1.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Guna2GradientButton1.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton1.HoverState.Parent = Me.Guna2GradientButton1
-        Me.Guna2GradientButton1.Location = New System.Drawing.Point(12, 203)
+        Me.Guna2GradientButton1.Location = New System.Drawing.Point(12, 246)
         Me.Guna2GradientButton1.Name = "Guna2GradientButton1"
         Me.Guna2GradientButton1.ShadowDecoration.Parent = Me.Guna2GradientButton1
         Me.Guna2GradientButton1.Size = New System.Drawing.Size(205, 45)
@@ -234,7 +236,7 @@ Partial Class sketchpad
         Me.Guna2GradientButton4.HoverState.Parent = Me.Guna2GradientButton4
         Me.Guna2GradientButton4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.Guna2GradientButton4.ImageOffset = New System.Drawing.Point(-5, 0)
-        Me.Guna2GradientButton4.Location = New System.Drawing.Point(12, 158)
+        Me.Guna2GradientButton4.Location = New System.Drawing.Point(12, 201)
         Me.Guna2GradientButton4.Name = "Guna2GradientButton4"
         Me.Guna2GradientButton4.ShadowDecoration.Parent = Me.Guna2GradientButton4
         Me.Guna2GradientButton4.Size = New System.Drawing.Size(205, 45)
@@ -259,17 +261,8 @@ Partial Class sketchpad
         Me.Guna2CustomGradientPanel1.ShadowDecoration.Enabled = True
         Me.Guna2CustomGradientPanel1.ShadowDecoration.Parent = Me.Guna2CustomGradientPanel1
         Me.Guna2CustomGradientPanel1.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 5, 5)
-        Me.Guna2CustomGradientPanel1.Size = New System.Drawing.Size(699, 418)
+        Me.Guna2CustomGradientPanel1.Size = New System.Drawing.Size(699, 528)
         Me.Guna2CustomGradientPanel1.TabIndex = 42
-        '
-        'sketchpadbox
-        '
-        Me.sketchpadbox.BackColor = System.Drawing.Color.White
-        Me.sketchpadbox.Location = New System.Drawing.Point(3, 11)
-        Me.sketchpadbox.Name = "sketchpadbox"
-        Me.sketchpadbox.Size = New System.Drawing.Size(693, 404)
-        Me.sketchpadbox.TabIndex = 1
-        Me.sketchpadbox.TabStop = False
         '
         'Label1
         '
@@ -282,6 +275,113 @@ Partial Class sketchpad
         Me.Label1.Size = New System.Drawing.Size(118, 24)
         Me.Label1.TabIndex = 43
         Me.Label1.Text = "Sketchpad"
+        '
+        'sizeCb
+        '
+        Me.sizeCb.BackColor = System.Drawing.Color.Transparent
+        Me.sizeCb.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.sizeCb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.sizeCb.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.sizeCb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.sizeCb.FocusedState.Parent = Me.sizeCb
+        Me.sizeCb.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.sizeCb.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
+        Me.sizeCb.HoverState.Parent = Me.sizeCb
+        Me.sizeCb.ItemHeight = 30
+        Me.sizeCb.Items.AddRange(New Object() {"2", "4", "6", "8", "10"})
+        Me.sizeCb.ItemsAppearance.Parent = Me.sizeCb
+        Me.sizeCb.Location = New System.Drawing.Point(273, 654)
+        Me.sizeCb.Name = "sizeCb"
+        Me.sizeCb.ShadowDecoration.Parent = Me.sizeCb
+        Me.sizeCb.Size = New System.Drawing.Size(107, 36)
+        Me.sizeCb.TabIndex = 54
+        '
+        'saveBtn
+        '
+        Me.saveBtn.Animated = True
+        Me.saveBtn.AutoRoundedCorners = True
+        Me.saveBtn.BorderRadius = 18
+        Me.saveBtn.CheckedState.Parent = Me.saveBtn
+        Me.saveBtn.CustomImages.Parent = Me.saveBtn
+        Me.saveBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.saveBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.saveBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.saveBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.saveBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.saveBtn.DisabledState.Parent = Me.saveBtn
+        Me.saveBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(33, Byte), Integer))
+        Me.saveBtn.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(108, Byte), Integer))
+        Me.saveBtn.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.saveBtn.ForeColor = System.Drawing.Color.White
+        Me.saveBtn.HoverState.Parent = Me.saveBtn
+        Me.saveBtn.Location = New System.Drawing.Point(874, 652)
+        Me.saveBtn.Name = "saveBtn"
+        Me.saveBtn.ShadowDecoration.Parent = Me.saveBtn
+        Me.saveBtn.Size = New System.Drawing.Size(100, 38)
+        Me.saveBtn.TabIndex = 64
+        Me.saveBtn.Text = "Save"
+        '
+        'clearBtn
+        '
+        Me.clearBtn.Animated = True
+        Me.clearBtn.AutoRoundedCorners = True
+        Me.clearBtn.BorderRadius = 18
+        Me.clearBtn.CheckedState.Parent = Me.clearBtn
+        Me.clearBtn.CustomImages.Parent = Me.clearBtn
+        Me.clearBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.clearBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.clearBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.clearBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.clearBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.clearBtn.DisabledState.Parent = Me.clearBtn
+        Me.clearBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(33, Byte), Integer))
+        Me.clearBtn.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(108, Byte), Integer))
+        Me.clearBtn.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.clearBtn.ForeColor = System.Drawing.Color.White
+        Me.clearBtn.HoverState.Parent = Me.clearBtn
+        Me.clearBtn.Location = New System.Drawing.Point(770, 652)
+        Me.clearBtn.Name = "clearBtn"
+        Me.clearBtn.ShadowDecoration.Parent = Me.clearBtn
+        Me.clearBtn.Size = New System.Drawing.Size(100, 38)
+        Me.clearBtn.TabIndex = 65
+        Me.clearBtn.Text = "Clear"
+        '
+        'SaveFileDialog1
+        '
+        Me.SaveFileDialog1.CheckPathExists = False
+        Me.SaveFileDialog1.DefaultExt = "png"
+        Me.SaveFileDialog1.Filter = "PNG (*.png)|*.png|All files|*.*"
+        '
+        'Guna2BorderlessForm2
+        '
+        Me.Guna2BorderlessForm2.BorderRadius = 6
+        Me.Guna2BorderlessForm2.ContainerControl = Me
+        Me.Guna2BorderlessForm2.DockForm = False
+        Me.Guna2BorderlessForm2.DockIndicatorTransparencyValue = 0.6R
+        Me.Guna2BorderlessForm2.DragStartTransparencyValue = 1.0R
+        Me.Guna2BorderlessForm2.ResizeForm = False
+        '
+        'Guna2CircleButton1
+        '
+        Me.Guna2CircleButton1.BackgroundImage = Global.Virtual_Backpack.My.Resources.Resources.white1
+        Me.Guna2CircleButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Guna2CircleButton1.CheckedState.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.CustomImages.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2CircleButton1.DisabledState.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2CircleButton1.ForeColor = System.Drawing.Color.White
+        Me.Guna2CircleButton1.HoverState.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.Location = New System.Drawing.Point(718, 650)
+        Me.Guna2CircleButton1.Name = "Guna2CircleButton1"
+        Me.Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleButton1.ShadowDecoration.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.Size = New System.Drawing.Size(40, 40)
+        Me.Guna2CircleButton1.TabIndex = 66
         '
         'purpleBtn
         '
@@ -298,7 +398,7 @@ Partial Class sketchpad
         Me.purpleBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.purpleBtn.ForeColor = System.Drawing.Color.White
         Me.purpleBtn.HoverState.Parent = Me.purpleBtn
-        Me.purpleBtn.Location = New System.Drawing.Point(689, 537)
+        Me.purpleBtn.Location = New System.Drawing.Point(672, 650)
         Me.purpleBtn.Name = "purpleBtn"
         Me.purpleBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.purpleBtn.ShadowDecoration.Parent = Me.purpleBtn
@@ -320,7 +420,7 @@ Partial Class sketchpad
         Me.blueBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.blueBtn.ForeColor = System.Drawing.Color.White
         Me.blueBtn.HoverState.Parent = Me.blueBtn
-        Me.blueBtn.Location = New System.Drawing.Point(643, 537)
+        Me.blueBtn.Location = New System.Drawing.Point(626, 650)
         Me.blueBtn.Name = "blueBtn"
         Me.blueBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.blueBtn.ShadowDecoration.Parent = Me.blueBtn
@@ -342,7 +442,7 @@ Partial Class sketchpad
         Me.greenBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.greenBtn.ForeColor = System.Drawing.Color.White
         Me.greenBtn.HoverState.Parent = Me.greenBtn
-        Me.greenBtn.Location = New System.Drawing.Point(597, 537)
+        Me.greenBtn.Location = New System.Drawing.Point(580, 650)
         Me.greenBtn.Name = "greenBtn"
         Me.greenBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.greenBtn.ShadowDecoration.Parent = Me.greenBtn
@@ -364,7 +464,7 @@ Partial Class sketchpad
         Me.yellowBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.yellowBtn.ForeColor = System.Drawing.Color.White
         Me.yellowBtn.HoverState.Parent = Me.yellowBtn
-        Me.yellowBtn.Location = New System.Drawing.Point(551, 537)
+        Me.yellowBtn.Location = New System.Drawing.Point(534, 650)
         Me.yellowBtn.Name = "yellowBtn"
         Me.yellowBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.yellowBtn.ShadowDecoration.Parent = Me.yellowBtn
@@ -386,7 +486,7 @@ Partial Class sketchpad
         Me.orangeBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.orangeBtn.ForeColor = System.Drawing.Color.White
         Me.orangeBtn.HoverState.Parent = Me.orangeBtn
-        Me.orangeBtn.Location = New System.Drawing.Point(505, 537)
+        Me.orangeBtn.Location = New System.Drawing.Point(488, 650)
         Me.orangeBtn.Name = "orangeBtn"
         Me.orangeBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.orangeBtn.ShadowDecoration.Parent = Me.orangeBtn
@@ -408,7 +508,7 @@ Partial Class sketchpad
         Me.blackBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.blackBtn.ForeColor = System.Drawing.Color.White
         Me.blackBtn.HoverState.Parent = Me.blackBtn
-        Me.blackBtn.Location = New System.Drawing.Point(413, 537)
+        Me.blackBtn.Location = New System.Drawing.Point(396, 650)
         Me.blackBtn.Name = "blackBtn"
         Me.blackBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.blackBtn.ShadowDecoration.Parent = Me.blackBtn
@@ -430,7 +530,7 @@ Partial Class sketchpad
         Me.redBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.redBtn.ForeColor = System.Drawing.Color.White
         Me.redBtn.HoverState.Parent = Me.redBtn
-        Me.redBtn.Location = New System.Drawing.Point(459, 537)
+        Me.redBtn.Location = New System.Drawing.Point(442, 650)
         Me.redBtn.Name = "redBtn"
         Me.redBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.redBtn.ShadowDecoration.Parent = Me.redBtn
@@ -524,98 +624,32 @@ Partial Class sketchpad
         '
         Me.Guna2PictureBox1.Image = Global.Virtual_Backpack.My.Resources.Resources.gradient_background2
         Me.Guna2PictureBox1.ImageRotate = 0!
-        Me.Guna2PictureBox1.Location = New System.Drawing.Point(-8, -1)
+        Me.Guna2PictureBox1.Location = New System.Drawing.Point(-8, 0)
         Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
         Me.Guna2PictureBox1.ShadowDecoration.Color = System.Drawing.Color.DarkGray
         Me.Guna2PictureBox1.ShadowDecoration.Enabled = True
         Me.Guna2PictureBox1.ShadowDecoration.Parent = Me.Guna2PictureBox1
-        Me.Guna2PictureBox1.Size = New System.Drawing.Size(225, 600)
+        Me.Guna2PictureBox1.Size = New System.Drawing.Size(225, 720)
         Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox1.TabIndex = 31
         Me.Guna2PictureBox1.TabStop = False
         '
-        'sizeCb
+        'sketchpadbox
         '
-        Me.sizeCb.BackColor = System.Drawing.Color.Transparent
-        Me.sizeCb.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.sizeCb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.sizeCb.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.sizeCb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.sizeCb.FocusedState.Parent = Me.sizeCb
-        Me.sizeCb.Font = New System.Drawing.Font("Segoe UI", 10.0!)
-        Me.sizeCb.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
-        Me.sizeCb.HoverState.Parent = Me.sizeCb
-        Me.sizeCb.ItemHeight = 30
-        Me.sizeCb.Items.AddRange(New Object() {"2", "4", "6", "8", "10"})
-        Me.sizeCb.ItemsAppearance.Parent = Me.sizeCb
-        Me.sizeCb.Location = New System.Drawing.Point(286, 539)
-        Me.sizeCb.Name = "sizeCb"
-        Me.sizeCb.ShadowDecoration.Parent = Me.sizeCb
-        Me.sizeCb.Size = New System.Drawing.Size(111, 36)
-        Me.sizeCb.TabIndex = 54
-        '
-        'saveBtn
-        '
-        Me.saveBtn.Animated = True
-        Me.saveBtn.AutoRoundedCorners = True
-        Me.saveBtn.BorderRadius = 18
-        Me.saveBtn.CheckedState.Parent = Me.saveBtn
-        Me.saveBtn.CustomImages.Parent = Me.saveBtn
-        Me.saveBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.saveBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.saveBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.saveBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.saveBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.saveBtn.DisabledState.Parent = Me.saveBtn
-        Me.saveBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(33, Byte), Integer))
-        Me.saveBtn.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(108, Byte), Integer))
-        Me.saveBtn.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.saveBtn.ForeColor = System.Drawing.Color.White
-        Me.saveBtn.HoverState.Parent = Me.saveBtn
-        Me.saveBtn.Location = New System.Drawing.Point(870, 539)
-        Me.saveBtn.Name = "saveBtn"
-        Me.saveBtn.ShadowDecoration.Parent = Me.saveBtn
-        Me.saveBtn.Size = New System.Drawing.Size(100, 38)
-        Me.saveBtn.TabIndex = 64
-        Me.saveBtn.Text = "Save"
-        '
-        'clearBtn
-        '
-        Me.clearBtn.Animated = True
-        Me.clearBtn.AutoRoundedCorners = True
-        Me.clearBtn.BorderRadius = 18
-        Me.clearBtn.CheckedState.Parent = Me.clearBtn
-        Me.clearBtn.CustomImages.Parent = Me.clearBtn
-        Me.clearBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.clearBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.clearBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.clearBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.clearBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.clearBtn.DisabledState.Parent = Me.clearBtn
-        Me.clearBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(33, Byte), Integer))
-        Me.clearBtn.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(108, Byte), Integer))
-        Me.clearBtn.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.clearBtn.ForeColor = System.Drawing.Color.White
-        Me.clearBtn.HoverState.Parent = Me.clearBtn
-        Me.clearBtn.Location = New System.Drawing.Point(766, 539)
-        Me.clearBtn.Name = "clearBtn"
-        Me.clearBtn.ShadowDecoration.Parent = Me.clearBtn
-        Me.clearBtn.Size = New System.Drawing.Size(100, 38)
-        Me.clearBtn.TabIndex = 65
-        Me.clearBtn.Text = "Clear"
-        '
-        'SaveFileDialog1
-        '
-        Me.SaveFileDialog1.CheckPathExists = False
-        Me.SaveFileDialog1.DefaultExt = "png"
-        Me.SaveFileDialog1.Filter = "PNG (*.png)|*.png|All files|*.*"
+        Me.sketchpadbox.BackColor = System.Drawing.Color.White
+        Me.sketchpadbox.Location = New System.Drawing.Point(3, 11)
+        Me.sketchpadbox.Name = "sketchpadbox"
+        Me.sketchpadbox.Size = New System.Drawing.Size(693, 514)
+        Me.sketchpadbox.TabIndex = 1
+        Me.sketchpadbox.TabStop = False
         '
         'sketchpad
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1024, 600)
+        Me.ClientSize = New System.Drawing.Size(1024, 720)
+        Me.Controls.Add(Me.Guna2CircleButton1)
         Me.Controls.Add(Me.clearBtn)
         Me.Controls.Add(Me.saveBtn)
         Me.Controls.Add(Me.sizeCb)
@@ -643,10 +677,10 @@ Partial Class sketchpad
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "sketchpad"
         Me.Guna2CustomGradientPanel1.ResumeLayout(False)
-        CType(Me.sketchpadbox, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.sketchpadbox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -677,4 +711,6 @@ Partial Class sketchpad
     Friend WithEvents clearBtn As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents saveBtn As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents SaveFileDialog1 As SaveFileDialog
+    Friend WithEvents Guna2BorderlessForm2 As Guna.UI2.WinForms.Guna2BorderlessForm
+    Friend WithEvents Guna2CircleButton1 As Guna.UI2.WinForms.Guna2CircleButton
 End Class

@@ -58,6 +58,11 @@ Partial Class notepad
         Me.Guna2GradientButton5 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.Guna2GradientButton4 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
+        Me.FontDialog1 = New System.Windows.Forms.FontDialog()
+        Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
+        Me.Guna2BorderlessForm1 = New Guna.UI2.WinForms.Guna2BorderlessForm(Me.components)
         Me.calculatorBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.searchBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
@@ -66,10 +71,6 @@ Partial Class notepad
         Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
-        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
-        Me.FontDialog1 = New System.Windows.Forms.FontDialog()
-        Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -106,7 +107,7 @@ Partial Class notepad
         Me.Guna2GradientButton3.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Guna2GradientButton3.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton3.HoverState.Parent = Me.Guna2GradientButton3
-        Me.Guna2GradientButton3.Location = New System.Drawing.Point(12, 498)
+        Me.Guna2GradientButton3.Location = New System.Drawing.Point(12, 623)
         Me.Guna2GradientButton3.Name = "Guna2GradientButton3"
         Me.Guna2GradientButton3.ShadowDecoration.Parent = Me.Guna2GradientButton3
         Me.Guna2GradientButton3.Size = New System.Drawing.Size(205, 45)
@@ -345,7 +346,7 @@ Partial Class notepad
         Me.Guna2GradientButton2.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Guna2GradientButton2.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton2.HoverState.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.Location = New System.Drawing.Point(12, 248)
+        Me.Guna2GradientButton2.Location = New System.Drawing.Point(12, 291)
         Me.Guna2GradientButton2.Name = "Guna2GradientButton2"
         Me.Guna2GradientButton2.ShadowDecoration.Parent = Me.Guna2GradientButton2
         Me.Guna2GradientButton2.Size = New System.Drawing.Size(205, 45)
@@ -382,7 +383,7 @@ Partial Class notepad
         Me.Guna2GradientButton1.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Guna2GradientButton1.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton1.HoverState.Parent = Me.Guna2GradientButton1
-        Me.Guna2GradientButton1.Location = New System.Drawing.Point(12, 203)
+        Me.Guna2GradientButton1.Location = New System.Drawing.Point(12, 246)
         Me.Guna2GradientButton1.Name = "Guna2GradientButton1"
         Me.Guna2GradientButton1.ShadowDecoration.Parent = Me.Guna2GradientButton1
         Me.Guna2GradientButton1.Size = New System.Drawing.Size(205, 45)
@@ -419,7 +420,7 @@ Partial Class notepad
         Me.Guna2GradientButton5.HoverState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Guna2GradientButton5.HoverState.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton5.HoverState.Parent = Me.Guna2GradientButton5
-        Me.Guna2GradientButton5.Location = New System.Drawing.Point(12, 293)
+        Me.Guna2GradientButton5.Location = New System.Drawing.Point(12, 336)
         Me.Guna2GradientButton5.Name = "Guna2GradientButton5"
         Me.Guna2GradientButton5.ShadowDecoration.Parent = Me.Guna2GradientButton5
         Me.Guna2GradientButton5.Size = New System.Drawing.Size(205, 45)
@@ -436,7 +437,7 @@ Partial Class notepad
         Me.RichTextBox1.Font = New System.Drawing.Font("Consolas", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RichTextBox1.Location = New System.Drawing.Point(282, 146)
         Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(683, 405)
+        Me.RichTextBox1.Size = New System.Drawing.Size(683, 528)
         Me.RichTextBox1.TabIndex = 29
         Me.RichTextBox1.Text = ""
         '
@@ -470,7 +471,7 @@ Partial Class notepad
         Me.Guna2GradientButton4.HoverState.Parent = Me.Guna2GradientButton4
         Me.Guna2GradientButton4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.Guna2GradientButton4.ImageOffset = New System.Drawing.Point(-5, 0)
-        Me.Guna2GradientButton4.Location = New System.Drawing.Point(12, 158)
+        Me.Guna2GradientButton4.Location = New System.Drawing.Point(12, 201)
         Me.Guna2GradientButton4.Name = "Guna2GradientButton4"
         Me.Guna2GradientButton4.ShadowDecoration.Parent = Me.Guna2GradientButton4
         Me.Guna2GradientButton4.Size = New System.Drawing.Size(205, 45)
@@ -480,6 +481,26 @@ Partial Class notepad
         Me.Guna2GradientButton4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.Guna2GradientButton4.TextOffset = New System.Drawing.Point(-10, 0)
         Me.Guna2GradientButton4.UseTransparentBackground = True
+        '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        Me.OpenFileDialog1.Filter = "Word Files|*.docx|Text files|*.txt|All files|*.*"
+        '
+        'SaveFileDialog1
+        '
+        Me.SaveFileDialog1.CheckPathExists = False
+        Me.SaveFileDialog1.DefaultExt = "txt"
+        Me.SaveFileDialog1.Filter = "Text files (*.txt)|*.txt|Word Document ( *.docx )|*.docx|All files (*.*)|*.*"
+        '
+        'Guna2BorderlessForm1
+        '
+        Me.Guna2BorderlessForm1.BorderRadius = 6
+        Me.Guna2BorderlessForm1.ContainerControl = Me
+        Me.Guna2BorderlessForm1.DockForm = False
+        Me.Guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6R
+        Me.Guna2BorderlessForm1.DragStartTransparencyValue = 1.0R
+        Me.Guna2BorderlessForm1.ResizeForm = False
         '
         'calculatorBtn
         '
@@ -496,7 +517,7 @@ Partial Class notepad
         Me.calculatorBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.calculatorBtn.ForeColor = System.Drawing.Color.White
         Me.calculatorBtn.HoverState.Parent = Me.calculatorBtn
-        Me.calculatorBtn.Location = New System.Drawing.Point(920, 506)
+        Me.calculatorBtn.Location = New System.Drawing.Point(915, 628)
         Me.calculatorBtn.Name = "calculatorBtn"
         Me.calculatorBtn.ShadowDecoration.Parent = Me.calculatorBtn
         Me.calculatorBtn.Size = New System.Drawing.Size(40, 40)
@@ -519,7 +540,7 @@ Partial Class notepad
         Me.searchBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.searchBtn.ForeColor = System.Drawing.Color.White
         Me.searchBtn.HoverState.Parent = Me.searchBtn
-        Me.searchBtn.Location = New System.Drawing.Point(920, 460)
+        Me.searchBtn.Location = New System.Drawing.Point(915, 582)
         Me.searchBtn.Name = "searchBtn"
         Me.searchBtn.ShadowDecoration.Parent = Me.searchBtn
         Me.searchBtn.Size = New System.Drawing.Size(40, 40)
@@ -613,12 +634,12 @@ Partial Class notepad
         '
         Me.Guna2PictureBox1.Image = Global.Virtual_Backpack.My.Resources.Resources.gradient_background2
         Me.Guna2PictureBox1.ImageRotate = 0!
-        Me.Guna2PictureBox1.Location = New System.Drawing.Point(-8, -1)
+        Me.Guna2PictureBox1.Location = New System.Drawing.Point(-8, 0)
         Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
         Me.Guna2PictureBox1.ShadowDecoration.Color = System.Drawing.Color.DarkGray
         Me.Guna2PictureBox1.ShadowDecoration.Enabled = True
         Me.Guna2PictureBox1.ShadowDecoration.Parent = Me.Guna2PictureBox1
-        Me.Guna2PictureBox1.Size = New System.Drawing.Size(225, 600)
+        Me.Guna2PictureBox1.Size = New System.Drawing.Size(225, 720)
         Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox1.TabIndex = 3
         Me.Guna2PictureBox1.TabStop = False
@@ -658,28 +679,17 @@ Partial Class notepad
         Me.Guna2TextBox1.ShadowDecoration.Enabled = True
         Me.Guna2TextBox1.ShadowDecoration.Parent = Me.Guna2TextBox1
         Me.Guna2TextBox1.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 5, 5)
-        Me.Guna2TextBox1.Size = New System.Drawing.Size(700, 447)
+        Me.Guna2TextBox1.Size = New System.Drawing.Size(700, 572)
         Me.Guna2TextBox1.TabIndex = 18
         Me.Guna2TextBox1.TabStop = False
         Me.Guna2TextBox1.TextOffset = New System.Drawing.Point(5, -155)
-        '
-        'OpenFileDialog1
-        '
-        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
-        Me.OpenFileDialog1.Filter = "Word Files|*.docx|Text files|*.txt|All files|*.*"
-        '
-        'SaveFileDialog1
-        '
-        Me.SaveFileDialog1.CheckPathExists = False
-        Me.SaveFileDialog1.DefaultExt = "txt"
-        Me.SaveFileDialog1.Filter = "Text files (*.txt)|*.txt|Word Document ( *.docx )|*.docx|All files (*.*)|*.*"
         '
         'notepad
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1024, 600)
+        Me.ClientSize = New System.Drawing.Size(1024, 720)
         Me.Controls.Add(Me.calculatorBtn)
         Me.Controls.Add(Me.searchBtn)
         Me.Controls.Add(Me.RichTextBox1)
@@ -758,4 +768,5 @@ Partial Class notepad
     Friend WithEvents FontDialog1 As FontDialog
     Friend WithEvents ColorDialog1 As ColorDialog
     Friend WithEvents FontColorToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Guna2BorderlessForm1 As Guna.UI2.WinForms.Guna2BorderlessForm
 End Class

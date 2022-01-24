@@ -37,7 +37,7 @@ Public Class notepad
             msg = MsgBox("Do you want to save changes?", MsgBoxStyle.YesNoCancel, "New Document")
             If msg = MsgBoxResult.No Then
                 Me.Hide()
-                daily_planner.Show()
+                planner.Show()
             ElseIf msg = MsgBoxResult.Cancel Then
             ElseIf msg = MsgBoxResult.Yes Then
                 SaveFileDialog1.ShowDialog()
