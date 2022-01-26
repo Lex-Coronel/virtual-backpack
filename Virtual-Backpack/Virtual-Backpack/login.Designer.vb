@@ -133,7 +133,7 @@ Partial Class login
         Me.register.ForeColor = System.Drawing.SystemColors.Highlight
         Me.register.Location = New System.Drawing.Point(606, 323)
         Me.register.Name = "register"
-        Me.register.Size = New System.Drawing.Size(75, 15)
+        Me.register.Size = New System.Drawing.Size(96, 20)
         Me.register.TabIndex = 13
         Me.register.Text = "Register here"
         '
@@ -288,7 +288,7 @@ Partial Class login
         Me.passwordTb.Location = New System.Drawing.Point(441, 189)
         Me.passwordTb.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.passwordTb.Name = "passwordTb"
-        Me.passwordTb.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.passwordTb.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.passwordTb.PlaceholderForeColor = System.Drawing.SystemColors.GrayText
         Me.passwordTb.PlaceholderText = "Password"
         Me.passwordTb.SelectedText = ""
@@ -298,7 +298,7 @@ Partial Class login
         '
         'login
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(800, 450)
