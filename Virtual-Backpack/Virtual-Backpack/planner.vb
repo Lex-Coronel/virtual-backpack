@@ -28,7 +28,7 @@ Public Class planner
         MysqlConn = New MySqlConnection()
 
         MysqlConn.ConnectionString =
-            "server=localhost;userid=root;password=Cpecoronel12;database=virtualbackpack"
+            "server=localhost;userid=root;password=crimsonfangs13;database=virtualbackpack"
 
         Dim plannerID As Integer = CType(sender, LinkLabel).Tag
         Dim sql As String = $"select * from planner where plannerID = {plannerID}"
@@ -59,7 +59,7 @@ Public Class planner
         MysqlConn = New MySqlConnection()
 
         MysqlConn.ConnectionString =
-            "server=localhost;userid=root;password=Cpecoronel12;database=virtualbackpack"
+            "server=localhost;userid=root;password=crimsonfangs13;database=virtualbackpack"
 
         Dim sql As String = $"select * from planner where plannerdate between '{startDate.ToShortDateString()}' and '{endDate.ToShortDateString()}'"
 

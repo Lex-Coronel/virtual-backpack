@@ -9,7 +9,7 @@ Public Class login
         'Change userid and password
         '///////////////////////////////////////////////////////////////////////////////////
         MysqlConn.ConnectionString =
-            "server=localhost;userid=root;password=Cpecoronel12;database=virtualbackpack"
+            "server=localhost;userid=root;password=crimsonfangs13;database=virtualbackpack"
         '//////////////////////////////////////////////////////////////////////////////////
         Dim READER As MySqlDataReader
         Dim Query As String
@@ -65,7 +65,7 @@ Public Class login
         'Change userid and password
         '///////////////////////////////////////////////////////////////////////////////////
         MysqlConn.ConnectionString =
-            "server=localhost;userid=root;password=Cpecoronel12;database=virtualbackpack"
+            "server=localhost;userid=root;password=crimsonfangs13;database=virtualbackpack"
         '//////////////////////////////////////////////////////////////////////////////////
         Dim READER As MySqlDataReader
         Dim Query As String

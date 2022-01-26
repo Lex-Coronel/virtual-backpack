@@ -37,8 +37,6 @@ D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug
 D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\MySql.Data.xml
 D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual-Backpack.vbprojAssemblyReference.cache
 D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual-Backpack.exe.config
-D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.Form1.resources
-D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.Form2.resources
 D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.homepage.resources
 D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.login.resources
 D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.Resources.resources
@@ -123,3 +121,10 @@ D:\projects\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\Virtual
 D:\projects\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\Virtual-Backpack.xml
 D:\projects\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\Interop.AcroPDFLib.dll
 D:\projects\virtual-backpack\Virtual-Backpack\Virtual-Backpack\bin\Debug\AxInterop.AcroPDFLib.dll
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual-Backpack.vbproj.ResolveComReference.cache
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.calculator.resources
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.daily_planner.resources
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.notepad.resources
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.planner_manager.resources
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.planner.resources
+D:\Virtual Backpack\virtual-backpack\Virtual-Backpack\Virtual-Backpack\obj\Debug\Virtual_Backpack.sketchpad.resources

@@ -11,7 +11,7 @@ Public Class registration
         'Change userid and password
         '///////////////////////////////////////////////////////////////////////////////////
         MysqlConn.ConnectionString =
-            "server=localhost;userid=root;password=Cpecoronel12;database=virtualbackpack"
+            "server=localhost;userid=root;password=crimsonfangs13;database=virtualbackpack"
         '//////////////////////////////////////////////////////////////////////////////////
         Dim READER As MySqlDataReader
         If passwordTb.Text = confirmTB.Text Then
@@ -35,6 +35,8 @@ Public Class registration
                 Me.Hide()
                 login.Show()
                 MysqlConn.Dispose()
+                login.register.Visible = False
+                login.registertb.Visible = False
 
             End Try
         Else
@@ -49,5 +51,9 @@ Public Class registration
 
     Private Sub closeBtn_Click(sender As Object, e As EventArgs) Handles closeBtn.Click
         Me.Close()
+    End Sub
+
+    Private Sub Guna2PictureBox1_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox1.Click
+
     End Sub
 End Class

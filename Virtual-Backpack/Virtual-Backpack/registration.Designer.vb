@@ -65,21 +65,21 @@ Partial Class registration
         Me.Guna2TextBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2TextBox1.HoverState.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.Location = New System.Drawing.Point(514, 72)
-        Me.Guna2TextBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Guna2TextBox1.Location = New System.Drawing.Point(685, 89)
+        Me.Guna2TextBox1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.Guna2TextBox1.Name = "Guna2TextBox1"
         Me.Guna2TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.Guna2TextBox1.PlaceholderText = ""
         Me.Guna2TextBox1.SelectedText = ""
         Me.Guna2TextBox1.ShadowDecoration.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.Size = New System.Drawing.Size(125, 43)
+        Me.Guna2TextBox1.Size = New System.Drawing.Size(167, 53)
         Me.Guna2TextBox1.TabIndex = 18
         '
         'loginBtn
         '
         Me.loginBtn.Animated = True
         Me.loginBtn.AutoRoundedCorners = True
-        Me.loginBtn.BorderRadius = 20
+        Me.loginBtn.BorderRadius = 25
         Me.loginBtn.CheckedState.Parent = Me.loginBtn
         Me.loginBtn.CustomImages.Parent = Me.loginBtn
         Me.loginBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
@@ -93,10 +93,11 @@ Partial Class registration
         Me.loginBtn.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.loginBtn.ForeColor = System.Drawing.Color.White
         Me.loginBtn.HoverState.Parent = Me.loginBtn
-        Me.loginBtn.Location = New System.Drawing.Point(441, 310)
+        Me.loginBtn.Location = New System.Drawing.Point(588, 382)
+        Me.loginBtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.loginBtn.Name = "loginBtn"
         Me.loginBtn.ShadowDecoration.Parent = Me.loginBtn
-        Me.loginBtn.Size = New System.Drawing.Size(270, 43)
+        Me.loginBtn.Size = New System.Drawing.Size(360, 53)
         Me.loginBtn.TabIndex = 17
         Me.loginBtn.Text = "Confirm"
         '
@@ -108,16 +109,18 @@ Partial Class registration
         Me.Guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6R
         Me.Guna2BorderlessForm1.DragStartTransparencyValue = 1.0R
         Me.Guna2BorderlessForm1.ResizeForm = False
+        Me.Guna2BorderlessForm1.TransparentWhileDrag = True
         '
         'Guna2CirclePictureBox2
         '
         Me.Guna2CirclePictureBox2.Image = Global.Virtual_Backpack.My.Resources.Resources.close
         Me.Guna2CirclePictureBox2.ImageRotate = 0!
-        Me.Guna2CirclePictureBox2.Location = New System.Drawing.Point(722, 12)
+        Me.Guna2CirclePictureBox2.Location = New System.Drawing.Point(963, 15)
+        Me.Guna2CirclePictureBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2CirclePictureBox2.Name = "Guna2CirclePictureBox2"
         Me.Guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.Guna2CirclePictureBox2.ShadowDecoration.Parent = Me.Guna2CirclePictureBox2
-        Me.Guna2CirclePictureBox2.Size = New System.Drawing.Size(30, 30)
+        Me.Guna2CirclePictureBox2.Size = New System.Drawing.Size(40, 37)
         Me.Guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2CirclePictureBox2.TabIndex = 25
         Me.Guna2CirclePictureBox2.TabStop = False
@@ -138,11 +141,12 @@ Partial Class registration
         Me.closeBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.closeBtn.ForeColor = System.Drawing.Color.White
         Me.closeBtn.HoverState.Parent = Me.closeBtn
-        Me.closeBtn.Location = New System.Drawing.Point(758, 12)
+        Me.closeBtn.Location = New System.Drawing.Point(1011, 15)
+        Me.closeBtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.closeBtn.Name = "closeBtn"
         Me.closeBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.closeBtn.ShadowDecoration.Parent = Me.closeBtn
-        Me.closeBtn.Size = New System.Drawing.Size(30, 30)
+        Me.closeBtn.Size = New System.Drawing.Size(40, 37)
         Me.closeBtn.TabIndex = 24
         Me.closeBtn.TabStop = False
         Me.closeBtn.UseTransparentBackground = True
@@ -167,15 +171,15 @@ Partial Class registration
         Me.confirmTB.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.confirmTB.HoverState.Parent = Me.confirmTB
         Me.confirmTB.IconLeft = CType(resources.GetObject("confirmTB.IconLeft"), System.Drawing.Image)
-        Me.confirmTB.Location = New System.Drawing.Point(441, 238)
-        Me.confirmTB.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.confirmTB.Location = New System.Drawing.Point(588, 293)
+        Me.confirmTB.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.confirmTB.Name = "confirmTB"
         Me.confirmTB.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.confirmTB.PlaceholderForeColor = System.Drawing.SystemColors.GrayText
         Me.confirmTB.PlaceholderText = "Confirm Password"
         Me.confirmTB.SelectedText = ""
         Me.confirmTB.ShadowDecoration.Parent = Me.confirmTB
-        Me.confirmTB.Size = New System.Drawing.Size(270, 43)
+        Me.confirmTB.Size = New System.Drawing.Size(360, 53)
         Me.confirmTB.TabIndex = 19
         '
         'userTb
@@ -198,15 +202,15 @@ Partial Class registration
         Me.userTb.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.userTb.HoverState.Parent = Me.userTb
         Me.userTb.IconLeft = Global.Virtual_Backpack.My.Resources.Resources.user1
-        Me.userTb.Location = New System.Drawing.Point(441, 123)
-        Me.userTb.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.userTb.Location = New System.Drawing.Point(588, 151)
+        Me.userTb.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.userTb.Name = "userTb"
         Me.userTb.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.userTb.PlaceholderForeColor = System.Drawing.SystemColors.GrayText
         Me.userTb.PlaceholderText = "Username"
         Me.userTb.SelectedText = ""
         Me.userTb.ShadowDecoration.Parent = Me.userTb
-        Me.userTb.Size = New System.Drawing.Size(270, 43)
+        Me.userTb.Size = New System.Drawing.Size(360, 53)
         Me.userTb.TabIndex = 15
         '
         'passwordTb
@@ -229,25 +233,26 @@ Partial Class registration
         Me.passwordTb.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.passwordTb.HoverState.Parent = Me.passwordTb
         Me.passwordTb.IconLeft = CType(resources.GetObject("passwordTb.IconLeft"), System.Drawing.Image)
-        Me.passwordTb.Location = New System.Drawing.Point(441, 179)
-        Me.passwordTb.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.passwordTb.Location = New System.Drawing.Point(588, 220)
+        Me.passwordTb.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.passwordTb.Name = "passwordTb"
         Me.passwordTb.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.passwordTb.PlaceholderForeColor = System.Drawing.SystemColors.GrayText
         Me.passwordTb.PlaceholderText = "Password"
         Me.passwordTb.SelectedText = ""
         Me.passwordTb.ShadowDecoration.Parent = Me.passwordTb
-        Me.passwordTb.Size = New System.Drawing.Size(270, 43)
+        Me.passwordTb.Size = New System.Drawing.Size(360, 53)
         Me.passwordTb.TabIndex = 16
         '
         'Guna2PictureBox5
         '
         Me.Guna2PictureBox5.Image = Global.Virtual_Backpack.My.Resources.Resources.line1
         Me.Guna2PictureBox5.ImageRotate = 0!
-        Me.Guna2PictureBox5.Location = New System.Drawing.Point(357, 347)
+        Me.Guna2PictureBox5.Location = New System.Drawing.Point(476, 427)
+        Me.Guna2PictureBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2PictureBox5.Name = "Guna2PictureBox5"
         Me.Guna2PictureBox5.ShadowDecoration.Parent = Me.Guna2PictureBox5
-        Me.Guna2PictureBox5.Size = New System.Drawing.Size(39, 34)
+        Me.Guna2PictureBox5.Size = New System.Drawing.Size(52, 42)
         Me.Guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox5.TabIndex = 14
         Me.Guna2PictureBox5.TabStop = False
@@ -256,10 +261,11 @@ Partial Class registration
         '
         Me.Guna2PictureBox4.Image = Global.Virtual_Backpack.My.Resources.Resources.circle1
         Me.Guna2PictureBox4.ImageRotate = 0!
-        Me.Guna2PictureBox4.Location = New System.Drawing.Point(297, 291)
+        Me.Guna2PictureBox4.Location = New System.Drawing.Point(396, 358)
+        Me.Guna2PictureBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2PictureBox4.Name = "Guna2PictureBox4"
         Me.Guna2PictureBox4.ShadowDecoration.Parent = Me.Guna2PictureBox4
-        Me.Guna2PictureBox4.Size = New System.Drawing.Size(48, 52)
+        Me.Guna2PictureBox4.Size = New System.Drawing.Size(64, 64)
         Me.Guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox4.TabIndex = 13
         Me.Guna2PictureBox4.TabStop = False
@@ -268,10 +274,11 @@ Partial Class registration
         '
         Me.Guna2PictureBox3.Image = Global.Virtual_Backpack.My.Resources.Resources.line1
         Me.Guna2PictureBox3.ImageRotate = 0!
-        Me.Guna2PictureBox3.Location = New System.Drawing.Point(225, 82)
+        Me.Guna2PictureBox3.Location = New System.Drawing.Point(300, 101)
+        Me.Guna2PictureBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
         Me.Guna2PictureBox3.ShadowDecoration.Parent = Me.Guna2PictureBox3
-        Me.Guna2PictureBox3.Size = New System.Drawing.Size(48, 41)
+        Me.Guna2PictureBox3.Size = New System.Drawing.Size(64, 50)
         Me.Guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox3.TabIndex = 12
         Me.Guna2PictureBox3.TabStop = False
@@ -281,20 +288,21 @@ Partial Class registration
         Me.Guna2PictureBox1.Image = Global.Virtual_Backpack.My.Resources.Resources.background1
         Me.Guna2PictureBox1.ImageFlip = Guna.UI2.WinForms.Enums.FlipOrientation.Vertical
         Me.Guna2PictureBox1.ImageRotate = 0!
-        Me.Guna2PictureBox1.Location = New System.Drawing.Point(-1, 12)
+        Me.Guna2PictureBox1.Location = New System.Drawing.Point(-1, 15)
+        Me.Guna2PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
         Me.Guna2PictureBox1.ShadowDecoration.Parent = Me.Guna2PictureBox1
-        Me.Guna2PictureBox1.Size = New System.Drawing.Size(366, 452)
+        Me.Guna2PictureBox1.Size = New System.Drawing.Size(488, 556)
         Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox1.TabIndex = 4
         Me.Guna2PictureBox1.TabStop = False
         '
         'registration
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1067, 554)
         Me.Controls.Add(Me.Guna2CirclePictureBox2)
         Me.Controls.Add(Me.closeBtn)
         Me.Controls.Add(Me.confirmTB)
@@ -307,6 +315,7 @@ Partial Class registration
         Me.Controls.Add(Me.Guna2PictureBox3)
         Me.Controls.Add(Me.Guna2PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "registration"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "registration"

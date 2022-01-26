@@ -62,7 +62,7 @@ Public Class planner_manager
         MysqlConn = New MySqlConnection()
 
         MysqlConn.ConnectionString =
-            "server=localhost;userid=root;password=Cpecoronel12;database=virtualbackpack"
+            "server=localhost;userid=root;password=crimsonfangs13;database=virtualbackpack"
 
         Dim READER As MySqlDataReader
         Try
